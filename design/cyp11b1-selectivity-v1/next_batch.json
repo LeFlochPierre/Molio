@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-19T21:38:03.122966+00:00",
+  "candidates": [
+    {
+      "candidate_id": "S-pyridyl-nitrile",
+      "name": "S-fadrozole pyridyl nitrile",
+      "canonical_smiles": "N#Cc1ccc([C@@H]2CCCc3cncn32)cn1",
+      "prediction_mode": "seed_similarity_exploration",
+      "predicted_robust_selectivity_eV": 0.2483013994882205,
+      "uncertainty": 0.2954545454545454,
+      "chemistry_prior_eV": 0.06,
+      "acquisition_score": 0.34375594494276596,
+      "rationale": "Adds a directional acceptor while retaining the nitrile and approximate size.",
+      "flags": [],
+      "nearest_observations": [
+        {
+          "candidate_id": "S-fadrozole",
+          "similarity": 0.7045454545454546,
+          "robust_selectivity_eV": 0.2821646680849881,
+          "model_weight": 1.0
+        },
+        {
+          "candidate_id": "S-para-carboxamide",
+          "similarity": 0.54,
+          "robust_selectivity_eV": 0.05099152079901614,
+          "model_weight": 0.35
+        },
+        {
+          "candidate_id": "S-meta-fluoro-carboxamide",
+          "similarity": 0.4067796610169492,
+          "robust_selectivity_eV": -0.009626310663406912,
+          "model_weight": 0.35
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-meta-methoxy",
+      "name": "S-fadrozole meta-methoxy",
+      "canonical_smiles": "COc1cc(C#N)ccc1[C@@H]1CCCc2cncn21",
+      "prediction_mode": "seed_similarity_exploration",
+      "predicted_robust_selectivity_eV": 0.2431266311010564,
+      "uncertainty": 0.38,
+      "chemistry_prior_eV": 0.04,
+      "acquisition_score": 0.3287266311010564,
+      "rationale": "Separates hydrogen-bond acceptance and steric effects near residues 109/112.",
+      "flags": [],
+      "nearest_observations": [
+        {
+          "candidate_id": "S-fadrozole",
+          "similarity": 0.62,
+          "robust_selectivity_eV": 0.2821646680849881,
+          "model_weight": 1.0
+        },
+        {
+          "candidate_id": "S-meta-fluoro-carboxamide",
+          "similarity": 0.45901639344262296,
+          "robust_selectivity_eV": -0.009626310663406912,
+          "model_weight": 0.35
+        },
+        {
+          "candidate_id": "S-para-carboxamide",
+          "similarity": 0.4067796610169492,
+          "robust_selectivity_eV": 0.05099152079901614,
+          "model_weight": 0.35
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-para-sulfonamide",
+      "name": "S-fadrozole para-sulfonamide",
+      "canonical_smiles": "NS(=O)(=O)c1ccc([C@@H]2CCCc3cncn32)cc1",
+      "prediction_mode": "seed_similarity_exploration",
+      "predicted_robust_selectivity_eV": 0.19278504771034236,
+      "uncertainty": 0.34782608695652173,
+      "chemistry_prior_eV": 0.07,
+      "acquisition_score": 0.304524178145125,
+      "rationale": "Provides two neutral acceptors and one donor near the B1 Arg404 region.",
+      "flags": [],
+      "nearest_observations": [
+        {
+          "candidate_id": "S-para-carboxamide",
+          "similarity": 0.6521739130434783,
+          "robust_selectivity_eV": 0.05099152079901614,
+          "model_weight": 0.35
+        },
+        {
+          "candidate_id": "S-fadrozole",
+          "similarity": 0.6086956521739131,
+          "robust_selectivity_eV": 0.2821646680849881,
+          "model_weight": 1.0
+        },
+        {
+          "candidate_id": "S-meta-fluoro-carboxamide",
+          "similarity": 0.4642857142857143,
+          "robust_selectivity_eV": -0.009626310663406912,
+          "model_weight": 0.35
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-meta-fluoro",
+      "name": "S-fadrozole meta-fluoro",
+      "canonical_smiles": "N#Cc1ccc([C@@H]2CCCc3cncn32)c(F)c1",
+      "prediction_mode": "seed_similarity_exploration",
+      "predicted_robust_selectivity_eV": 0.21089488635853898,
+      "uncertainty": 0.34042553191489366,
+      "chemistry_prior_eV": 0.05,
+      "acquisition_score": 0.30174595018832623,
+      "rationale": "Low-size steric/electronic probe for the B1 Val320 versus B2 Ala320 difference.",
+      "flags": [],
+      "nearest_observations": [
+        {
+          "candidate_id": "S-fadrozole",
+          "similarity": 0.6595744680851063,
+          "robust_selectivity_eV": 0.2821646680849881,
+          "model_weight": 1.0
+        },
+        {
+          "candidate_id": "S-meta-fluoro-carboxamide",
+          "similarity": 0.6226415094339622,
+          "robust_selectivity_eV": -0.009626310663406912,
+          "model_weight": 0.35
+        },
+        {
+          "candidate_id": "S-para-carboxamide",
+          "similarity": 0.42857142857142855,
+          "robust_selectivity_eV": 0.05099152079901614,
+          "model_weight": 0.35
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-para-methylsulfone",
+      "name": "S-fadrozole para-methylsulfone",
+      "canonical_smiles": "CS(=O)(=O)c1ccc([C@@H]2CCCc3cncn32)cc1",
+      "prediction_mode": "seed_similarity_exploration",
+      "predicted_robust_selectivity_eV": 0.20500150621536306,
+      "uncertainty": 0.3829787234042553,
+      "chemistry_prior_eV": 0.05,
+      "acquisition_score": 0.3009589530238737,
+      "rationale": "Tests a neutral, strongly polarized Arg404-facing group without a donor.",
+      "flags": [],
+      "nearest_observations": [
+        {
+          "candidate_id": "S-para-carboxamide",
+          "similarity": 0.6170212765957447,
+          "robust_selectivity_eV": 0.05099152079901614,
+          "model_weight": 0.35
+        },
+        {
+          "candidate_id": "S-fadrozole",
+          "similarity": 0.6086956521739131,
+          "robust_selectivity_eV": 0.2821646680849881,
+          "model_weight": 1.0
+        },
+        {
+          "candidate_id": "S-meta-fluoro-carboxamide",
+          "similarity": 0.43859649122807015,
+          "robust_selectivity_eV": -0.009626310663406912,
+          "model_weight": 0.35
+        }
+      ]
+    }
+  ]
+}

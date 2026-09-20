@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-19T19:04:08.529756+00:00",
+  "experiment_source": {
+    "path": "/home/ubuntu/HackProject/configs/experiment.json",
+    "sha256": "203a8f7506a7d068d4d16e0f1a4d611ed92401b30f9a67dcab1b5cd3fc70c67b"
+  },
+  "cases": [
+    {
+      "system_id": "R-fadrozole-CYP11B1",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B1",
+      "starting_pdb": "6M7X",
+      "pose_kind": "modeled",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "R-fadrozole-CYP11B2",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B2",
+      "starting_pdb": "4FDH",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B1",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B1",
+      "starting_pdb": "6M7X",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B2",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B2",
+      "starting_pdb": "4FDH",
+      "pose_kind": "modeled",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    }
+  ],
+  "methods": {
+    "UMA-exchange": {
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "lower_is_better": true
+    },
+    "Boltz-2": {
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "lower_is_better": true
+    },
+    "GNINA": {
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "lower_is_better": false
+    },
+    "Vina": {
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "lower_is_better": true
+    }
+  },
+  "observations": [],
+  "comparisons": [
+    {
+      "ligand": "R-fadrozole",
+      "method": "UMA-exchange",
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "Boltz-2",
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "GNINA",
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "Vina",
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "UMA-exchange",
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "Boltz-2",
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "GNINA",
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "Vina",
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    }
+  ],
+  "pose_only_methods": [
+    "Chai-1",
+    "AlphaFold 3",
+    "DiffDock-L"
+  ],
+  "excluded_methods": {
+    "RFdiffusion": "Protein design, not affinity prediction"
+  },
+  "experimental_validation": {
+    "status": "references_available",
+    "pairs": [
+      {
+        "ligand": "R-fadrozole",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "endpoint": "cellular IC50",
+        "IC50_nM": {
+          "CYP11B1": 118.6,
+          "CYP11B2": 6.0
+        },
+        "IC50_ratio_B1_over_B2": 19.766666666666666,
+        "log10_IC50_ratio_B1_over_B2": 1.2959334386446002,
+        "preference": "CYP11B2",
+        "measurements": {
+          "CYP11B1": {
+            "ligand": "R-fadrozole",
+            "isoform": "CYP11B1",
+            "endpoint": "IC50",
+            "value_nM": 118.6,
+            "reported_error_nM": 8.9,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 1,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B2 uses a longer substrate incubation: 3 hours."
+            ]
+          },
+          "CYP11B2": {
+            "ligand": "R-fadrozole",
+            "isoform": "CYP11B2",
+            "endpoint": "IC50",
+            "value_nM": 6.0,
+            "reported_error_nM": 1.9,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 3,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B1 uses a shorter substrate incubation: 1 hour."
+            ]
+          }
+        },
+        "source": {
+          "path": "/home/ubuntu/HackProject/data/benchmarks/fadrozole_assays.json",
+          "sha256": "78e3f1acea7cf932f1c52789b382fe57f3dc08e066e30b9c4d12f181c9a3adf9"
+        }
+      },
+      {
+        "ligand": "S-fadrozole",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "endpoint": "cellular IC50",
+        "IC50_nM": {
+          "CYP11B1": 39.5,
+          "CYP11B2": 171.2
+        },
+        "IC50_ratio_B1_over_B2": 0.23072429906542058,
+        "log10_IC50_ratio_B1_over_B2": -0.6369066647146742,
+        "preference": "CYP11B1",
+        "measurements": {
+          "CYP11B1": {
+            "ligand": "S-fadrozole",
+            "isoform": "CYP11B1",
+            "endpoint": "IC50",
+            "value_nM": 39.5,
+            "reported_error_nM": 4.4,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 1,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B2 uses a longer substrate incubation: 3 hours."
+            ]
+          },
+          "CYP11B2": {
+            "ligand": "S-fadrozole",
+            "isoform": "CYP11B2",
+            "endpoint": "IC50",
+            "value_nM": 171.2,
+            "reported_error_nM": 51.7,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 3,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B1 uses a shorter substrate incubation: 1 hour."
+            ]
+          }
+        },
+        "source": {
+          "path": "/home/ubuntu/HackProject/data/benchmarks/fadrozole_assays.json",
+          "sha256": "78e3f1acea7cf932f1c52789b382fe57f3dc08e066e30b9c4d12f181c9a3adf9"
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "ligand": "R-fadrozole",
+        "method": "UMA-exchange",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "R-fadrozole",
+        "method": "Boltz-2",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "R-fadrozole",
+        "method": "GNINA",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "R-fadrozole",
+        "method": "Vina",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "UMA-exchange",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "Boltz-2",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "GNINA",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "Vina",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      }
+    ]
+  },
+  "external_runs": [],
+  "inventory": [
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/R-fadrozole-CYP11B1/result.json",
+      "sha256": "de3f24409dec7200360d07f157dbfde1454eae0634f3bece0aca3c44bbb3e0d1",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/R-fadrozole-CYP11B2/result.json",
+      "sha256": "71d00de5978d54db873bd8fb77eece33271db15f702309155e479b6bfa7f945c",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/S-fadrozole-CYP11B1/result.json",
+      "sha256": "150fe6e7e394d688cb48be25e34e692507d5b7f6d295b8845022261594c3b927",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/S-fadrozole-CYP11B2/result.json",
+      "sha256": "b55efecc5cd36a7646dad56d2225e9e3eac58b34b8da7ec9b6a27989a3d40295",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/R-fadrozole-CYP11B1/result.json",
+      "sha256": "1f36cf814e90f08931a07a30d6c8384062f1866bee84979078aa84de9ea47c3c",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/R-fadrozole-CYP11B2/result.json",
+      "sha256": "12050b9c021412036106d0b2aaf9b1834817e447e33b18318b2429089e0802cb",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/S-fadrozole-CYP11B1/result.json",
+      "sha256": "d92589f4b815cd823ea9c3fec3bfc6924e64315e3001ea08435a8c9e66630cba",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/S-fadrozole-CYP11B2/result.json",
+      "sha256": "03bf7be8760077046a5107187ff3fbfcb04776a4a2bd45955c9482f04a348d31",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-S-fadrozole-01/result.json",
+      "sha256": "9579720250bcb593045a873c0db87a4709f1086b92e3e9bb30ae0697f8475a8d",
+      "status": "unresolved",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-S-fadrozole-bfgs-01/result.json",
+      "sha256": "b326b48691c3c79a28a1171a25fa3cbc8ee38dffb41c86398cf20fc6a3462b53",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-water-01/result.json",
+      "sha256": "e65a95137abcf906de153aeeb9bc821d430f0f927da8bb9883cbdf9571009f4e",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "712ffb1943975c0a4ffb3b71961a6139afcd99cfd8a8bf0240340ab07b1b075d",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/cluster_water/result.json",
+      "sha256": "077ae9bc3f19da1a004abb2bcbd43d33590710e3b21cd923b64deaa36001a174",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/free_ligand/result.json",
+      "sha256": "be5beaace6c161503170533c37451b518b041f3578ae822c27eff221fb440b8d",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/free_water/result.json",
+      "sha256": "5f1785c6e3ec43ab639c1a4a4e49a9c8e69478f0e42c70df0ee460964bae9567",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/result.json",
+      "sha256": "515bf26004ae06b2d6c2487072781df241dd687366d89a9a4306582b1246c332",
+      "status": "unresolved",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/provisional-6M7X-S-fadrozole-charge1/result.json",
+      "sha256": "3e2446b0301a9fef0ae26186b40a66ae21f637621ae63575c15e652965d911fa",
+      "status": "failed",
+      "classification": "Legacy deformation calculation, outside the current exchange benchmark"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/provisional-6M7X-S-fadrozole-v2/result.json",
+      "sha256": "9090bc8ab4342eebdef4f97eb5fd521e56bcea9fde01e3d01e091ee8bb2c03a5",
+      "status": "failed",
+      "classification": "Legacy deformation calculation, outside the current exchange benchmark"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/provisional-6M7X-S-fadrozole/result.json",
+      "sha256": "1ec312bc3ab09c341a6591c6cd2cddd172c966f51ef6fadab0b9043bf8da63e5",
+      "status": "failed",
+      "classification": "Legacy deformation calculation, outside the current exchange benchmark"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/uma-cpu-smoke-01/result.json",
+      "sha256": "7b8b12aac2a3bcf08e53ca26da09d2cedfc4ce0bc66d0e16ec437eded27871af",
+      "status": "failed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/uma-water-01/result.json",
+      "sha256": "330928e2b6ea96af094c94730a4f865f4d207fbd665a7e9993f66f37c3e72724",
+      "status": "passed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/uma-water-02/result.json",
+      "sha256": "25edc029bd0173bbd8f11006a8a09ab10afac5e7a53957c4c861541cb06c1ae7",
+      "status": "passed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/uma-crosscheck-niv-462/results/20260919T183757698313Z/candidate_result.json",
+      "sha256": "09a1c0fa4ddd253180274ee77125cc5ee46b3a6623ae190e61366ec7f09b5bb2",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    }
+  ]
+}

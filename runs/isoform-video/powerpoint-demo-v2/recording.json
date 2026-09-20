@@ -1,0 +1,221 @@
+{
+  "created_utc": "2026-09-20T12:58:54.956131+00:00",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio": "none; captioned for presentation",
+  "source": "actual local IsoForm browser + API",
+  "presentation_only_changes": "reflow CSS, cursor highlights, editorial titles and captions",
+  "waiting": "actual computation captured at 1 frame/s, uniformly compressed to the stated scene length",
+  "scientific_scope": "Frozen-coordinate UMA exchange. Fold is a hypothetical energy proxy, not binding selectivity.",
+  "job_id": "0edea703248e",
+  "job_seconds": 163.0,
+  "result_directory": "runs/selectivity-sentinel-web-jobs/0edea703248e",
+  "result": {
+    "descriptor": "ligand_water_exchange_eV",
+    "ligand": "R-fadrozole",
+    "geometry_mode": "single_point",
+    "input_sha256": "17a9bfebd3828c2ec986506f3b4a1663c8e0302182d4d48262f7791a83dcfd12",
+    "backend": {
+      "name": "uma-s-1p1",
+      "version": "2.22.0",
+      "packages": {
+        "fairchem-core": "2.22.0",
+        "torch": "2.13.0",
+        "ase": "3.29.0",
+        "huggingface-hub": "1.32.0"
+      },
+      "checkpoint_sha256": "07068e9c76702ca173d13155095f2117c1b327ec228557e64cd2709c777b824a",
+      "task": "omol",
+      "inference_settings": "batch",
+      "device": "cpu",
+      "threads": 4,
+      "synthetic": false,
+      "physical_energy_only": true,
+      "state_handling": "ASE atoms.info charge=integer charge, spin=spin multiplicity",
+      "energy_convention": "Raw UMA OMol total energy, identical atoms in both descriptor terms"
+    },
+    "status": "exploratory",
+    "provisional": true,
+    "synthetic": false,
+    "formula": "cluster_ligand + free_water - cluster_water - free_ligand",
+    "sign_convention": "delta = exchange(CYP11B2) - exchange(CYP11B1); negative favors B2 in this energy model",
+    "interpretation": "Potential-energy exchange descriptor; not a binding free energy or measured selectivity.",
+    "enzymes": {
+      "CYP11B1": {
+        "components": {
+          "cluster_ligand": {
+            "status": "completed",
+            "energy_eV": -324486.24703833763
+          },
+          "free_water": {
+            "status": "completed",
+            "energy_eV": -2079.865051081796
+          },
+          "cluster_water": {
+            "status": "completed",
+            "energy_eV": -307374.770301246
+          },
+          "free_ligand": {
+            "status": "completed",
+            "energy_eV": -19199.578750435187
+          }
+        },
+        "exchange_energy_eV": 8.236962261781628
+      },
+      "CYP11B2": {
+        "components": {
+          "cluster_ligand": {
+            "status": "completed",
+            "energy_eV": -324492.1777867103
+          },
+          "free_water": {
+            "status": "completed",
+            "energy_eV": -2079.8650510446882
+          },
+          "cluster_water": {
+            "status": "completed",
+            "energy_eV": -307371.1165600904
+          },
+          "free_ligand": {
+            "status": "completed",
+            "energy_eV": -19199.578750648554
+          }
+        },
+        "exchange_energy_eV": -1.3475270160656692
+      }
+    },
+    "delta_B2_minus_B1_eV": -9.584489277847297,
+    "reasons": [],
+    "energy_model_preference": "CYP11B2",
+    "preference_summary": {
+      "status": "energy_direction_only",
+      "preferred_in_energy_model": "CYP11B2",
+      "delta_B2_minus_B1_eV": -9.584489277847297,
+      "energy_gap_eV": 9.584489277847297,
+      "fold_selectivity": null,
+      "fold_status": "not_identifiable_from_potential_energy",
+      "headline": "UMA exchange favors CYP11B2",
+      "scope": "Direction for this prepared exchange calculation only; not a binding or selectivity verdict. Robustness across poses/states has not been established.",
+      "why_no_fold": "An equilibrium fold ratio requires a binding free-energy difference and temperature. This UMA exchange potential energy omits the required thermodynamic sampling / contributions; exponentiating it or dividing total energies does not yield selectivity.",
+      "thermodynamics_reference": "https://goldbook.iupac.org/terms/view/S05915",
+      "energy_fold_proxy": {
+        "status": "hypothetical_energy_proxy",
+        "label": "Hypothetical energy-fold proxy",
+        "temperature_K": 298.15,
+        "boltzmann_constant_eV_per_K": 8.617333262145179e-05,
+        "preferred_in_energy_model": "CYP11B2",
+        "log10_B2_over_B1": 162.01140358905488,
+        "log10_fold_magnitude": 162.01140358905488,
+        "fold_magnitude": 1.0266055056914334e+162,
+        "scientific_notation": "1.03 \u00d7 10^162",
+        "extreme_magnitude": true,
+        "reason": null,
+        "warnings": [
+          "Extreme, unvalidated magnitude: exponentiation amplifies the exchange-energy difference. Do not interpret this number as biological selectivity or confidence."
+        ],
+        "formula": "proxy magnitude = exp(abs(delta_B2_minus_B1_eV)/(k_B*T)); log10(B2/B1) = -delta_B2_minus_B1_eV/(k_B*T*ln(10))",
+        "scope": "Uncalibrated, hypothetical Boltzmann energy proxy only. Not binding selectivity, an affinity/Kd prediction, or an equilibrium population ratio. Potential energy has not been established as binding free energy; experimental cross-checks and thermodynamic validation are required.",
+        "references": {
+          "boltzmann_constant": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+          "free_energy_requirement": "https://goldbook.iupac.org/terms/view/S05915"
+        }
+      }
+    }
+  },
+  "waiting_seconds": 160.4244206410076,
+  "scenes": [
+    {
+      "name": "01-intro",
+      "seconds": 3,
+      "frames": 15,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/01-intro",
+      "title": "A second look at binding.",
+      "caption": "Explore computationally. Validate experimentally.",
+      "badge": "Research preview"
+    },
+    {
+      "name": "02-select",
+      "seconds": 5,
+      "frames": 21,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/02-select",
+      "title": "01 / Choose a molecule. Define the comparison.",
+      "caption": "R-fadrozole \u00b7 CYP11B2 target \u00b7 CYP11B1 counter-screen",
+      "badge": "Prepared candidate pair"
+    },
+    {
+      "name": "03-structures",
+      "seconds": 6,
+      "frames": 24,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/03-structures",
+      "title": "02 / Inspect the same molecule in both pockets.",
+      "caption": "Actual prepared coordinates \u00b7 Ligand in green \u00b7 Heme in gold \u00b7 Dashed lines show distances",
+      "badge": "Interactive 3D"
+    },
+    {
+      "name": "04-launch",
+      "seconds": 3,
+      "frames": 9,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/04-launch",
+      "title": "03 / Launch the real UMA calculation.",
+      "caption": "One browser action starts eight matched ligand/water energy evaluations.",
+      "badge": "Live UMA / CPU"
+    },
+    {
+      "name": "05-compute",
+      "seconds": 8,
+      "frames": 127,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/05-compute",
+      "title": "Real computation. Waiting accelerated.",
+      "caption": "Progress comes from completed UMA components; this waiting segment is sped up.",
+      "badge": "Live UMA / Waiting sped up"
+    },
+    {
+      "name": "06-result",
+      "seconds": 8,
+      "frames": 37,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/06-result",
+      "title": "04 / Read the energy signal\u2014not a binding verdict.",
+      "caption": "The \u00d7-fold is a hypothetical energy-weight proxy. Extreme values do not establish selectivity.",
+      "badge": "Actual UMA output / Exploratory"
+    },
+    {
+      "name": "07-assay-alert",
+      "seconds": 5,
+      "frames": 8,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/07-assay-alert",
+      "title": "05 / Cross-check the saved experimental evidence.",
+      "caption": "Osilodrostat \u00b7 Paired IC50 reference falls below the app\u2019s 10\u00d7 assay threshold.",
+      "badge": "Saved assay evidence / Not a new run"
+    },
+    {
+      "name": "08-assay-contrast",
+      "seconds": 5,
+      "frames": 9,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/08-assay-contrast",
+      "title": "A stronger assay signal. A model disagreement to investigate.",
+      "caption": "Baxdrostat \u00b7 Paired Ki reference clears 10\u00d7; saved Boltz evidence disagrees. Ki \u2260 IC50.",
+      "badge": "Saved assay + model evidence"
+    },
+    {
+      "name": "09-expand",
+      "seconds": 7,
+      "frames": 13,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/09-expand",
+      "title": "06 / Prepare a broader counter-screen.",
+      "caption": "Five reference structures + pose-prediction inputs. New pockets still need prediction and chemistry review.",
+      "badge": "Input preparation / No new predictions"
+    },
+    {
+      "name": "10-outro",
+      "seconds": 4,
+      "frames": 8,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/powerpoint-demo-v2/frames/10-outro",
+      "title": "Explore computationally. Validate experimentally.",
+      "caption": "IsoForm / Research preview",
+      "badge": "Research preview"
+    }
+  ],
+  "duration_seconds": 54,
+  "javascript_errors": []
+}

@@ -1,0 +1,779 @@
+{
+  "created_utc": "2026-09-20T13:38:33.321300+00:00",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio": "none; burned-in presentation captions",
+  "source": "actual local IsoForm browser and API",
+  "new_UMA_inference": false,
+  "source_energies": "User-supplied team handoff dated 2026-09-20",
+  "scientific_scope": "Retrospective two-compound fit; pose robustness unresolved; no superiority claim.",
+  "presentation_only_changes": "Reflow CSS, cursor, editorial captions, scene pacing; no mocked endpoints or results",
+  "results": [
+    {
+      "schema_version": 1,
+      "kind": "retrospective_calibrated_selectivity",
+      "candidate_id": "osilodrostat",
+      "label": "Osilodrostat (LCI699)",
+      "pose_policy": "selected_fit",
+      "source": {
+        "title": "IsoFit selectivity results and team handoff",
+        "date": "2026-09-20",
+        "kind": "user_supplied_team_handoff",
+        "attachment_sha256": "2dc6a3781273473eef111aaf0513282d328bdfc3d04523d400268dcfc4b6e128",
+        "independently_audited": false,
+        "model": "UMA uma-s-1p1 / OMol",
+        "scope": "Accepted relaxed ligand-water exchange energies as reported by the team. Underlying pose bundles and convergence logs were not supplied with this handoff.",
+        "artifact_sha256": "0a8795eedd2cb9026df518fde0bfd8783ec6620b49e7b5cd9b5ce95201746de0"
+      },
+      "calibration": {
+        "id": "team-two-compound-retrospective-20260920",
+        "coefficient_per_eV": "2.13893364745",
+        "intercept": 0,
+        "training_compounds": [
+          "osilodrostat",
+          "baxdrostat"
+        ],
+        "searched_combinations": 360,
+        "fit_method": "One shared coefficient, least squares in log10 potency-concentration ratios; poses and assay selected retrospectively.",
+        "status": "retrospective_training_fit",
+        "transfer_validated": false,
+        "formula": "log10(S) = 2.13893364745 * (X_B1 - X_B2)",
+        "ratio_definition": "S = potency concentration B1 / potency concentration B2; S > 1 favors B2. IC50 and Ki remain distinct endpoints."
+      },
+      "limitations": [
+        "Training fits, not independent predictions: both known targets and a search of 360 pose/assay combinations informed this calibration.",
+        "Selected poses are post hoc choices, not each compound's lowest-energy pair. Original minima and weighted deltas are retained.",
+        "The coefficient is empirical, not a physical constant or a transferable calibration; do not apply it to the frozen fadrozole workflow or arbitrary proteins.",
+        "Weighted results use the reported 310 K and 0.25 angstrom all-heavy-atom clustering; both are unresolved under the team's pose-spread rule.",
+        "UMA is fitted and Boltz is uncalibrated. This is not a fair model accuracy comparison; two seeds are not confidence intervals.",
+        "Solvent, entropy, chemical-state assumptions and sparse sampling remain unvalidated. Paired assays and held-out compounds are required.",
+        "The handoff ends at a Sources heading without bibliographic entries. O01/O02/B01/M01 are supplied identifiers, not independently verified citations."
+      ],
+      "execution": {
+        "operation": "recompute_supplied_UMA_outputs",
+        "new_UMA_inference": false,
+        "new_pose_generation": false,
+        "component_arithmetic_independently_checked": true,
+        "geometry_independently_checked": false
+      },
+      "quality": {
+        "accepted_B1": 5,
+        "attempted_B1": 6,
+        "accepted_B2": 6,
+        "attempted_B2": 6,
+        "accepted_pairs": 30,
+        "all_accepted_signs_favor": "CYP11B2",
+        "robustness_status": "unresolved",
+        "reason": "One B1 nonconvergence. Team pose-spread rule marks the weighted result unresolved."
+      },
+      "fit_assay": {
+        "id": "O01",
+        "endpoint": "IC50",
+        "ratio": 3.5714,
+        "role": "training target"
+      },
+      "other_assays": [
+        {
+          "id": "O02",
+          "endpoint": "IC50",
+          "ratio": 33.93,
+          "role": "Original primary pilot reference; human V79"
+        }
+      ],
+      "boltz": [
+        {
+          "compound": "osilodrostat",
+          "seed": 42,
+          "y_B1": -0.7124,
+          "y_B2": -1.5102,
+          "geometry_valid": true,
+          "reported_ratio": 6.28,
+          "raw_ratio_from_rounded_y": 6.277691938382176,
+          "usable_ratio": 6.277691938382176,
+          "geometry_scope": "Supplied audit only; not independently rechecked"
+        },
+        {
+          "compound": "osilodrostat",
+          "seed": 43,
+          "y_B1": -0.673,
+          "y_B2": -1.1731,
+          "geometry_valid": true,
+          "reported_ratio": 3.16,
+          "raw_ratio_from_rounded_y": 3.1630058853452048,
+          "usable_ratio": 3.1630058853452048,
+          "geometry_scope": "Supplied audit only; not independently rechecked"
+        }
+      ],
+      "boltz_source": {
+        "source": "Teammate report supplied in the handoff; Boltz 2.2.1 / A100; underlying bundle not retrieved or independently audited.",
+        "convention": "Reported y = log10(IC50-like concentration in micromolar); S = 10^(y_B1 - y_B2). Recomputed from rounded y, not binder probabilities."
+      },
+      "fold_selectivity": null,
+      "validated_selectivity": false,
+      "overall_status": "unresolved",
+      "empirical_fit": {
+        "S_B1_over_B2": 3.2295765425654865,
+        "log10_S": 0.5091455819957166,
+        "preferred": "CYP11B2",
+        "fold_preference": 3.2295765425654865,
+        "B1_minus_B2_eV": 0.2380371091,
+        "B2_minus_B1_eV": -0.2380371091,
+        "status": "training_fit",
+        "relative_residual_percent": 9.571133377233398
+      },
+      "selected_exchange": {
+        "enzymes": {
+          "CYP11B1": {
+            "start": 2,
+            "reported_exchange_eV": -1.974990219,
+            "components_eV": {
+              "cluster_ligand": "-532769.5394522406",
+              "cluster_water": "-514016.4731526081",
+              "free_water": "-2079.8650510885",
+              "free_ligand": "-20830.9563605019"
+            },
+            "exchange_eV": -1.9749902191
+          },
+          "CYP11B2": {
+            "start": 2,
+            "reported_exchange_eV": -2.213027328,
+            "components_eV": {
+              "cluster_ligand": "-534450.8110420975",
+              "cluster_water": "-515697.5067053559",
+              "free_water": "-2079.8650510885",
+              "free_ligand": "-20830.9563605019"
+            },
+            "exchange_eV": -2.2130273282
+          }
+        },
+        "B1_minus_B2_eV": 0.2380371091,
+        "B2_minus_B1_eV": -0.2380371091,
+        "S_B1_over_B2": 3.2295765425654865,
+        "log10_S": 0.5091455819957166,
+        "preferred": "CYP11B2",
+        "fold_preference": 3.2295765425654865
+      },
+      "original_minima": {
+        "B2_minus_B1_eV": -0.231941223,
+        "B1_minus_B2_eV": 0.231941223,
+        "source": "Reported summary delta; underlying individual pose energies not supplied",
+        "S_B1_over_B2": 3.1340569658071438,
+        "log10_S": 0.4961068861054038,
+        "preferred": "CYP11B2",
+        "fold_preference": 3.1340569658071438
+      },
+      "weighted": {
+        "B2_minus_B1_eV": -0.231941796,
+        "B1_minus_B2_eV": 0.231941796,
+        "source": "Reported summary delta; underlying individual pose energies not supplied",
+        "S_B1_over_B2": 3.134065810344528,
+        "log10_S": 0.4961081117143838,
+        "preferred": "CYP11B2",
+        "fold_preference": 3.134065810344528
+      },
+      "screen": {
+        "threshold": 10,
+        "status": "below_threshold",
+        "scope": "Illustrative fitted-ratio screen, not a validated acceptance gate"
+      },
+      "pipeline_steps": [
+        {
+          "label": "Load UMA outputs",
+          "state": "done",
+          "detail": "Supplied team handoff"
+        },
+        {
+          "label": "Build exchange",
+          "state": "done",
+          "detail": "Eight energy terms checked"
+        },
+        {
+          "label": "Convert to fold",
+          "state": "done",
+          "detail": "Shared empirical coefficient"
+        },
+        {
+          "label": "Cross-check",
+          "state": "warning",
+          "detail": "Pose robustness unresolved"
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "kind": "retrospective_calibrated_selectivity",
+      "candidate_id": "baxdrostat",
+      "label": "Baxdrostat",
+      "pose_policy": "selected_fit",
+      "source": {
+        "title": "IsoFit selectivity results and team handoff",
+        "date": "2026-09-20",
+        "kind": "user_supplied_team_handoff",
+        "attachment_sha256": "2dc6a3781273473eef111aaf0513282d328bdfc3d04523d400268dcfc4b6e128",
+        "independently_audited": false,
+        "model": "UMA uma-s-1p1 / OMol",
+        "scope": "Accepted relaxed ligand-water exchange energies as reported by the team. Underlying pose bundles and convergence logs were not supplied with this handoff.",
+        "artifact_sha256": "0a8795eedd2cb9026df518fde0bfd8783ec6620b49e7b5cd9b5ce95201746de0"
+      },
+      "calibration": {
+        "id": "team-two-compound-retrospective-20260920",
+        "coefficient_per_eV": "2.13893364745",
+        "intercept": 0,
+        "training_compounds": [
+          "osilodrostat",
+          "baxdrostat"
+        ],
+        "searched_combinations": 360,
+        "fit_method": "One shared coefficient, least squares in log10 potency-concentration ratios; poses and assay selected retrospectively.",
+        "status": "retrospective_training_fit",
+        "transfer_validated": false,
+        "formula": "log10(S) = 2.13893364745 * (X_B1 - X_B2)",
+        "ratio_definition": "S = potency concentration B1 / potency concentration B2; S > 1 favors B2. IC50 and Ki remain distinct endpoints."
+      },
+      "limitations": [
+        "Training fits, not independent predictions: both known targets and a search of 360 pose/assay combinations informed this calibration.",
+        "Selected poses are post hoc choices, not each compound's lowest-energy pair. Original minima and weighted deltas are retained.",
+        "The coefficient is empirical, not a physical constant or a transferable calibration; do not apply it to the frozen fadrozole workflow or arbitrary proteins.",
+        "Weighted results use the reported 310 K and 0.25 angstrom all-heavy-atom clustering; both are unresolved under the team's pose-spread rule.",
+        "UMA is fitted and Boltz is uncalibrated. This is not a fair model accuracy comparison; two seeds are not confidence intervals.",
+        "Solvent, entropy, chemical-state assumptions and sparse sampling remain unvalidated. Paired assays and held-out compounds are required.",
+        "The handoff ends at a Sources heading without bibliographic entries. O01/O02/B01/M01 are supplied identifiers, not independently verified citations."
+      ],
+      "execution": {
+        "operation": "recompute_supplied_UMA_outputs",
+        "new_UMA_inference": false,
+        "new_pose_generation": false,
+        "component_arithmetic_independently_checked": true,
+        "geometry_independently_checked": false
+      },
+      "quality": {
+        "accepted_B1": 2,
+        "attempted_B1": 6,
+        "accepted_B2": 2,
+        "attempted_B2": 6,
+        "accepted_pairs": 4,
+        "all_accepted_signs_favor": "CYP11B2",
+        "robustness_status": "unresolved",
+        "reason": "Five initial overlaps and three nonconvergences. Team pose-spread rule marks the weighted result unresolved."
+      },
+      "fit_assay": {
+        "id": "B01",
+        "endpoint": "Ki",
+        "ratio": 100.7692,
+        "role": "training target"
+      },
+      "other_assays": [],
+      "boltz": [
+        {
+          "compound": "baxdrostat",
+          "seed": 42,
+          "y_B1": -0.7977,
+          "y_B2": -1.0702,
+          "geometry_valid": true,
+          "reported_ratio": 1.87,
+          "raw_ratio_from_rounded_y": 1.872837083017549,
+          "usable_ratio": 1.872837083017549,
+          "geometry_scope": "Supplied audit only; not independently rechecked"
+        },
+        {
+          "compound": "baxdrostat",
+          "seed": 43,
+          "y_B1": -0.4624,
+          "y_B2": -0.6913,
+          "geometry_valid": true,
+          "reported_ratio": 1.69,
+          "raw_ratio_from_rounded_y": 1.6939477096637325,
+          "usable_ratio": 1.6939477096637325,
+          "geometry_scope": "Supplied audit only; not independently rechecked"
+        }
+      ],
+      "boltz_source": {
+        "source": "Teammate report supplied in the handoff; Boltz 2.2.1 / A100; underlying bundle not retrieved or independently audited.",
+        "convention": "Reported y = log10(IC50-like concentration in micromolar); S = 10^(y_B1 - y_B2). Recomputed from rounded y, not binder probabilities."
+      },
+      "fold_selectivity": null,
+      "validated_selectivity": false,
+      "overall_status": "unresolved",
+      "empirical_fit": {
+        "S_B1_over_B2": 103.36475639289544,
+        "log10_S": 2.0143724854387495,
+        "preferred": "CYP11B2",
+        "fold_preference": 103.36475639289544,
+        "B1_minus_B2_eV": 0.9417648312,
+        "B2_minus_B1_eV": -0.9417648312,
+        "status": "training_fit",
+        "relative_residual_percent": 2.575743771802741
+      },
+      "selected_exchange": {
+        "enzymes": {
+          "CYP11B1": {
+            "start": 2,
+            "reported_exchange_eV": -1.410883546,
+            "components_eV": {
+              "cluster_ligand": "-609267.3114368811",
+              "cluster_water": "-579558.3437257071",
+              "free_water": "-2079.8650510885",
+              "free_ligand": "-31787.4218787161"
+            },
+            "exchange_eV": -1.4108835464
+          },
+          "CYP11B2": {
+            "start": 3,
+            "reported_exchange_eV": -2.352648378,
+            "components_eV": {
+              "cluster_ligand": "-610949.0440329023",
+              "cluster_water": "-581239.1345568971",
+              "free_water": "-2079.8650510885",
+              "free_ligand": "-31787.4218787161"
+            },
+            "exchange_eV": -2.3526483776
+          }
+        },
+        "B1_minus_B2_eV": 0.9417648312,
+        "B2_minus_B1_eV": -0.9417648312,
+        "S_B1_over_B2": 103.36475639289544,
+        "log10_S": 2.0143724854387495,
+        "preferred": "CYP11B2",
+        "fold_preference": 103.36475639289544
+      },
+      "original_minima": {
+        "B2_minus_B1_eV": -0.359146118,
+        "B1_minus_B2_eV": 0.359146118,
+        "source": "Reported summary delta; underlying individual pose energies not supplied",
+        "S_B1_over_B2": 5.863942676125519,
+        "log10_S": 0.7681897161412481,
+        "preferred": "CYP11B2",
+        "fold_preference": 5.863942676125519
+      },
+      "weighted": {
+        "B2_minus_B1_eV": -0.359144672,
+        "B1_minus_B2_eV": 0.359144672,
+        "source": "Reported summary delta; underlying individual pose energies not supplied",
+        "S_B1_over_B2": 5.86390091526263,
+        "log10_S": 0.7681866232431939,
+        "preferred": "CYP11B2",
+        "fold_preference": 5.86390091526263
+      },
+      "screen": {
+        "threshold": 10,
+        "status": "above_threshold",
+        "scope": "Illustrative fitted-ratio screen, not a validated acceptance gate"
+      },
+      "pipeline_steps": [
+        {
+          "label": "Load UMA outputs",
+          "state": "done",
+          "detail": "Supplied team handoff"
+        },
+        {
+          "label": "Build exchange",
+          "state": "done",
+          "detail": "Eight energy terms checked"
+        },
+        {
+          "label": "Convert to fold",
+          "state": "done",
+          "detail": "Shared empirical coefficient"
+        },
+        {
+          "label": "Cross-check",
+          "state": "warning",
+          "detail": "Pose robustness unresolved"
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "kind": "retrospective_calibrated_selectivity",
+      "candidate_id": "baxdrostat",
+      "label": "Baxdrostat",
+      "pose_policy": "original_minima",
+      "source": {
+        "title": "IsoFit selectivity results and team handoff",
+        "date": "2026-09-20",
+        "kind": "user_supplied_team_handoff",
+        "attachment_sha256": "2dc6a3781273473eef111aaf0513282d328bdfc3d04523d400268dcfc4b6e128",
+        "independently_audited": false,
+        "model": "UMA uma-s-1p1 / OMol",
+        "scope": "Accepted relaxed ligand-water exchange energies as reported by the team. Underlying pose bundles and convergence logs were not supplied with this handoff.",
+        "artifact_sha256": "0a8795eedd2cb9026df518fde0bfd8783ec6620b49e7b5cd9b5ce95201746de0"
+      },
+      "calibration": {
+        "id": "team-two-compound-retrospective-20260920",
+        "coefficient_per_eV": "2.13893364745",
+        "intercept": 0,
+        "training_compounds": [
+          "osilodrostat",
+          "baxdrostat"
+        ],
+        "searched_combinations": 360,
+        "fit_method": "One shared coefficient, least squares in log10 potency-concentration ratios; poses and assay selected retrospectively.",
+        "status": "retrospective_training_fit",
+        "transfer_validated": false,
+        "formula": "log10(S) = 2.13893364745 * (X_B1 - X_B2)",
+        "ratio_definition": "S = potency concentration B1 / potency concentration B2; S > 1 favors B2. IC50 and Ki remain distinct endpoints."
+      },
+      "limitations": [
+        "Training fits, not independent predictions: both known targets and a search of 360 pose/assay combinations informed this calibration.",
+        "Selected poses are post hoc choices, not each compound's lowest-energy pair. Original minima and weighted deltas are retained.",
+        "The coefficient is empirical, not a physical constant or a transferable calibration; do not apply it to the frozen fadrozole workflow or arbitrary proteins.",
+        "Weighted results use the reported 310 K and 0.25 angstrom all-heavy-atom clustering; both are unresolved under the team's pose-spread rule.",
+        "UMA is fitted and Boltz is uncalibrated. This is not a fair model accuracy comparison; two seeds are not confidence intervals.",
+        "Solvent, entropy, chemical-state assumptions and sparse sampling remain unvalidated. Paired assays and held-out compounds are required.",
+        "The handoff ends at a Sources heading without bibliographic entries. O01/O02/B01/M01 are supplied identifiers, not independently verified citations."
+      ],
+      "execution": {
+        "operation": "recompute_supplied_UMA_outputs",
+        "new_UMA_inference": false,
+        "new_pose_generation": false,
+        "component_arithmetic_independently_checked": true,
+        "geometry_independently_checked": false
+      },
+      "quality": {
+        "accepted_B1": 2,
+        "attempted_B1": 6,
+        "accepted_B2": 2,
+        "attempted_B2": 6,
+        "accepted_pairs": 4,
+        "all_accepted_signs_favor": "CYP11B2",
+        "robustness_status": "unresolved",
+        "reason": "Five initial overlaps and three nonconvergences. Team pose-spread rule marks the weighted result unresolved."
+      },
+      "fit_assay": {
+        "id": "B01",
+        "endpoint": "Ki",
+        "ratio": 100.7692,
+        "role": "training target"
+      },
+      "other_assays": [],
+      "boltz": [
+        {
+          "compound": "baxdrostat",
+          "seed": 42,
+          "y_B1": -0.7977,
+          "y_B2": -1.0702,
+          "geometry_valid": true,
+          "reported_ratio": 1.87,
+          "raw_ratio_from_rounded_y": 1.872837083017549,
+          "usable_ratio": 1.872837083017549,
+          "geometry_scope": "Supplied audit only; not independently rechecked"
+        },
+        {
+          "compound": "baxdrostat",
+          "seed": 43,
+          "y_B1": -0.4624,
+          "y_B2": -0.6913,
+          "geometry_valid": true,
+          "reported_ratio": 1.69,
+          "raw_ratio_from_rounded_y": 1.6939477096637325,
+          "usable_ratio": 1.6939477096637325,
+          "geometry_scope": "Supplied audit only; not independently rechecked"
+        }
+      ],
+      "boltz_source": {
+        "source": "Teammate report supplied in the handoff; Boltz 2.2.1 / A100; underlying bundle not retrieved or independently audited.",
+        "convention": "Reported y = log10(IC50-like concentration in micromolar); S = 10^(y_B1 - y_B2). Recomputed from rounded y, not binder probabilities."
+      },
+      "fold_selectivity": null,
+      "validated_selectivity": false,
+      "overall_status": "unresolved",
+      "empirical_fit": {
+        "S_B1_over_B2": 5.863942676125519,
+        "log10_S": 0.7681897161412481,
+        "preferred": "CYP11B2",
+        "fold_preference": 5.863942676125519,
+        "B1_minus_B2_eV": 0.359146118,
+        "B2_minus_B1_eV": -0.359146118,
+        "status": "same_coefficient_pose_sensitivity",
+        "relative_residual_percent": 94.18081846821696
+      },
+      "selected_exchange": {
+        "enzymes": {
+          "CYP11B1": {
+            "start": 2,
+            "reported_exchange_eV": -1.410883546,
+            "components_eV": {
+              "cluster_ligand": "-609267.3114368811",
+              "cluster_water": "-579558.3437257071",
+              "free_water": "-2079.8650510885",
+              "free_ligand": "-31787.4218787161"
+            },
+            "exchange_eV": -1.4108835464
+          },
+          "CYP11B2": {
+            "start": 3,
+            "reported_exchange_eV": -2.352648378,
+            "components_eV": {
+              "cluster_ligand": "-610949.0440329023",
+              "cluster_water": "-581239.1345568971",
+              "free_water": "-2079.8650510885",
+              "free_ligand": "-31787.4218787161"
+            },
+            "exchange_eV": -2.3526483776
+          }
+        },
+        "B1_minus_B2_eV": 0.9417648312,
+        "B2_minus_B1_eV": -0.9417648312,
+        "S_B1_over_B2": 103.36475639289544,
+        "log10_S": 2.0143724854387495,
+        "preferred": "CYP11B2",
+        "fold_preference": 103.36475639289544
+      },
+      "original_minima": {
+        "B2_minus_B1_eV": -0.359146118,
+        "B1_minus_B2_eV": 0.359146118,
+        "source": "Reported summary delta; underlying individual pose energies not supplied",
+        "S_B1_over_B2": 5.863942676125519,
+        "log10_S": 0.7681897161412481,
+        "preferred": "CYP11B2",
+        "fold_preference": 5.863942676125519
+      },
+      "weighted": {
+        "B2_minus_B1_eV": -0.359144672,
+        "B1_minus_B2_eV": 0.359144672,
+        "source": "Reported summary delta; underlying individual pose energies not supplied",
+        "S_B1_over_B2": 5.86390091526263,
+        "log10_S": 0.7681866232431939,
+        "preferred": "CYP11B2",
+        "fold_preference": 5.86390091526263
+      },
+      "screen": {
+        "threshold": 10,
+        "status": "below_threshold",
+        "scope": "Illustrative fitted-ratio screen, not a validated acceptance gate"
+      },
+      "pipeline_steps": [
+        {
+          "label": "Load UMA outputs",
+          "state": "done",
+          "detail": "Supplied team handoff"
+        },
+        {
+          "label": "Build exchange",
+          "state": "done",
+          "detail": "Eight energy terms checked"
+        },
+        {
+          "label": "Convert to fold",
+          "state": "done",
+          "detail": "Shared empirical coefficient"
+        },
+        {
+          "label": "Cross-check",
+          "state": "warning",
+          "detail": "Pose robustness unresolved"
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "kind": "retrospective_calibrated_selectivity",
+      "candidate_id": "metyrapone",
+      "label": "Metyrapone",
+      "pose_policy": "original_minima",
+      "source": {
+        "title": "IsoFit selectivity results and team handoff",
+        "date": "2026-09-20",
+        "kind": "user_supplied_team_handoff",
+        "attachment_sha256": "2dc6a3781273473eef111aaf0513282d328bdfc3d04523d400268dcfc4b6e128",
+        "independently_audited": false,
+        "model": "UMA uma-s-1p1 / OMol",
+        "scope": "Accepted relaxed ligand-water exchange energies as reported by the team. Underlying pose bundles and convergence logs were not supplied with this handoff.",
+        "artifact_sha256": "0a8795eedd2cb9026df518fde0bfd8783ec6620b49e7b5cd9b5ce95201746de0"
+      },
+      "calibration": {
+        "id": "team-two-compound-retrospective-20260920",
+        "coefficient_per_eV": "2.13893364745",
+        "intercept": 0,
+        "training_compounds": [
+          "osilodrostat",
+          "baxdrostat"
+        ],
+        "searched_combinations": 360,
+        "fit_method": "One shared coefficient, least squares in log10 potency-concentration ratios; poses and assay selected retrospectively.",
+        "status": "retrospective_training_fit",
+        "transfer_validated": false,
+        "formula": "log10(S) = 2.13893364745 * (X_B1 - X_B2)",
+        "ratio_definition": "S = potency concentration B1 / potency concentration B2; S > 1 favors B2. IC50 and Ki remain distinct endpoints."
+      },
+      "limitations": [
+        "Training fits, not independent predictions: both known targets and a search of 360 pose/assay combinations informed this calibration.",
+        "Selected poses are post hoc choices, not each compound's lowest-energy pair. Original minima and weighted deltas are retained.",
+        "The coefficient is empirical, not a physical constant or a transferable calibration; do not apply it to the frozen fadrozole workflow or arbitrary proteins.",
+        "Weighted results use the reported 310 K and 0.25 angstrom all-heavy-atom clustering; both are unresolved under the team's pose-spread rule.",
+        "UMA is fitted and Boltz is uncalibrated. This is not a fair model accuracy comparison; two seeds are not confidence intervals.",
+        "Solvent, entropy, chemical-state assumptions and sparse sampling remain unvalidated. Paired assays and held-out compounds are required.",
+        "The handoff ends at a Sources heading without bibliographic entries. O01/O02/B01/M01 are supplied identifiers, not independently verified citations."
+      ],
+      "execution": {
+        "operation": "recompute_supplied_UMA_outputs",
+        "new_UMA_inference": false,
+        "new_pose_generation": false,
+        "component_arithmetic_independently_checked": false,
+        "geometry_independently_checked": false
+      },
+      "quality": {
+        "accepted_B1": 6,
+        "attempted_B1": 6,
+        "accepted_B2": 0,
+        "attempted_B2": 6,
+        "accepted_pairs": 0,
+        "all_accepted_signs_favor": null,
+        "robustness_status": "unresolved",
+        "reason": "B2 water reference and all six B2 starts failed convergence. No UMA fold is reported."
+      },
+      "fit_assay": null,
+      "other_assays": [
+        {
+          "id": "M01",
+          "endpoint": "IC50",
+          "ratio": 0.2083,
+          "role": "Reference only; not a fit target"
+        }
+      ],
+      "boltz": [],
+      "boltz_source": {
+        "source": "Teammate report supplied in the handoff; Boltz 2.2.1 / A100; underlying bundle not retrieved or independently audited.",
+        "convention": "Reported y = log10(IC50-like concentration in micromolar); S = 10^(y_B1 - y_B2). Recomputed from rounded y, not binder probabilities."
+      },
+      "fold_selectivity": null,
+      "validated_selectivity": false,
+      "overall_status": "unresolved",
+      "empirical_fit": null,
+      "selected_exchange": null,
+      "original_minima": null,
+      "weighted": null,
+      "screen": {
+        "threshold": 10,
+        "status": "unresolved",
+        "scope": "Illustrative fitted-ratio screen, not a validated acceptance gate"
+      },
+      "pipeline_steps": [
+        {
+          "label": "Load UMA outputs",
+          "state": "done",
+          "detail": "Supplied team handoff"
+        },
+        {
+          "label": "Build exchange",
+          "state": "warning",
+          "detail": "B2 convergence failed"
+        },
+        {
+          "label": "Convert to fold",
+          "state": "warning",
+          "detail": "No ratio inferred"
+        },
+        {
+          "label": "Cross-check",
+          "state": "warning",
+          "detail": "Reprepare and rerun B2"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "01-intro",
+      "seconds": 3,
+      "frames": 10,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/01-intro",
+      "title": "From eV to fold preference.",
+      "caption": "A real analysis workflow using the team\u2019s supplied UMA outputs.",
+      "badge": "Retrospective calibration"
+    },
+    {
+      "name": "02-inputs",
+      "seconds": 5,
+      "frames": 14,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/02-inputs",
+      "title": "01 / Choose a molecule and trace its energy inputs.",
+      "caption": "Osilodrostat \u00b7 B2 target / B1 counter-screen \u00b7 Team-selected poses",
+      "badge": "Supplied UMA energies / No new inference"
+    },
+    {
+      "name": "03-structures",
+      "seconds": 4,
+      "frames": 8,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/03-structures",
+      "title": "02 / Inspect the protein reference pockets.",
+      "caption": "Experimental reference coordinates\u2014not the selected relaxed drug poses.",
+      "badge": "Interactive 3D / References only"
+    },
+    {
+      "name": "04-calculate",
+      "seconds": 5,
+      "frames": 7,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/04-calculate",
+      "title": "03 / Recompute the exchange. Apply the fitted conversion.",
+      "caption": "X = E(cluster + ligand) + E(water) \u2212 E(cluster + water) \u2212 E(ligand)",
+      "badge": "Real backend calculation / No new UMA run"
+    },
+    {
+      "name": "05-energy",
+      "seconds": 6,
+      "frames": 8,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/05-energy",
+      "title": "Four energy terms per enzyme. One matched difference.",
+      "caption": "Osilodrostat: X(B1) \u2212 X(B2) = +0.238037 eV. Positive favors B2 in this model.",
+      "badge": "Full-precision exchange arithmetic"
+    },
+    {
+      "name": "06-osilodrostat",
+      "seconds": 5,
+      "frames": 8,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/06-osilodrostat",
+      "title": "3.23\u00d7 fitted B2 preference. Below the 10\u00d7 screen.",
+      "caption": "O01 experimental IC50 ratio: 3.57\u00d7. This was a training target, not a held-out validation.",
+      "badge": "Osilodrostat / Retrospective fit"
+    },
+    {
+      "name": "07-baxdrostat",
+      "seconds": 7,
+      "frames": 15,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/07-baxdrostat",
+      "title": "103.36\u00d7 fitted B2 preference. A stronger fitted signal.",
+      "caption": "B01 experimental Ki ratio: 100.77\u00d7. The same fitted coefficient is used for both compounds.",
+      "badge": "Baxdrostat / Retrospective fit"
+    },
+    {
+      "name": "08-crosscheck",
+      "seconds": 5,
+      "frames": 10,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/08-crosscheck",
+      "title": "04 / Compare models\u2014and keep their provenance visible.",
+      "caption": "Boltz seeds: 1.87\u00d7 / 1.69\u00d7. Uncalibrated Boltz vs fitted UMA is not an accuracy ranking.",
+      "badge": "Cross-check / Ki remains distinct from IC50"
+    },
+    {
+      "name": "09-sensitivity",
+      "seconds": 6,
+      "frames": 11,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/09-sensitivity",
+      "title": "Pose choice matters: 103.36\u00d7 becomes 5.86\u00d7.",
+      "caption": "Original baxdrostat minima, same coefficient. The fitted screen flips; pose robustness stays unresolved.",
+      "badge": "Sensitivity check / Not validated selectivity"
+    },
+    {
+      "name": "10-quality-gate",
+      "seconds": 3,
+      "frames": 6,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/10-quality-gate",
+      "title": "Missing convergence? Stop before reporting a fold.",
+      "caption": "Metyrapone: zero accepted B2 starts. No ratio invented.",
+      "badge": "Quality gate / Unresolved"
+    },
+    {
+      "name": "11-outro",
+      "seconds": 4,
+      "frames": 7,
+      "folder": "/home/ubuntu/HackProject/runs/isoform-video/energy-fold-demo-v2/frames/11-outro",
+      "title": "Understand the signal. Design the next experiment.",
+      "caption": "IsoForm \u00b7 Traceable energies, explicit assumptions, testable next steps.",
+      "badge": "Research preview"
+    }
+  ],
+  "duration_seconds": 53,
+  "javascript_errors": []
+}

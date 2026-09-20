@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "limitations": [
+    "Only compare each ligand across CYP11B1/CYP11B2 within its named source and endpoint. Do not compare absolute potency between source files or mix IC50 and Ki ratios.",
+    "The osilodrostat CYP11B1 and CYP11B2 values are paired V79-4 overexpression assays reported in the FDA non-clinical review, but use cortisol and aldosterone production readouts and separate sponsor study identifiers.",
+    "The baxdrostat measurements are inhibition constants (Ki), not IC50 values. They are valid as a same-endpoint selectivity direction/reference but must not be used for a numerical error against Boltz-2's IC50-like prediction.",
+    "Neither reference establishes that the compounds or structures were excluded from the training data of any comparator model."
+  ],
+  "measurements": [
+    {
+      "ligand": "Osilodrostat (LCI699)",
+      "isoform": "CYP11B1",
+      "endpoint": "IC50",
+      "value_nM": 2.5,
+      "reported_error_nM": null,
+      "error_type": "not_reported",
+      "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+      "species": "Homo sapiens",
+      "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212801Orig1s000PharmR.pdf",
+      "source_location": "pages 20 and 22; studies RD-2007-51927 and RD-2009-50223",
+      "conditions": {
+        "cell_line": "V79-4 Chinese hamster lung cells",
+        "expression": "overexpressed human CYP11B1",
+        "readout": "cortisol production"
+      }
+    },
+    {
+      "ligand": "Osilodrostat (LCI699)",
+      "isoform": "CYP11B2",
+      "endpoint": "IC50",
+      "value_nM": 0.7,
+      "reported_error_nM": null,
+      "error_type": "not_reported",
+      "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+      "species": "Homo sapiens",
+      "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212801Orig1s000PharmR.pdf",
+      "source_location": "pages 20 and 22; studies RD-2007-51927 and RD-2009-50223",
+      "conditions": {
+        "cell_line": "V79-4 Chinese hamster lung cells",
+        "expression": "overexpressed human CYP11B2",
+        "readout": "aldosterone production"
+      }
+    },
+    {
+      "ligand": "Baxdrostat",
+      "isoform": "CYP11B1",
+      "endpoint": "Ki",
+      "value_nM": 1310.0,
+      "reported_error_nM": 533.0,
+      "error_type": "as_reported",
+      "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+      "species": "Homo sapiens",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27872236/",
+      "source_doi": "10.1161/HYPERTENSIONAHA.116.07716",
+      "conditions": {
+        "measurement": "competitive inhibition constant",
+        "compound_alias": "RO6836191 / CIN-107"
+      }
+    },
+    {
+      "ligand": "Baxdrostat",
+      "isoform": "CYP11B2",
+      "endpoint": "Ki",
+      "value_nM": 13.0,
+      "reported_error_nM": 2.2,
+      "error_type": "as_reported",
+      "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+      "species": "Homo sapiens",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27872236/",
+      "source_doi": "10.1161/HYPERTENSIONAHA.116.07716",
+      "conditions": {
+        "measurement": "competitive inhibition constant",
+        "compound_alias": "RO6836191 / CIN-107"
+      }
+    }
+  ]
+}

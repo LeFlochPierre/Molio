@@ -1,0 +1,32 @@
+{
+  "target": "CYP11B2",
+  "selection_rule": "Candidate is eligible only if its complete tested B2-minus-B1 range is below -signal_floor; rank by worst-case (highest) delta",
+  "selected_lead": "R-fadrozole",
+  "candidates": [
+    {
+      "ligand": "S-fadrozole",
+      "status": "unresolved",
+      "direction": null,
+      "B2_minus_B1_range_eV": [
+        -0.06020300268846768,
+        0.08097255285520077
+      ],
+      "signal_floor_eV": 0.05,
+      "source": "/home/ubuntu/HackProject/runs/exchange-pose-sensitivity-v1/summary.json",
+      "conservative_B2_score_eV": null
+    },
+    {
+      "ligand": "R-fadrozole",
+      "status": "eligible",
+      "direction": "CYP11B2",
+      "B2_minus_B1_range_eV": [
+        -0.6754116793267713,
+        -0.6646232126281575
+      ],
+      "signal_floor_eV": 0.05,
+      "source": "/home/ubuntu/HackProject/runs/exchange-R-pose-sensitivity-v1/summary.json",
+      "conservative_B2_score_eV": -0.6646232126281575
+    }
+  ],
+  "interpretation": "Provisional UMA capped-pocket potential-energy ranking; not affinity, free energy, selectivity ratio, or experimental validation"
+}

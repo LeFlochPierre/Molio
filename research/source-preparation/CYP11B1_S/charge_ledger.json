@@ -1,0 +1,4874 @@
+[
+  {
+    "chain": "A",
+    "residue_number": "34",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "35",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "36",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "37",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "38",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "39",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "40",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "41",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "42",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "43",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "44",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "45",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "46",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "47",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "48",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "49",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "50",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "51",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "52",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "53",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "54",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "55",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "56",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "57",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "58",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "59",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "60",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "61",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "62",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "63",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "64",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "65",
+    "residue": "HIS",
+    "variant": "HIE",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "66",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "67",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "68",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "69",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "70",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "71",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "72",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "73",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "74",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "75",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "76",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "77",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "78",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "79",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "80",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "81",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "82",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "83",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "84",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "85",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "86",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "87",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "88",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "89",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "90",
+    "residue": "CYS",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "91",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "92",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "93",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "94",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "95",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "96",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "97",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "98",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "99",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "100",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "101",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "102",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "103",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "104",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "105",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "106",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "107",
+    "residue": "HIS",
+    "variant": "HIE",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "108",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "109",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "110",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "111",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "112",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "113",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "114",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "115",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "116",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "117",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "118",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "119",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "120",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "121",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "122",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "123",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "124",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "125",
+    "residue": "HIS",
+    "variant": "HIE",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "126",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "127",
+    "residue": "CYS",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "128",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "129",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "130",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "131",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "132",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "133",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "134",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "135",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "136",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "137",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "138",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "139",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "140",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "141",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "142",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "143",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "144",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "145",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "146",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "147",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "148",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "149",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "150",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "151",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "152",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "153",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "154",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "155",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "156",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "157",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "158",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "159",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "160",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "161",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "162",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "163",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "164",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "165",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "166",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "167",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "168",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "169",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "170",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "171",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "172",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "173",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "174",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "175",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "176",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "177",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "178",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "179",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "180",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "181",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "182",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "183",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "184",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "185",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "186",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "187",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "188",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "189",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "190",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "191",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "192",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "193",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "194",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "195",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "196",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "197",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "198",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "199",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "200",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "201",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "202",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "203",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "204",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "205",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "206",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "207",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "208",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "209",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "210",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "211",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "212",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "213",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "214",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "215",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "216",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "217",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "218",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "219",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "220",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "221",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "222",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "223",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "224",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "225",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "226",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "227",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "228",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "229",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "230",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "231",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "232",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "233",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "234",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "235",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "236",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "237",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "238",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "239",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "240",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "241",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "242",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "243",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "244",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "245",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "246",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "247",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "248",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "249",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "250",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "251",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "252",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "253",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "254",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "255",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "256",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "257",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "258",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "259",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "260",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "261",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "262",
+    "residue": "CYS",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "263",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "264",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "265",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "266",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "267",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "268",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "269",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "270",
+    "residue": "CYS",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "271",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "272",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "273",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "274",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "275",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "276",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "277",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "278",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "279",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "280",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "281",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "282",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "283",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "284",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "285",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "286",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "287",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "288",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "289",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "290",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "291",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "292",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "293",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "294",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "295",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "296",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "297",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "298",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "299",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "300",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "301",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "302",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "303",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "304",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "305",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "306",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "307",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "308",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "309",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "310",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "311",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "312",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "313",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "314",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "315",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "316",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "317",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "318",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "319",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "320",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "321",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "322",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "323",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "324",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "325",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "326",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "327",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "328",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "329",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "330",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "331",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "332",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "333",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "334",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "335",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "336",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "337",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "338",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "339",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "340",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "341",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "342",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "343",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "344",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "345",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "346",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "347",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "348",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "349",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "350",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "351",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "352",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "353",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "354",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "355",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "356",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "357",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "358",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "359",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "360",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "361",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "362",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "363",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "364",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "365",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "366",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "367",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "368",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "369",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "370",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "371",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "372",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "373",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "374",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "375",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "376",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "377",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "378",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "379",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "380",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "381",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "382",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "383",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "384",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "385",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "386",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "387",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "388",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "389",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "390",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "391",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "392",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "393",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "394",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "395",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "396",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "397",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "398",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "399",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "400",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "401",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "402",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "403",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "404",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "405",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "406",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "407",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "408",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "409",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "410",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "411",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "412",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "413",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "414",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "415",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "416",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "417",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "418",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "419",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "420",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "421",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "422",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "423",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "424",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "425",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "426",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "427",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "428",
+    "residue": "TRP",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "429",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "430",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "431",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "432",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "433",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "434",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "435",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "436",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "437",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "438",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "439",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "440",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "441",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "442",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "443",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "444",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "445",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "446",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "447",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "448",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "449",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "450",
+    "residue": "CYS",
+    "variant": "CYX",
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "451",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "452",
+    "residue": "GLY",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "453",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "454",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "455",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "456",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "457",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "458",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "459",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "460",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "461",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "462",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "463",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "464",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "465",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "466",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "467",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "468",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "469",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "470",
+    "residue": "HIS",
+    "variant": "HID",
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "471",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "472",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "473",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "474",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "475",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "476",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "477",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "478",
+    "residue": "GLN",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "479",
+    "residue": "GLU",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "480",
+    "residue": "ASP",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "A",
+    "residue_number": "481",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "482",
+    "residue": "LYS",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "483",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "484",
+    "residue": "VAL",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "485",
+    "residue": "TYR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "486",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "487",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "488",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "489",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "490",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "491",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "492",
+    "residue": "SER",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "493",
+    "residue": "MET",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "494",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "495",
+    "residue": "PRO",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "496",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "497",
+    "residue": "LEU",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "498",
+    "residue": "THR",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "499",
+    "residue": "PHE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "500",
+    "residue": "ARG",
+    "variant": null,
+    "formal_charge": 1
+  },
+  {
+    "chain": "A",
+    "residue_number": "501",
+    "residue": "ALA",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "502",
+    "residue": "ILE",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "A",
+    "residue_number": "503",
+    "residue": "ASN",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "H",
+    "residue_number": "602",
+    "residue": "HEM",
+    "variant": null,
+    "formal_charge": -1
+  },
+  {
+    "chain": "L",
+    "residue_number": "601",
+    "residue": "JD7",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "701",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "702",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "703",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "704",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "705",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "706",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "707",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "708",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "709",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "710",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "711",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "712",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "713",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "714",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "715",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "716",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "717",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "718",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "719",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "720",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "721",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "722",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "723",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "724",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "725",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "726",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "727",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "728",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "729",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "730",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "731",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "732",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "733",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "734",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "735",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "736",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "737",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "738",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "739",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "740",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "741",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "742",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "743",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "744",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "745",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "746",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "747",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "748",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "749",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "750",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "751",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "752",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "753",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "754",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "755",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "756",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "757",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "758",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "759",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "760",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "761",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "762",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "763",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "764",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "765",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "766",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "767",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "768",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "769",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "770",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "771",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "772",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "773",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "774",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "775",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "776",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "777",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "778",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "779",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "780",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "781",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "782",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "783",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "784",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "785",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "786",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "787",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "788",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "789",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "790",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "791",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "792",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "793",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "794",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "795",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "796",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "797",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "798",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "799",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "800",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "801",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "802",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "803",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "804",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "805",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "806",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "807",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "808",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "809",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "810",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "811",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "812",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "813",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "814",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "815",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "816",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "817",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "818",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "819",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "820",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "821",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "822",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "823",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "824",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "825",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "826",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "827",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "828",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "829",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "830",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "831",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "832",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "833",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "834",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "835",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "836",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "837",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "838",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "839",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "840",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "841",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "842",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "843",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "844",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "845",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "846",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "847",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "848",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "849",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "850",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "851",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "852",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "853",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "854",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "855",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "856",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "857",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "858",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "859",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "860",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "861",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "862",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "863",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "864",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "865",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "866",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "867",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "868",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "869",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "870",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "871",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "872",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "873",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "874",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "875",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "876",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "877",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "878",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "879",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "880",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "881",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "882",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "883",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "884",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "885",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "886",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "887",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "888",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "889",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "890",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "891",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "892",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "893",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "894",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "895",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "896",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "897",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "898",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "899",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "900",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "901",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "902",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "903",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "904",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "905",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "906",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "907",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "908",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "909",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "910",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "911",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "912",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "913",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "914",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "915",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "916",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "917",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "918",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "919",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "920",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "921",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "922",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "923",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  },
+  {
+    "chain": "W",
+    "residue_number": "924",
+    "residue": "HOH",
+    "variant": null,
+    "formal_charge": 0
+  }
+]

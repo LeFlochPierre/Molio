@@ -1,0 +1,7 @@
+{
+  "CYP11B2": {"pdb": "4FDH", "chain": "A", "accession": "P19099", "ligand_code": "0T3", "ligand_label": "R-fadrozole"},
+  "CYP11B1": {"pdb": "6M7X", "chain": "A", "accession": "P15538", "ligand_code": "JD7", "ligand_label": "S-fadrozole"},
+  "CYP11A1": {"pdb": "3N9Y", "chain": "A", "accession": "P05108", "ligand_code": "CLR", "ligand_label": "Cholesterol"},
+  "CYP17A1": {"pdb": "3RUK", "chain": "A", "accession": "P05093", "ligand_code": "AER", "ligand_label": "Abiraterone"},
+  "CYP19A1": {"pdb": "3EQM", "chain": "A", "accession": "P11511", "ligand_code": "ASD", "ligand_label": "Androstenedione"}
+}

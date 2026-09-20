@@ -1,0 +1,1368 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-19T20:31:09.921007+00:00",
+  "experiment_source": {
+    "path": "/home/ubuntu/HackProject/configs/extended-selectivity-benchmark.json",
+    "sha256": "7083bf2b1ffdacb392a680edc66a94da961e8a72de3922a084311aab96122738"
+  },
+  "cases": [
+    {
+      "system_id": "R-fadrozole-CYP11B1",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B1",
+      "starting_pdb": "6M7X",
+      "pose_kind": "modeled",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "R-fadrozole-CYP11B2",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B2",
+      "starting_pdb": "4FDH",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B1",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B1",
+      "starting_pdb": "6M7X",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B2",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B2",
+      "starting_pdb": "4FDH",
+      "pose_kind": "modeled",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "Osilodrostat-LCI699-CYP11B1",
+      "ligand": "Osilodrostat (LCI699)",
+      "isoform": "CYP11B1",
+      "starting_pdb": "7E7F",
+      "pose_kind": "modeled_from_metyrapone_scaffold",
+      "prepared_input": null,
+      "status": "awaiting_preparation",
+      "notes": "7E7F is a CYP11B1 mutant/metyrapone structure, not an osilodrostat complex. It must not be treated as an experimental osilodrostat pose."
+    },
+    {
+      "system_id": "Osilodrostat-LCI699-CYP11B2",
+      "ligand": "Osilodrostat (LCI699)",
+      "isoform": "CYP11B2",
+      "starting_pdb": "7M8V",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "Baxdrostat-CYP11B1",
+      "ligand": "Baxdrostat",
+      "isoform": "CYP11B1",
+      "starting_pdb": "7E7F",
+      "pose_kind": "modeled_from_metyrapone_scaffold",
+      "prepared_input": null,
+      "status": "awaiting_preparation",
+      "notes": "No baxdrostat CYP11B1 complex is represented in this workspace; 7E7F is a mutant/metyrapone scaffold."
+    },
+    {
+      "system_id": "Baxdrostat-CYP11B2",
+      "ligand": "Baxdrostat",
+      "isoform": "CYP11B2",
+      "starting_pdb": "7M8V",
+      "pose_kind": "modeled_from_osilodrostat_scaffold",
+      "prepared_input": null,
+      "status": "awaiting_preparation",
+      "notes": "No baxdrostat CYP11B2 complex is represented in this workspace; 7M8V is an osilodrostat complex."
+    }
+  ],
+  "methods": {
+    "UMA-exchange": {
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "lower_is_better": true
+    },
+    "Boltz-2": {
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "lower_is_better": true
+    },
+    "GNINA": {
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "lower_is_better": false
+    },
+    "Vina": {
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "lower_is_better": true
+    }
+  },
+  "observations": [],
+  "comparisons": [
+    {
+      "ligand": "Baxdrostat",
+      "method": "UMA-exchange",
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Baxdrostat",
+      "method": "Boltz-2",
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Baxdrostat",
+      "method": "GNINA",
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Baxdrostat",
+      "method": "Vina",
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Osilodrostat (LCI699)",
+      "method": "UMA-exchange",
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Osilodrostat (LCI699)",
+      "method": "Boltz-2",
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Osilodrostat (LCI699)",
+      "method": "GNINA",
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "Osilodrostat (LCI699)",
+      "method": "Vina",
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "UMA-exchange",
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "Boltz-2",
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "GNINA",
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "R-fadrozole",
+      "method": "Vina",
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "UMA-exchange",
+      "metric": "ligand_water_exchange_eV",
+      "unit": "eV",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "Boltz-2",
+      "metric": "log10_IC50_uM",
+      "unit": "log10(IC50 / uM)",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "GNINA",
+      "metric": "CNNaffinity_pK",
+      "unit": "pK",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    },
+    {
+      "ligand": "S-fadrozole",
+      "method": "Vina",
+      "metric": "docking_score_kcal_mol",
+      "unit": "kcal/mol",
+      "status": "not_run",
+      "preference": null,
+      "reason": "No model outputs imported"
+    }
+  ],
+  "pose_only_methods": [
+    "Chai-1",
+    "AlphaFold 3",
+    "DiffDock-L"
+  ],
+  "excluded_methods": {
+    "RFdiffusion": "Protein design, not affinity prediction"
+  },
+  "experimental_validation": {
+    "status": "references_available",
+    "pairs": [
+      {
+        "ligand": "R-fadrozole",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "endpoint": "IC50",
+        "values_nM": {
+          "CYP11B1": 118.6,
+          "CYP11B2": 6.0
+        },
+        "ratio_B1_over_B2": 19.766666666666666,
+        "log10_ratio_B1_over_B2": 1.2959334386446002,
+        "preference": "CYP11B2",
+        "measurements": {
+          "CYP11B1": {
+            "ligand": "R-fadrozole",
+            "isoform": "CYP11B1",
+            "endpoint": "IC50",
+            "value_nM": 118.6,
+            "reported_error_nM": 8.9,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 1,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B2 uses a longer substrate incubation: 3 hours."
+            ]
+          },
+          "CYP11B2": {
+            "ligand": "R-fadrozole",
+            "isoform": "CYP11B2",
+            "endpoint": "IC50",
+            "value_nM": 6.0,
+            "reported_error_nM": 1.9,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 3,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B1 uses a shorter substrate incubation: 1 hour."
+            ]
+          }
+        },
+        "source": {
+          "path": "/home/ubuntu/HackProject/data/benchmarks/fadrozole_assays.json",
+          "sha256": "78e3f1acea7cf932f1c52789b382fe57f3dc08e066e30b9c4d12f181c9a3adf9"
+        },
+        "IC50_nM": {
+          "CYP11B1": 118.6,
+          "CYP11B2": 6.0
+        },
+        "IC50_ratio_B1_over_B2": 19.766666666666666,
+        "log10_IC50_ratio_B1_over_B2": 1.2959334386446002
+      },
+      {
+        "ligand": "S-fadrozole",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "endpoint": "IC50",
+        "values_nM": {
+          "CYP11B1": 39.5,
+          "CYP11B2": 171.2
+        },
+        "ratio_B1_over_B2": 0.23072429906542058,
+        "log10_ratio_B1_over_B2": -0.6369066647146742,
+        "preference": "CYP11B1",
+        "measurements": {
+          "CYP11B1": {
+            "ligand": "S-fadrozole",
+            "isoform": "CYP11B1",
+            "endpoint": "IC50",
+            "value_nM": 39.5,
+            "reported_error_nM": 4.4,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 1,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B2 uses a longer substrate incubation: 3 hours."
+            ]
+          },
+          "CYP11B2": {
+            "ligand": "S-fadrozole",
+            "isoform": "CYP11B2",
+            "endpoint": "IC50",
+            "value_nM": 171.2,
+            "reported_error_nM": 51.7,
+            "error_type": "unspecified",
+            "assay_id": "Roumen-2007-V79MZ-human",
+            "species": "Homo sapiens",
+            "source_url": "https://link.springer.com/article/10.1007/s10822-007-9128-9",
+            "source_table": "5",
+            "conditions": {
+              "cell_line": "V79(MZ)",
+              "expression": "stably expressed human enzyme",
+              "culture_temperature_C": 37,
+              "culture_CO2_percent": 5,
+              "inhibitor_preincubation_hours": 1,
+              "inhibitor_medium": "serum-free",
+              "substrate": "11-deoxycorticosterone",
+              "substrate_nM": 500,
+              "reported_substrate_fraction_of_Km": 0.5,
+              "substrate_incubation_hours": 3,
+              "readout": "HPLC steroid product formation",
+              "readout_UV_nm": 243
+            },
+            "notes": [
+              "CYP11B1 uses a shorter substrate incubation: 1 hour."
+            ]
+          }
+        },
+        "source": {
+          "path": "/home/ubuntu/HackProject/data/benchmarks/fadrozole_assays.json",
+          "sha256": "78e3f1acea7cf932f1c52789b382fe57f3dc08e066e30b9c4d12f181c9a3adf9"
+        },
+        "IC50_nM": {
+          "CYP11B1": 39.5,
+          "CYP11B2": 171.2
+        },
+        "IC50_ratio_B1_over_B2": 0.23072429906542058,
+        "log10_IC50_ratio_B1_over_B2": -0.6369066647146742
+      },
+      {
+        "ligand": "Osilodrostat (LCI699)",
+        "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+        "endpoint": "IC50",
+        "values_nM": {
+          "CYP11B1": 2.5,
+          "CYP11B2": 0.7
+        },
+        "ratio_B1_over_B2": 3.5714285714285716,
+        "log10_ratio_B1_over_B2": 0.5528419686577808,
+        "preference": "CYP11B2",
+        "measurements": {
+          "CYP11B1": {
+            "ligand": "Osilodrostat (LCI699)",
+            "isoform": "CYP11B1",
+            "endpoint": "IC50",
+            "value_nM": 2.5,
+            "reported_error_nM": null,
+            "error_type": "not_reported",
+            "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+            "species": "Homo sapiens",
+            "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212801Orig1s000PharmR.pdf",
+            "source_location": "pages 20 and 22; studies RD-2007-51927 and RD-2009-50223",
+            "conditions": {
+              "cell_line": "V79-4 Chinese hamster lung cells",
+              "expression": "overexpressed human CYP11B1",
+              "readout": "cortisol production"
+            }
+          },
+          "CYP11B2": {
+            "ligand": "Osilodrostat (LCI699)",
+            "isoform": "CYP11B2",
+            "endpoint": "IC50",
+            "value_nM": 0.7,
+            "reported_error_nM": null,
+            "error_type": "not_reported",
+            "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+            "species": "Homo sapiens",
+            "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212801Orig1s000PharmR.pdf",
+            "source_location": "pages 20 and 22; studies RD-2007-51927 and RD-2009-50223",
+            "conditions": {
+              "cell_line": "V79-4 Chinese hamster lung cells",
+              "expression": "overexpressed human CYP11B2",
+              "readout": "aldosterone production"
+            }
+          }
+        },
+        "source": {
+          "path": "/home/ubuntu/HackProject/data/benchmarks/osilodrostat_baxdrostat_assays.json",
+          "sha256": "0b1108042218e851b32264257e31a928033d24402b26ca32631937912bd23ed2"
+        },
+        "IC50_nM": {
+          "CYP11B1": 2.5,
+          "CYP11B2": 0.7
+        },
+        "IC50_ratio_B1_over_B2": 3.5714285714285716,
+        "log10_IC50_ratio_B1_over_B2": 0.5528419686577808
+      },
+      {
+        "ligand": "Baxdrostat",
+        "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+        "endpoint": "Ki",
+        "values_nM": {
+          "CYP11B1": 1310.0,
+          "CYP11B2": 13.0
+        },
+        "ratio_B1_over_B2": 100.76923076923077,
+        "log10_ratio_B1_over_B2": 2.0033279433489275,
+        "preference": "CYP11B2",
+        "measurements": {
+          "CYP11B1": {
+            "ligand": "Baxdrostat",
+            "isoform": "CYP11B1",
+            "endpoint": "Ki",
+            "value_nM": 1310.0,
+            "reported_error_nM": 533.0,
+            "error_type": "as_reported",
+            "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+            "species": "Homo sapiens",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/27872236/",
+            "source_doi": "10.1161/HYPERTENSIONAHA.116.07716",
+            "conditions": {
+              "measurement": "competitive inhibition constant",
+              "compound_alias": "RO6836191 / CIN-107"
+            }
+          },
+          "CYP11B2": {
+            "ligand": "Baxdrostat",
+            "isoform": "CYP11B2",
+            "endpoint": "Ki",
+            "value_nM": 13.0,
+            "reported_error_nM": 2.2,
+            "error_type": "as_reported",
+            "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+            "species": "Homo sapiens",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/27872236/",
+            "source_doi": "10.1161/HYPERTENSIONAHA.116.07716",
+            "conditions": {
+              "measurement": "competitive inhibition constant",
+              "compound_alias": "RO6836191 / CIN-107"
+            }
+          }
+        },
+        "source": {
+          "path": "/home/ubuntu/HackProject/data/benchmarks/osilodrostat_baxdrostat_assays.json",
+          "sha256": "0b1108042218e851b32264257e31a928033d24402b26ca32631937912bd23ed2"
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "ligand": "R-fadrozole",
+        "method": "UMA-exchange",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "R-fadrozole",
+        "method": "Boltz-2",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "R-fadrozole",
+        "method": "GNINA",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "R-fadrozole",
+        "method": "Vina",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "UMA-exchange",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "Boltz-2",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "GNINA",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "S-fadrozole",
+        "method": "Vina",
+        "assay_id": "Roumen-2007-V79MZ-human",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B1",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Osilodrostat (LCI699)",
+        "method": "UMA-exchange",
+        "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Osilodrostat (LCI699)",
+        "method": "Boltz-2",
+        "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Osilodrostat (LCI699)",
+        "method": "GNINA",
+        "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Osilodrostat (LCI699)",
+        "method": "Vina",
+        "assay_id": "FDA-NDA-212801-V79-4-human-CYP11B-paired",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Baxdrostat",
+        "method": "UMA-exchange",
+        "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Baxdrostat",
+        "method": "Boltz-2",
+        "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Baxdrostat",
+        "method": "GNINA",
+        "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      },
+      {
+        "ligand": "Baxdrostat",
+        "method": "Vina",
+        "assay_id": "Bogman-2017-human-CYP11B1-CYP11B2-Ki",
+        "protocol_id": null,
+        "model_version": null,
+        "experimental_preference": "CYP11B2",
+        "score_preference": null,
+        "direction_agrees": null,
+        "predicted_minus_observed_log10_ratio": null
+      }
+    ]
+  },
+  "external_runs": [],
+  "inventory": [
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/R-fadrozole-CYP11B1/result.json",
+      "sha256": "de3f24409dec7200360d07f157dbfde1454eae0634f3bece0aca3c44bbb3e0d1",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/R-fadrozole-CYP11B2/result.json",
+      "sha256": "71d00de5978d54db873bd8fb77eece33271db15f702309155e479b6bfa7f945c",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/S-fadrozole-CYP11B1/result.json",
+      "sha256": "150fe6e7e394d688cb48be25e34e692507d5b7f6d295b8845022261594c3b927",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v1/S-fadrozole-CYP11B2/result.json",
+      "sha256": "b55efecc5cd36a7646dad56d2225e9e3eac58b34b8da7ec9b6a27989a3d40295",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/R-fadrozole-CYP11B1/result.json",
+      "sha256": "1f36cf814e90f08931a07a30d6c8384062f1866bee84979078aa84de9ea47c3c",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/R-fadrozole-CYP11B2/result.json",
+      "sha256": "12050b9c021412036106d0b2aaf9b1834817e447e33b18318b2429089e0802cb",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/S-fadrozole-CYP11B1/result.json",
+      "sha256": "d92589f4b815cd823ea9c3fec3bfc6924e64315e3001ea08435a8c9e66630cba",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/demo-v2/S-fadrozole-CYP11B2/result.json",
+      "sha256": "03bf7be8760077046a5107187ff3fbfcb04776a4a2bd45955c9482f04a348d31",
+      "status": "synthetic_demo",
+      "classification": "Synthetic software test"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "fcfbd5e0bd77dff9f85784a3f357c446341ad44d4fc176a0ebe622604d1d3630",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B1/cluster_water/result.json",
+      "sha256": "959a6d374d03df57588a9057eac1a4e79fadd64cc2f6fa6acd4f6d89fb13b167",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B1/free_ligand/result.json",
+      "sha256": "67edb55d20ea852c7a046ad8b6079f5a564356b1c103b6b96182d43984f63b33",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B1/free_water/result.json",
+      "sha256": "f45fae8822b87554295f18c13b9974e2c148e86bf5b6d174fec182cf3ec14ee1",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "b1bdf4cd26dad01079ad4a761155f08688e7762a1638f70e3dfa5ddb39b50c46",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B2/cluster_water/result.json",
+      "sha256": "6718813b3ed448709a2e9bf359bfa9ff8f769229a0ac37ba55b58af7005b1aeb",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B2/free_ligand/result.json",
+      "sha256": "ea1476ebd2bff2d3742ec34b6cc094df7d009137a12d85b0a2a83a748adf7dea",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/CYP11B2/free_water/result.json",
+      "sha256": "367e74ca3f8ea207845f2251fb09f44abd3a97a7189eca7cb0313880eba95105",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pilot-v1-01/result.json",
+      "sha256": "5afe6807761a34b8bc4942cc98992686962ecf727757a8c9a10852c593f5a0cb",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "15c3b45d0cbce3048e15768c0c17e1ab784be37327a47a804bcde617283df68e",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B1/cluster_water/result.json",
+      "sha256": "b0d55973ce061b26f0291030260c6df64125553139b4ae8973d88e625e1af5ec",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B1/free_ligand/result.json",
+      "sha256": "c03712c77ed2660600942f4458bfc28b386a9e38e4848927864844ba292d7bed",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B1/free_water/result.json",
+      "sha256": "524629c42cb84d593cad27238bd078ccb8117e6e3c7e051fc7f56053d1af3591",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "8abc3072cc46ab5ae4f9a033e6cb08e6e583ccc696678707a0a03df342c6702e",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B2/cluster_water/result.json",
+      "sha256": "7cee06a600bb6d19f2c2f2517cdb74b97df883bb0aa1e059f6e1ad2896994b78",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B2/free_ligand/result.json",
+      "sha256": "55ea9ca6acf779f37f337836021a8de400560bbf2f36d43e85c317886b285314",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/CYP11B2/free_water/result.json",
+      "sha256": "28eff211e51f5815dc3c56182d4a74fb24a921dacc3c9b97de2b19d4ec14f1d0",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus10-01/result.json",
+      "sha256": "fecb805530fbbfcbe789eeb1f095cff81f0dc4603008a473b3a91830919be6d0",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "48ab27856dafba2f43af176e8132507f71e8e783ae07f96d2f271fe608cec3cd",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B1/cluster_water/result.json",
+      "sha256": "7b761f0ca5bbc3dec7aa65589ce622ca912ee4fc6bd7ff8ae88fa16911f23452",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B1/free_ligand/result.json",
+      "sha256": "3644284e27e8d8cc67ca238778d0111242e73ddbc856fa9f7d8c7c0e0db1e665",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B1/free_water/result.json",
+      "sha256": "0df2dd60927810e4a85858aff084f9509dcf8c688eb41c8c01c8d57263ebf16c",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "0cf4f945b1bb15ffc75a4ba580fc51c8ca37c2ac2fa85cb6400b66352e73d892",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B2/cluster_water/result.json",
+      "sha256": "51d7ff5c8bb137e0856be45afec401e7aaf0847ad55e82da7ef50e7ebd50b0ac",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B2/free_ligand/result.json",
+      "sha256": "66b934b1858c30e963d3a555e1e6cafccd57a26d3f0a552123690ec5f9721069",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/CYP11B2/free_water/result.json",
+      "sha256": "73c0de2a703418a27d52f565ff1fd399eec3a661619373583fa451e9bd60ee28",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-minus5-01/result.json",
+      "sha256": "c89767e56fd8df62ff0cd49afd93c5986c70b3ceaf3f3a45ebcf81443e5800f9",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "66455950117777f67c1de0ff8be5dcd102d9de553afaa7d5defc7dc7becf9f65",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B1/cluster_water/result.json",
+      "sha256": "80dd725932dc127c801228f5ef162d3068ff168ea6524f5f8f9576508f568fe6",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B1/free_ligand/result.json",
+      "sha256": "ad7a66bc679c75bb611f12ce37e507aae7952845661b317d2f11b75017891b1d",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B1/free_water/result.json",
+      "sha256": "8b4314bdf7b67a34f01a6951747a4ed9f6850251d9bc51470e404ddfdc9c17e7",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "65489fe728649da8ab61fe500285013e29ef63661bd4bf2eb37d12065801d798",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B2/cluster_water/result.json",
+      "sha256": "945bdb1bd4947dd3523ad62fe01d686247e95fccf4d3d8cedf549bc1c20f9086",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B2/free_ligand/result.json",
+      "sha256": "68de2f7aed1f575b192c9222d84384d4c831fc6329a04440f081438b86dfc3db",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/CYP11B2/free_water/result.json",
+      "sha256": "784775259b0d500a216be74a6182bcf548848a7ef7e8eea4981732acc646be2f",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus10-01/result.json",
+      "sha256": "935ebfb6aefaa56a9fb0f36d3a052a7306360b197fda64849eb184320b8b55f3",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "4e03885d26fe20fbeb6c47723b4d7b6b9d9bcd00422bd36dbfa7ffeee59afc77",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B1/cluster_water/result.json",
+      "sha256": "6b5e380d85dad0ebe0221347fcbdc5f88b52893a41cba3301fd29bdbc6a7b0a3",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B1/free_ligand/result.json",
+      "sha256": "7072660a5878ac2eddd150ae292bdc4b1b857ee53bd2f055ab9ed40c3d4fec7e",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B1/free_water/result.json",
+      "sha256": "73c0de2a703418a27d52f565ff1fd399eec3a661619373583fa451e9bd60ee28",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "96b756131af41bd8685062bfbc000040c83de7ac80ab12f0e4b4f6317f169bd6",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B2/cluster_water/result.json",
+      "sha256": "dc0eaa7c81ca0d9005c21d435b5e416c197add20f3cd8cfeaf3952767b7fa938",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B2/free_ligand/result.json",
+      "sha256": "d59fd1f19ca3b35c8dc7e3f79f24e6dbb279053d9c8576188c5d146506916232",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/CYP11B2/free_water/result.json",
+      "sha256": "5dec15837c70d580adc874daa8d004825cba5872ff99f61f693fe848ad209909",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-R-pose-plus5-01/result.json",
+      "sha256": "7a5a1a8a6a69d38c9c36571bdbd908ffebbdde8cf668ab01c798755eda0a2ad2",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-R-fadrozole-01/result.json",
+      "sha256": "58fd029c7e7e8ce871e5728f791e80ab2dd20e52a727dc26517af8ce80cf4356",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-S-fadrozole-01/result.json",
+      "sha256": "9579720250bcb593045a873c0db87a4709f1086b92e3e9bb30ae0697f8475a8d",
+      "status": "unresolved",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-S-fadrozole-bfgs-01/result.json",
+      "sha256": "b326b48691c3c79a28a1171a25fa3cbc8ee38dffb41c86398cf20fc6a3462b53",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-free-water-01/result.json",
+      "sha256": "e65a95137abcf906de153aeeb9bc821d430f0f927da8bb9883cbdf9571009f4e",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "712ffb1943975c0a4ffb3b71961a6139afcd99cfd8a8bf0240340ab07b1b075d",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/cluster_water/result.json",
+      "sha256": "077ae9bc3f19da1a004abb2bcbd43d33590710e3b21cd923b64deaa36001a174",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/free_ligand/result.json",
+      "sha256": "be5beaace6c161503170533c37451b518b041f3578ae822c27eff221fb440b8d",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B1/free_water/result.json",
+      "sha256": "5f1785c6e3ec43ab639c1a4a4e49a9c8e69478f0e42c70df0ee460964bae9567",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "8e2f7d49a2f95e35d4234cd749152c74eaa5b2c0221a6462debbc6a2e69663ec",
+      "status": "failed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B2/cluster_water/result.json",
+      "sha256": "64bb97dd8170866ab0763a441f993d9b59341ca6809f072efdf37d1800f6a153",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B2/free_ligand/result.json",
+      "sha256": "1a40b487392c4849ec42cd539b6846cc68d7c5a1bf6c94f898bb824187d4a3e2",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/CYP11B2/free_water/result.json",
+      "sha256": "eaf2f2f400c0a97ec61177295162d36e4f3c9adaf7a02250b35845cdc3920ee2",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-01/result.json",
+      "sha256": "27987fea6b9b287c9e11cb36ec8b9fd8512d7026f0eab57a843912793479c33a",
+      "status": "unresolved",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B1/cluster_ligand/result.json",
+      "sha256": "d75964bb7e44b938b52ffd6c2e9cb654aa4bcffa2015f2dc4bea5af2be93d63a",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B1/cluster_water/result.json",
+      "sha256": "4a0d72a2f45f0fd46e5cf6b8d014050a8fb0e3ad98da6048147cd1b57a2e3e61",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B1/free_ligand/result.json",
+      "sha256": "8c68085c7ced53338510740dbd0ea02ac1f4db88d22133d6e9c859db6ec3da20",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B1/free_water/result.json",
+      "sha256": "5b26cb25935bfe4cad141a7ef68268689c49a00e01f922084d143888c20c4c27",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B2/cluster_ligand/result.json",
+      "sha256": "dda0c7752278b80433e05d436ab3040d1fac50dc3a2335d0160b0912b464eaf3",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B2/cluster_water/result.json",
+      "sha256": "a984a590f50267b036cced15cfdc0de84787e8bdd9f458385f2d427f1e04146d",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B2/free_ligand/result.json",
+      "sha256": "f2da8563ec0f6e531abe856f76d8bdf8019469245ef09976a780c1f2922b4ed8",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/CYP11B2/free_water/result.json",
+      "sha256": "f284fb459318150b8a81770964f8c0118ba95e3169b92accd6b7957923dc4f7a",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pilot-v1-02/result.json",
+      "sha256": "66084706df1886fef0e9cbe3530f7c7d9ec31f39bb46ee787b052609604273ab",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "6d130c33750b32fce2fa78ffac72c1f60a4799f96731134eb64329041a15a4a0",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B1/cluster_water/result.json",
+      "sha256": "49055e2748d5cc4ad423c95c9503da35aa45d638a3a142af2c305786e55b6dfe",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B1/free_ligand/result.json",
+      "sha256": "145772a1aff30560c93a8f08d5c0a5bc211126a2c9e6ccf1ae1a795195afa841",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B1/free_water/result.json",
+      "sha256": "5b26cb25935bfe4cad141a7ef68268689c49a00e01f922084d143888c20c4c27",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "0653c314d87b80ed5936348cff69c117b31ab6a03d536645184b4b99887840e7",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B2/cluster_water/result.json",
+      "sha256": "b50c024a35a4a3b3ab4cc8d33ae80e718f975d0466689a6fe234a2f67ba7c992",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B2/free_ligand/result.json",
+      "sha256": "17297da3a0eb883fb4e73ee095e09cd22417a7ef529519bece9055ad84c458d9",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/CYP11B2/free_water/result.json",
+      "sha256": "f45fae8822b87554295f18c13b9974e2c148e86bf5b6d174fec182cf3ec14ee1",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-minus15-01/result.json",
+      "sha256": "4a86a820662ff7d710b94db2c799258e0a83b802129e9d26d75c6a0ccf48658e",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B1/cluster_ligand/result.json",
+      "sha256": "c0becf7fe979649e5a1e425c8d6fbad3649fba1c7f3a7debafd5cecaabf5de12",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B1/cluster_water/result.json",
+      "sha256": "407a5d7199f9324ebea8273afbe4976aab2515f387e0bd1608ffaf855901fbe7",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B1/free_ligand/result.json",
+      "sha256": "104f02c832f373360ba68a3cde893a7f14ded708a6b8ac2abbd6ccdd4da9ca87",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B1/free_water/result.json",
+      "sha256": "5b26cb25935bfe4cad141a7ef68268689c49a00e01f922084d143888c20c4c27",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B2/cluster_ligand/result.json",
+      "sha256": "8e2f7d49a2f95e35d4234cd749152c74eaa5b2c0221a6462debbc6a2e69663ec",
+      "status": "failed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B2/cluster_water/result.json",
+      "sha256": "dd9f0cc3687c720f8221fc8c53d5b47cbf147b918d6cd4af43309fb47b8edf0b",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B2/free_ligand/result.json",
+      "sha256": "13416919a6b8c300355f131dbe9b050b897121001ffa2066500d0c11c5102fa7",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/CYP11B2/free_water/result.json",
+      "sha256": "5b26cb25935bfe4cad141a7ef68268689c49a00e01f922084d143888c20c4c27",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-01/result.json",
+      "sha256": "371b66fd38b336a1f8cd384c4fd6ad04789e9638f42f7a838c3352ad3dcf2700",
+      "status": "unresolved",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B1/cluster_ligand/result.json",
+      "sha256": "648f29a0fa47f8cadc7bb4d6b3080dbc4a1975224ac3a8bbe006484aa6b727a2",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B1/cluster_water/result.json",
+      "sha256": "d5906cb283460db9f616255b8526895557780c76d4b63a965b34747ef4be8da3",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B1/free_ligand/result.json",
+      "sha256": "369f9c737d760fdf003c238fea061bad783bbb9b27d61af5c45a35faeae67ce4",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B1/free_water/result.json",
+      "sha256": "5b26cb25935bfe4cad141a7ef68268689c49a00e01f922084d143888c20c4c27",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B2/cluster_ligand/result.json",
+      "sha256": "711ca5cf8f6e7fa084106f3134661964473a6e296ebada4b519e9f90816a1692",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B2/cluster_water/result.json",
+      "sha256": "e16f7aada1760d40c8fc18b1974eb7350221b7929ada0308db45d6e14b3a3478",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B2/free_ligand/result.json",
+      "sha256": "e87bdebd9395ae9ad4e5d150559027eeeefee06c2b541074b49e812d20bdf81a",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/CYP11B2/free_water/result.json",
+      "sha256": "784775259b0d500a216be74a6182bcf548848a7ef7e8eea4981732acc646be2f",
+      "status": "completed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/exchange-pose-plus15-02/result.json",
+      "sha256": "a3ecca2158516dac3e5854fcf6c3f2409caaf3bb0f7065554788c592f49e2db8",
+      "status": "exploratory",
+      "classification": "Exchange candidate; import explicitly with --uma-result after validation"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/provisional-6M7X-S-fadrozole-charge1/result.json",
+      "sha256": "3e2446b0301a9fef0ae26186b40a66ae21f637621ae63575c15e652965d911fa",
+      "status": "failed",
+      "classification": "Legacy deformation calculation, outside the current exchange benchmark"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/provisional-6M7X-S-fadrozole-v2/result.json",
+      "sha256": "9090bc8ab4342eebdef4f97eb5fd521e56bcea9fde01e3d01e091ee8bb2c03a5",
+      "status": "failed",
+      "classification": "Legacy deformation calculation, outside the current exchange benchmark"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/provisional-6M7X-S-fadrozole/result.json",
+      "sha256": "1ec312bc3ab09c341a6591c6cd2cddd172c966f51ef6fadab0b9043bf8da63e5",
+      "status": "failed",
+      "classification": "Legacy deformation calculation, outside the current exchange benchmark"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/uma-cpu-smoke-01/result.json",
+      "sha256": "7b8b12aac2a3bcf08e53ca26da09d2cedfc4ce0bc66d0e16ec437eded27871af",
+      "status": "failed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/uma-water-01/result.json",
+      "sha256": "330928e2b6ea96af094c94730a4f865f4d207fbd665a7e9993f66f37c3e72724",
+      "status": "passed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    },
+    {
+      "path": "/home/ubuntu/HackProject/runs/uma-water-02/result.json",
+      "sha256": "25edc029bd0173bbd8f11006a8a09ab10afac5e7a53957c4c861541cb06c1ae7",
+      "status": "passed",
+      "classification": "Component or diagnostic result; not paired selectivity"
+    }
+  ]
+}

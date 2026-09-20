@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scope": "Curated research panels, not proteome-wide target discovery.",
+  "provenance": "Expanded from configs/selectivity-sentinel-cyp11b2.json; targets are suggestions for counter-screening, not predicted binders.",
+  "targets": {
+    "CYP11B2": {"label": "CYP11B2", "family": "P450", "reason": "Intended target in the original aldosterone-synthase pilot."},
+    "CYP11B1": {"label": "CYP11B1", "family": "P450", "reason": "Close CYP11B2 paralog and the original mandatory counter-screen."},
+    "CYP11A1": {"label": "CYP11A1", "family": "P450", "reason": "Related mitochondrial steroidogenic P450; its own preparation protocol is needed."},
+    "CYP17A1": {"label": "CYP17A1", "family": "P450", "reason": "Additional steroidogenic P450 counter-screen; not assessed by the current models."},
+    "CYP19A1": {"label": "CYP19A1", "family": "P450", "reason": "Aromatase counter-screen; not assessed by the current models."}
+  },
+  "panels": {
+    "steroidogenic_p450": {
+      "label": "Steroidogenic P450 · 5 proteins",
+      "targets": ["CYP11B2", "CYP11B1", "CYP11A1", "CYP17A1", "CYP19A1"]
+    },
+    "cyp11_pair": {"label": "Original CYP11B2 / CYP11B1 pair", "targets": ["CYP11B2", "CYP11B1"]}
+  }
+}

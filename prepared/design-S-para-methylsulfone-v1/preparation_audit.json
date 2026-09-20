@@ -1,0 +1,20 @@
+{
+  "candidate_id": "S-para-methylsulfone",
+  "canonical_smiles": "CS(=O)(=O)c1ccc([C@@H]2CCCc3cncn32)cc1",
+  "common_heavy_atoms": 15,
+  "formal_charge": 0,
+  "poses": {
+    "CYP11B1": {
+      "mapped_pose_RMSD_A": 0.0,
+      "minimum_ligand_scaffold_heavy_distance_A": 2.444582155513161,
+      "atoms": 35,
+      "coordination_donor": "ligand_N06"
+    },
+    "CYP11B2": {
+      "mapped_pose_RMSD_A": 0.0,
+      "minimum_ligand_scaffold_heavy_distance_A": 2.001501410494033,
+      "atoms": 35,
+      "coordination_donor": "ligand_N06"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>IsoForm · Demo recording stage</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;font-family:Arial,sans-serif;color:#eef1ff;background:#101526}
+body{background:radial-gradient(ellipse at 10% 10%,#26264e,transparent 52%),radial-gradient(ellipse at 100% 100%,#16303a,transparent 52%),#101526}
+.top{position:absolute;top:39px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center}.brand{display:flex;align-items:center;gap:17px;font-size:30px;font-weight:700;letter-spacing:-1px}.mark{width:37px;height:39px;display:flex;gap:5px;transform:rotate(-25deg)}.mark i{display:block;width:9px;height:30px;border-radius:6px;background:#8885ff}.mark i:nth-child(2){margin-top:9px;background:#6663f3}.mark i:nth-child(3){background:#c2bdff}.brand small{font-size:15px;letter-spacing:0;font-weight:400;color:#9ca9c5;border-left:1px solid #495069;padding-left:20px;margin-left:12px}.status{font-size:13px;letter-spacing:1.6px;text-transform:uppercase;background:#222a43;border:1px solid #39415b;border-radius:50px;padding:13px 19px;display:flex;align-items:center;gap:10px}.status i{width:7px;height:7px;border-radius:50%;background:#73d6b7}.scene-title{position:absolute;top:93px;left:80px;font-size:30px;font-weight:500;letter-spacing:-.6px;line-height:1.15;margin:0}
+.browser{position:absolute;left:80px;top:151px;width:1760px;height:813px;overflow:hidden;border-radius:17px;background:#f6f7fb;border:1px solid #ffffff30;box-shadow:0 25px 80px #0005}.chrome{height:39px;display:flex;align-items:center;gap:7px;background:#edf0f7;border-bottom:1px solid #e0e4ef;padding:0 15px;color:#9aa2b2;font-size:11px}.chrome i{width:8px;height:8px;border-radius:50%;background:#c4ccdc}.chrome span{position:absolute;left:50%;transform:translateX(-50%);font-size:12px;letter-spacing:.4px;color:#8793a8}.chrome b{margin-left:auto;color:#73839c;font-size:11px;font-weight:400}iframe{border:0;display:block;width:1600px;height:704px;transform:scale(1.1);transform-origin:top left;background:#f6f7fb}
+.bottom{position:absolute;top:985px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;gap:20px}.caption{font-size:21px;color:#d4dcf1;letter-spacing:-.2px;line-height:1.45;max-width:1390px}.chapter{display:flex;gap:8px}.chapter i{display:block;width:24px;height:4px;border-radius:4px;background:#363f58}.chapter i.active{width:43px;background:#9995ff}.chapter i.done{background:#747b99}
+.cover{position:absolute;inset:0;z-index:20;background:radial-gradient(ellipse at 85% 30%,#32305b66,transparent 50%),linear-gradient(115deg,#11182afc,#11182ae8);display:flex;align-items:center;padding:110px;opacity:0;pointer-events:none;transition:opacity .6s}.cover.visible{opacity:1}.cover .eyebrow{font-size:16px;color:#b5b1ff;letter-spacing:4px;text-transform:uppercase;margin-bottom:31px}.cover h1{font-size:106px;letter-spacing:-5px;font-weight:600;line-height:1.05;margin:0 0 30px}.cover p{font-size:29px;line-height:1.6;color:#b6c4dd;margin:0;max-width:1160px}.cover .small{font-size:19px;color:#8d9bb5;margin-top:43px;letter-spacing:.3px}.cover .pills{display:flex;gap:16px;margin-top:40px}.cover .pills span{font-size:18px;color:#d0d8ee;padding:15px 22px;border:1px solid #515974;border-radius:40px;background:#ffffff05}.orb{position:absolute;width:600px;height:600px;right:-100px;bottom:-120px;border:1px solid #8b83d955;border-radius:50%;box-shadow:0 0 0 60px #9690ff08,0 0 0 120px #9690ff05;transform:rotate(-28deg)}.orb:before{content:'';position:absolute;inset:100px -100px;border:1px solid #8b83d966;border-radius:50%}.orb:after{content:'';position:absolute;left:58px;top:91px;background:#a39bff;width:15px;height:15px;border-radius:50%;box-shadow:0 0 30px #a39bff99}.cover .content{position:relative;z-index:1}
+#cursor{position:absolute;z-index:15;width:20px;height:20px;border:3px solid #6b61f3;border-radius:50%;background:#eeecffaa;box-shadow:0 0 0 7px #8980ff22;pointer-events:none;opacity:0;transform:translate(-50%,-50%);transition:left .45s ease,top .45s ease,opacity .2s}#cursor.click{background:#6b61f3;box-shadow:0 0 0 15px #8980ff33}
+</style>
+</head>
+<body>
+<div class="top"><div class="brand"><span class="mark"><i></i><i></i><i></i></span>IsoForm<small>Molecular counter-screen</small></div><div class="status"><i></i><span id="badge">Research workflow</span></div></div>
+<h2 class="scene-title" id="title">One molecule. Two pockets.</h2>
+<div class="browser"><div class="chrome"><i></i><i></i><i></i><span>IsoForm / Research preview</span><b>Actual application capture</b></div><iframe id="app" src="/demo.html"></iframe></div>
+<div class="bottom"><div class="caption" id="caption">Explore computationally. Validate experimentally.</div><div class="chapter" id="chapters"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+<div class="cover visible" id="cover"><div class="content"><div class="eyebrow" id="coverEyebrow">IsoForm / Research preview</div><h1 id="coverTitle">A second look<br>at binding.</h1><p id="coverText">Compare protein pockets. Follow real model calculations.<br>Choose the next experiment.</p><div class="pills" id="coverPills"><span>Interactive 3D</span><span>Live UMA</span><span>Evidence checks</span></div><div class="small" id="coverSmall">A real workflow · Waiting accelerated · Experimental validation required</div></div><div class="orb"></div></div>
+<div id="cursor"></div>
+<script>
+window.setScene = ({title,caption,badge,chapter}) => {
+  document.querySelector('#title').textContent=title;
+  document.querySelector('#caption').textContent=caption;
+  document.querySelector('#badge').textContent=badge;
+  document.querySelectorAll('#chapters i').forEach((n,i)=>n.className=i===chapter?'active':i<chapter?'done':'');
+};
+window.setCover = visible => document.querySelector('#cover').classList.toggle('visible',visible);
+window.point = (x,y,click=false) => {const c=document.querySelector('#cursor');c.style.left=x+'px';c.style.top=y+'px';c.style.opacity=1;c.classList.toggle('click',click);};
+window.hidePointer = () => document.querySelector('#cursor').style.opacity=0;
+</script>
+</body>
+</html>

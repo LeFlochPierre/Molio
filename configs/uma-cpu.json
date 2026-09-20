@@ -1,0 +1,10 @@
+{
+  "kind": "uma",
+  "model_name": "uma-s-1p2p1",
+  "checkpoint": "models/uma-s-1p2p1.pt",
+  "device": "cpu",
+  "task": "omol",
+  "inference_settings": "batch",
+  "threads": 2,
+  "max_atoms": 256
+}

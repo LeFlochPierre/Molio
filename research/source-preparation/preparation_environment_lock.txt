@@ -1,0 +1,21 @@
+numpy==2.5.3
+nvidia-cuda-crt==13.4.92
+nvidia-cuda-cupti==13.4.92
+nvidia-cuda-cupti-cu12==12.9.79
+nvidia-cuda-nvcc==13.4.92
+nvidia-cuda-nvcc-cu12==12.9.86
+nvidia-cuda-nvrtc==13.4.92
+nvidia-cuda-nvrtc-cu12==12.9.86
+nvidia-cuda-runtime==13.4.92
+nvidia-cuda-runtime-cu12==12.9.79
+nvidia-cufft==12.4.0.43
+nvidia-cufft-cu12==11.4.1.4
+nvidia-nvjitlink==13.4.92
+nvidia-nvjitlink-cu12==12.9.86
+nvidia-nvvm==13.4.92
+OpenMM==8.6.1
+OpenMM-CUDA-12==8.6.1
+pdbfixer @ https://github.com/openmm/pdbfixer/archive/refs/tags/v1.12.tar.gz#sha256=a5c0b05dfaf2cdcad3b8ffc9ee1e6a955628aade0dda653da04d4a12ba4fe3ec
+pillow==12.3.0
+rdkit==2026.3.6
+scipy==1.18.1

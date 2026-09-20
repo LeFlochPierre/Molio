@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "kind": "uma_pocket_batch",
+  "label": "My prepared pockets",
+  "systems": [
+    {
+      "id": "target_1",
+      "protein_id": "YOUR_TARGET",
+      "ligand": "YOUR_MOLECULE",
+      "source": "",
+      "preparation": "",
+      "review": {"approved": false, "provisional": false, "reviewer": ""},
+      "atoms": [],
+      "ligand_atom_ids": [],
+      "state": {"charge": null, "multiplicity": null, "convention": ""},
+      "coordination": [],
+      "covalent_bounds": [],
+      "chirality_checks": []
+    }
+  ]
+}

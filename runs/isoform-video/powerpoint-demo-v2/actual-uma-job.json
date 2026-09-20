@@ -1,0 +1,167 @@
+{
+  "id": "0edea703248e",
+  "state": "completed",
+  "preset": "r_fadrozole",
+  "label": "R-fadrozole \u00b7 CYP11B2 / CYP11B1 prepared pair",
+  "exit_code": 0,
+  "elapsed_seconds": 163.0,
+  "result": {
+    "descriptor": "ligand_water_exchange_eV",
+    "ligand": "R-fadrozole",
+    "geometry_mode": "single_point",
+    "input_sha256": "17a9bfebd3828c2ec986506f3b4a1663c8e0302182d4d48262f7791a83dcfd12",
+    "backend": {
+      "name": "uma-s-1p1",
+      "version": "2.22.0",
+      "packages": {
+        "fairchem-core": "2.22.0",
+        "torch": "2.13.0",
+        "ase": "3.29.0",
+        "huggingface-hub": "1.32.0"
+      },
+      "checkpoint_sha256": "07068e9c76702ca173d13155095f2117c1b327ec228557e64cd2709c777b824a",
+      "task": "omol",
+      "inference_settings": "batch",
+      "device": "cpu",
+      "threads": 4,
+      "synthetic": false,
+      "physical_energy_only": true,
+      "state_handling": "ASE atoms.info charge=integer charge, spin=spin multiplicity",
+      "energy_convention": "Raw UMA OMol total energy, identical atoms in both descriptor terms"
+    },
+    "status": "exploratory",
+    "provisional": true,
+    "synthetic": false,
+    "formula": "cluster_ligand + free_water - cluster_water - free_ligand",
+    "sign_convention": "delta = exchange(CYP11B2) - exchange(CYP11B1); negative favors B2 in this energy model",
+    "interpretation": "Potential-energy exchange descriptor; not a binding free energy or measured selectivity.",
+    "enzymes": {
+      "CYP11B1": {
+        "components": {
+          "cluster_ligand": {
+            "status": "completed",
+            "energy_eV": -324486.24703833763
+          },
+          "free_water": {
+            "status": "completed",
+            "energy_eV": -2079.865051081796
+          },
+          "cluster_water": {
+            "status": "completed",
+            "energy_eV": -307374.770301246
+          },
+          "free_ligand": {
+            "status": "completed",
+            "energy_eV": -19199.578750435187
+          }
+        },
+        "exchange_energy_eV": 8.236962261781628
+      },
+      "CYP11B2": {
+        "components": {
+          "cluster_ligand": {
+            "status": "completed",
+            "energy_eV": -324492.1777867103
+          },
+          "free_water": {
+            "status": "completed",
+            "energy_eV": -2079.8650510446882
+          },
+          "cluster_water": {
+            "status": "completed",
+            "energy_eV": -307371.1165600904
+          },
+          "free_ligand": {
+            "status": "completed",
+            "energy_eV": -19199.578750648554
+          }
+        },
+        "exchange_energy_eV": -1.3475270160656692
+      }
+    },
+    "delta_B2_minus_B1_eV": -9.584489277847297,
+    "reasons": [],
+    "energy_model_preference": "CYP11B2",
+    "preference_summary": {
+      "status": "energy_direction_only",
+      "preferred_in_energy_model": "CYP11B2",
+      "delta_B2_minus_B1_eV": -9.584489277847297,
+      "energy_gap_eV": 9.584489277847297,
+      "fold_selectivity": null,
+      "fold_status": "not_identifiable_from_potential_energy",
+      "headline": "UMA exchange favors CYP11B2",
+      "scope": "Direction for this prepared exchange calculation only; not a binding or selectivity verdict. Robustness across poses/states has not been established.",
+      "why_no_fold": "An equilibrium fold ratio requires a binding free-energy difference and temperature. This UMA exchange potential energy omits the required thermodynamic sampling / contributions; exponentiating it or dividing total energies does not yield selectivity.",
+      "thermodynamics_reference": "https://goldbook.iupac.org/terms/view/S05915",
+      "energy_fold_proxy": {
+        "status": "hypothetical_energy_proxy",
+        "label": "Hypothetical energy-fold proxy",
+        "temperature_K": 298.15,
+        "boltzmann_constant_eV_per_K": 8.617333262145179e-05,
+        "preferred_in_energy_model": "CYP11B2",
+        "log10_B2_over_B1": 162.01140358905488,
+        "log10_fold_magnitude": 162.01140358905488,
+        "fold_magnitude": 1.0266055056914334e+162,
+        "scientific_notation": "1.03 \u00d7 10^162",
+        "extreme_magnitude": true,
+        "reason": null,
+        "warnings": [
+          "Extreme, unvalidated magnitude: exponentiation amplifies the exchange-energy difference. Do not interpret this number as biological selectivity or confidence."
+        ],
+        "formula": "proxy magnitude = exp(abs(delta_B2_minus_B1_eV)/(k_B*T)); log10(B2/B1) = -delta_B2_minus_B1_eV/(k_B*T*ln(10))",
+        "scope": "Uncalibrated, hypothetical Boltzmann energy proxy only. Not binding selectivity, an affinity/Kd prediction, or an equilibrium population ratio. Potential energy has not been established as binding free energy; experimental cross-checks and thermodynamic validation are required.",
+        "references": {
+          "boltzmann_constant": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+          "free_energy_requirement": "https://goldbook.iupac.org/terms/view/S05915"
+        }
+      }
+    }
+  },
+  "kind": "exchange",
+  "total_components": 8,
+  "log": [
+    "    }",
+    "  },",
+    "  \"delta_B2_minus_B1_eV\": -9.584489277847297,",
+    "  \"reasons\": [],",
+    "  \"energy_model_preference\": \"CYP11B2\",",
+    "  \"preference_summary\": {",
+    "    \"status\": \"energy_direction_only\",",
+    "    \"preferred_in_energy_model\": \"CYP11B2\",",
+    "    \"delta_B2_minus_B1_eV\": -9.584489277847297,",
+    "    \"energy_gap_eV\": 9.584489277847297,",
+    "    \"fold_selectivity\": null,",
+    "    \"fold_status\": \"not_identifiable_from_potential_energy\",",
+    "    \"headline\": \"UMA exchange favors CYP11B2\",",
+    "    \"scope\": \"Direction for this prepared exchange calculation only; not a binding or selectivity verdict. Robustness across poses/states has not been established.\",",
+    "    \"why_no_fold\": \"An equilibrium fold ratio requires a binding free-energy difference and temperature. This UMA exchange potential energy omits the required thermodynamic sampling / contributions; exponentiating it or dividing total energies does not yield selectivity.\",",
+    "    \"thermodynamics_reference\": \"https://goldbook.iupac.org/terms/view/S05915\",",
+    "    \"energy_fold_proxy\": {",
+    "      \"status\": \"hypothetical_energy_proxy\",",
+    "      \"label\": \"Hypothetical energy-fold proxy\",",
+    "      \"temperature_K\": 298.15,",
+    "      \"boltzmann_constant_eV_per_K\": 8.617333262145179e-05,",
+    "      \"preferred_in_energy_model\": \"CYP11B2\",",
+    "      \"log10_B2_over_B1\": 162.01140358905488,",
+    "      \"log10_fold_magnitude\": 162.01140358905488,",
+    "      \"fold_magnitude\": 1.0266055056914334e+162,",
+    "      \"scientific_notation\": \"1.03 \\u00d7 10^162\",",
+    "      \"extreme_magnitude\": true,",
+    "      \"reason\": null,",
+    "      \"warnings\": [",
+    "        \"Extreme, unvalidated magnitude: exponentiation amplifies the exchange-energy difference. Do not interpret this number as biological selectivity or confidence.\"",
+    "      ],",
+    "      \"formula\": \"proxy magnitude = exp(abs(delta_B2_minus_B1_eV)/(k_B*T)); log10(B2/B1) = -delta_B2_minus_B1_eV/(k_B*T*ln(10))\",",
+    "      \"scope\": \"Uncalibrated, hypothetical Boltzmann energy proxy only. Not binding selectivity, an affinity/Kd prediction, or an equilibrium population ratio. Potential energy has not been established as binding free energy; experimental cross-checks and thermodynamic validation are required.\",",
+    "      \"references\": {",
+    "        \"boltzmann_constant\": \"https://physics.nist.gov/cuu/Constants/Table/allascii.txt\",",
+    "        \"free_energy_requirement\": \"https://goldbook.iupac.org/terms/view/S05915\"",
+    "      }",
+    "    }",
+    "  }",
+    "}"
+  ],
+  "output_directory": "runs/selectivity-sentinel-web-jobs/0edea703248e",
+  "input_manifest": "runs/selectivity-sentinel-web-inputs/0edea703248e.json",
+  "scope": "Real UMA calculation on supplied prepared coordinates. Exploratory potential energy, not binding affinity or selectivity validation."
+}

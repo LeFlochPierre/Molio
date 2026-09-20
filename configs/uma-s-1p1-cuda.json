@@ -1,0 +1,11 @@
+{
+  "kind": "uma",
+  "model_name": "uma-s-1p1",
+  "checkpoint": "models/uma-s-1p1.pt",
+  "checkpoint_sha256": "07068e9c76702ca173d13155095f2117c1b327ec228557e64cd2709c777b824a",
+  "device": "cuda",
+  "task": "omol",
+  "inference_settings": "batch",
+  "threads": 4,
+  "max_atoms": 1000
+}

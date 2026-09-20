@@ -1,0 +1,2536 @@
+{
+  "schema_version": 1,
+  "system_id": "6M7X-S-fadrozole-CYP11B1-draft",
+  "ligand": "S-fadrozole",
+  "isoform": "CYP11B1",
+  "comparison_group": "fadrozole-cyp11-v1-DRAFT",
+  "pose": {
+    "kind": "experimental",
+    "source": "https://www.rcsb.org/structure/6M7X",
+    "chain": "A",
+    "ligand_code": "JD7"
+  },
+  "review": {
+    "approved": false,
+    "reviewer": "",
+    "date_utc": "",
+    "note": "Automatic coordinate draft; chemistry review required."
+  },
+  "atoms": [
+    {
+      "id": "A_JD7_601_C01",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        52.059,
+        -47.786,
+        -3.943
+      ]
+    },
+    {
+      "id": "A_JD7_601_C02",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        53.115,
+        -46.682,
+        -4.105
+      ]
+    },
+    {
+      "id": "A_JD7_601_C03",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        52.649,
+        -45.202,
+        -4.117
+      ]
+    },
+    {
+      "id": "A_JD7_601_N04",
+      "element": "N",
+      "role": "ligand",
+      "position": [
+        51.597,
+        -45.029,
+        -3.143
+      ]
+    },
+    {
+      "id": "A_JD7_601_C05",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        51.171,
+        -43.812,
+        -2.622
+      ]
+    },
+    {
+      "id": "A_JD7_601_N06",
+      "element": "N",
+      "role": "ligand",
+      "position": [
+        50.169,
+        -44.007,
+        -1.743
+      ]
+    },
+    {
+      "id": "A_JD7_601_C07",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        49.945,
+        -45.385,
+        -1.722
+      ]
+    },
+    {
+      "id": "A_JD7_601_C08",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        50.819,
+        -46.044,
+        -2.58
+      ]
+    },
+    {
+      "id": "A_JD7_601_C09",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        50.975,
+        -47.479,
+        -2.899
+      ]
+    },
+    {
+      "id": "A_JD7_601_C10",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        52.196,
+        -44.755,
+        -5.538
+      ]
+    },
+    {
+      "id": "A_JD7_601_C11",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        53.078,
+        -44.626,
+        -6.62
+      ]
+    },
+    {
+      "id": "A_JD7_601_C12",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        52.671,
+        -44.217,
+        -7.9
+      ]
+    },
+    {
+      "id": "A_JD7_601_C13",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        51.349,
+        -43.899,
+        -8.196
+      ]
+    },
+    {
+      "id": "A_JD7_601_C14",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        50.458,
+        -44.016,
+        -7.131
+      ]
+    },
+    {
+      "id": "A_JD7_601_C15",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        50.867,
+        -44.425,
+        -5.856
+      ]
+    },
+    {
+      "id": "A_JD7_601_C16",
+      "element": "C",
+      "role": "ligand",
+      "position": [
+        50.875,
+        -43.481,
+        -9.462
+      ]
+    },
+    {
+      "id": "A_JD7_601_N17",
+      "element": "N",
+      "role": "ligand",
+      "position": [
+        50.48,
+        -43.135,
+        -10.51
+      ]
+    },
+    {
+      "id": "A_JD7_601_H2",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        52.519,
+        -48.631,
+        -3.834
+      ]
+    },
+    {
+      "id": "A_JD7_601_H1",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        51.631,
+        -47.996,
+        -4.785
+      ]
+    },
+    {
+      "id": "A_JD7_601_H3",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        53.737,
+        -46.741,
+        -3.363
+      ]
+    },
+    {
+      "id": "A_JD7_601_H4",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        53.603,
+        -46.888,
+        -4.917
+      ]
+    },
+    {
+      "id": "A_JD7_601_H5",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        53.403,
+        -44.693,
+        -3.78
+      ]
+    },
+    {
+      "id": "A_JD7_601_H6",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        51.589,
+        -43.027,
+        -2.895
+      ]
+    },
+    {
+      "id": "A_JD7_601_H7",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        49.301,
+        -45.796,
+        -1.194
+      ]
+    },
+    {
+      "id": "A_JD7_601_H9",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        51.067,
+        -47.999,
+        -2.085
+      ]
+    },
+    {
+      "id": "A_JD7_601_H8",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        50.164,
+        -47.922,
+        -3.192
+      ]
+    },
+    {
+      "id": "A_JD7_601_H10",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        53.992,
+        -44.797,
+        -6.603
+      ]
+    },
+    {
+      "id": "A_JD7_601_H11",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        53.356,
+        -44.177,
+        -8.527
+      ]
+    },
+    {
+      "id": "A_JD7_601_H12",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        49.557,
+        -43.821,
+        -7.255
+      ]
+    },
+    {
+      "id": "A_JD7_601_H13",
+      "element": "H",
+      "role": "ligand",
+      "position": [
+        50.143,
+        -44.447,
+        -5.273
+      ]
+    },
+    {
+      "id": "A_HEM_602_CHA",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        46.788,
+        -43.025,
+        -4.432
+      ]
+    },
+    {
+      "id": "A_HEM_602_CHB",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        50.481,
+        -40.083,
+        -3.302
+      ]
+    },
+    {
+      "id": "A_HEM_602_CHC",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        50.345,
+        -41.635,
+        1.282
+      ]
+    },
+    {
+      "id": "A_HEM_602_CHD",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        46.63,
+        -44.538,
+        0.179
+      ]
+    },
+    {
+      "id": "A_HEM_602_C1A",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        47.792,
+        -42.091,
+        -4.528
+      ]
+    },
+    {
+      "id": "A_HEM_602_C2A",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        48.166,
+        -41.358,
+        -5.719
+      ]
+    },
+    {
+      "id": "A_HEM_602_C3A",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        49.18,
+        -40.548,
+        -5.407
+      ]
+    },
+    {
+      "id": "A_HEM_602_C4A",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        49.495,
+        -40.738,
+        -4.007
+      ]
+    },
+    {
+      "id": "A_HEM_602_CMA",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        49.895,
+        -39.578,
+        -6.371
+      ]
+    },
+    {
+      "id": "A_HEM_602_CAA",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        47.497,
+        -41.48,
+        -7.102
+      ]
+    },
+    {
+      "id": "A_HEM_602_CBA",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        46.34,
+        -40.487,
+        -7.149
+      ]
+    },
+    {
+      "id": "A_HEM_602_CGA",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        45.889,
+        -40.276,
+        -8.568
+      ]
+    },
+    {
+      "id": "A_HEM_602_O1A",
+      "element": "O",
+      "role": "heme",
+      "position": [
+        46.177,
+        -41.146,
+        -9.43
+      ]
+    },
+    {
+      "id": "A_HEM_602_O2A",
+      "element": "O",
+      "role": "heme",
+      "position": [
+        45.236,
+        -39.232,
+        -8.833
+      ]
+    },
+    {
+      "id": "A_HEM_602_C1B",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        50.736,
+        -40.201,
+        -1.952
+      ]
+    },
+    {
+      "id": "A_HEM_602_C2B",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        51.665,
+        -39.388,
+        -1.192
+      ]
+    },
+    {
+      "id": "A_HEM_602_C3B",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        51.632,
+        -39.822,
+        0.083
+      ]
+    },
+    {
+      "id": "A_HEM_602_C4B",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        50.676,
+        -40.918,
+        0.15
+      ]
+    },
+    {
+      "id": "A_HEM_602_CMB",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        52.485,
+        -38.257,
+        -1.864
+      ]
+    },
+    {
+      "id": "A_HEM_602_CAB",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        52.394,
+        -39.345,
+        1.349
+      ]
+    },
+    {
+      "id": "A_HEM_602_CBB",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        53.212,
+        -38.288,
+        1.418
+      ]
+    },
+    {
+      "id": "A_HEM_602_C1C",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        49.311,
+        -42.542,
+        1.398
+      ]
+    },
+    {
+      "id": "A_HEM_602_C2C",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        48.884,
+        -43.192,
+        2.624
+      ]
+    },
+    {
+      "id": "A_HEM_602_C3C",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        47.853,
+        -44.002,
+        2.315
+      ]
+    },
+    {
+      "id": "A_HEM_602_C4C",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        47.608,
+        -43.872,
+        0.888
+      ]
+    },
+    {
+      "id": "A_HEM_602_CMC",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        49.585,
+        -42.918,
+        3.976
+      ]
+    },
+    {
+      "id": "A_HEM_602_CAC",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        46.989,
+        -44.942,
+        3.2
+      ]
+    },
+    {
+      "id": "A_HEM_602_CBC",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        47.079,
+        -45.079,
+        4.529
+      ]
+    },
+    {
+      "id": "A_HEM_602_C1D",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        46.35,
+        -44.392,
+        -1.163
+      ]
+    },
+    {
+      "id": "A_HEM_602_C2D",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        45.324,
+        -45.099,
+        -1.905
+      ]
+    },
+    {
+      "id": "A_HEM_602_C3D",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        45.369,
+        -44.681,
+        -3.174
+      ]
+    },
+    {
+      "id": "A_HEM_602_C4D",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        46.423,
+        -43.696,
+        -3.285
+      ]
+    },
+    {
+      "id": "A_HEM_602_CMD",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        44.358,
+        -46.149,
+        -1.316
+      ]
+    },
+    {
+      "id": "A_HEM_602_CAD",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        44.468,
+        -45.148,
+        -4.338
+      ]
+    },
+    {
+      "id": "A_HEM_602_CBD",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        43.313,
+        -44.164,
+        -4.5
+      ]
+    },
+    {
+      "id": "A_HEM_602_CGD",
+      "element": "C",
+      "role": "heme",
+      "position": [
+        42.49,
+        -44.517,
+        -5.711
+      ]
+    },
+    {
+      "id": "A_HEM_602_O1D",
+      "element": "O",
+      "role": "heme",
+      "position": [
+        41.259,
+        -44.263,
+        -5.692
+      ]
+    },
+    {
+      "id": "A_HEM_602_O2D",
+      "element": "O",
+      "role": "heme",
+      "position": [
+        43.058,
+        -45.062,
+        -6.691
+      ]
+    },
+    {
+      "id": "A_HEM_602_NA",
+      "element": "N",
+      "role": "heme",
+      "position": [
+        48.625,
+        -41.687,
+        -3.503
+      ]
+    },
+    {
+      "id": "A_HEM_602_NB",
+      "element": "N",
+      "role": "heme",
+      "position": [
+        50.154,
+        -41.121,
+        -1.108
+      ]
+    },
+    {
+      "id": "A_HEM_602_NC",
+      "element": "N",
+      "role": "heme",
+      "position": [
+        48.515,
+        -42.977,
+        0.36
+      ]
+    },
+    {
+      "id": "A_HEM_602_ND",
+      "element": "N",
+      "role": "heme",
+      "position": [
+        46.998,
+        -43.545,
+        -2.039
+      ]
+    },
+    {
+      "id": "A_HEM_602_FE",
+      "element": "FE",
+      "role": "heme",
+      "position": [
+        48.538,
+        -42.291,
+        -1.571
+      ]
+    },
+    {
+      "id": "A_HEM_602_HHB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        51.066,
+        -39.484,
+        -3.812
+      ]
+    },
+    {
+      "id": "A_HEM_602_HHC",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        50.941,
+        -41.542,
+        2.055
+      ]
+    },
+    {
+      "id": "A_HEM_602_HHD",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        46.105,
+        -45.205,
+        0.669
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        50.268,
+        -40.082,
+        -7.124
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMAA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        50.618,
+        -39.118,
+        -5.897
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMAB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        49.253,
+        -38.918,
+        -6.706
+      ]
+    },
+    {
+      "id": "A_HEM_602_HAA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        47.161,
+        -42.382,
+        -7.226
+      ]
+    },
+    {
+      "id": "A_HEM_602_HAAA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        48.139,
+        -41.27,
+        -7.798
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        46.629,
+        -39.64,
+        -6.775
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBAA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        45.6,
+        -40.832,
+        -6.625
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        52.724,
+        -38.528,
+        -2.764
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMBA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        53.294,
+        -38.089,
+        -1.359
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMBB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        51.949,
+        -37.449,
+        -1.906
+      ]
+    },
+    {
+      "id": "A_HEM_602_HAB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        52.271,
+        -39.854,
+        2.153
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        53.697,
+        -38.113,
+        2.24
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBBA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        53.207,
+        -37.622,
+        0.715
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMC",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        50.533,
+        -42.783,
+        3.822
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMCA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        49.465,
+        -43.673,
+        4.57
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMCB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        49.211,
+        -42.119,
+        4.379
+      ]
+    },
+    {
+      "id": "A_HEM_602_HAC",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        46.331,
+        -45.479,
+        2.753
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBC",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        46.669,
+        -45.843,
+        4.964
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBCA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        47.527,
+        -44.406,
+        5.062
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMD",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        43.712,
+        -46.425,
+        -1.998
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMDA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        43.88,
+        -45.761,
+        -0.554
+      ]
+    },
+    {
+      "id": "A_HEM_602_HMDB",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        44.869,
+        -46.929,
+        -1.015
+      ]
+    },
+    {
+      "id": "A_HEM_602_HAD",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        44.119,
+        -46.033,
+        -4.149
+      ]
+    },
+    {
+      "id": "A_HEM_602_HADA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        44.988,
+        -45.174,
+        -5.156
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBD",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        43.668,
+        -43.267,
+        -4.604
+      ]
+    },
+    {
+      "id": "A_HEM_602_HBDA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        42.751,
+        -44.197,
+        -3.71
+      ]
+    },
+    {
+      "id": "A_HEM_602_HHA",
+      "element": "H",
+      "role": "heme",
+      "position": [
+        46.219,
+        -43.15,
+        -5.22
+      ]
+    },
+    {
+      "id": "A_CYS_450_SG",
+      "element": "S",
+      "role": "axial",
+      "position": [
+        46.949,
+        -40.475,
+        -0.673
+      ]
+    },
+    {
+      "id": "A_ARG_110_CG",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        46.741,
+        -45.019,
+        -12.069
+      ]
+    },
+    {
+      "id": "A_ARG_110_CD",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        46.94,
+        -44.481,
+        -10.656
+      ]
+    },
+    {
+      "id": "A_ARG_110_NE",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        46.441,
+        -45.407,
+        -9.639
+      ]
+    },
+    {
+      "id": "A_ARG_110_CZ",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        45.603,
+        -45.092,
+        -8.652
+      ]
+    },
+    {
+      "id": "A_ARG_110_NH1",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        45.151,
+        -43.853,
+        -8.501
+      ]
+    },
+    {
+      "id": "A_ARG_110_NH2",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        45.224,
+        -46.029,
+        -7.79
+      ]
+    },
+    {
+      "id": "A_ARG_110_HG2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        47.195,
+        -45.874,
+        -12.134
+      ]
+    },
+    {
+      "id": "A_ARG_110_HG3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        47.131,
+        -44.386,
+        -12.691
+      ]
+    },
+    {
+      "id": "A_ARG_110_HD2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        47.888,
+        -44.35,
+        -10.5
+      ]
+    },
+    {
+      "id": "A_ARG_110_HD3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        46.474,
+        -43.636,
+        -10.58
+      ]
+    },
+    {
+      "id": "A_ARG_110_HE",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        46.711,
+        -46.222,
+        -9.682
+      ]
+    },
+    {
+      "id": "A_ARG_110_HH11",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        45.384,
+        -43.232,
+        -9.045
+      ]
+    },
+    {
+      "id": "A_ARG_110_HH12",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        44.613,
+        -43.672,
+        -7.855
+      ]
+    },
+    {
+      "id": "A_LEU_113_CD2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        51.842,
+        -52.026,
+        -7.544
+      ]
+    },
+    {
+      "id": "A_LEU_113_HD21",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        52.733,
+        -52.246,
+        -7.229
+      ]
+    },
+    {
+      "id": "A_LEU_113_HD22",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        51.771,
+        -51.071,
+        -7.698
+      ]
+    },
+    {
+      "id": "A_LEU_113_HD23",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        51.181,
+        -52.306,
+        -6.893
+      ]
+    },
+    {
+      "id": "A_TRP_116_CZ2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        51.701,
+        -52.437,
+        -3.437
+      ]
+    },
+    {
+      "id": "A_TRP_116_CZ3",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.383,
+        -51.787,
+        -3.629
+      ]
+    },
+    {
+      "id": "A_TRP_116_CH2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        50.672,
+        -51.593,
+        -3.119
+      ]
+    },
+    {
+      "id": "A_TRP_116_HZ2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        52.556,
+        -52.305,
+        -3.097
+      ]
+    },
+    {
+      "id": "A_TRP_116_HZ3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        48.705,
+        -51.196,
+        -3.394
+      ]
+    },
+    {
+      "id": "A_TRP_116_HH2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        50.833,
+        -50.874,
+        -2.551
+      ]
+    },
+    {
+      "id": "A_PHE_130_CG",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        46.658,
+        -48.656,
+        -5.121
+      ]
+    },
+    {
+      "id": "A_PHE_130_CD1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        47.134,
+        -47.389,
+        -4.826
+      ]
+    },
+    {
+      "id": "A_PHE_130_CD2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        47.455,
+        -49.51,
+        -5.864
+      ]
+    },
+    {
+      "id": "A_PHE_130_CE1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        48.381,
+        -46.984,
+        -5.262
+      ]
+    },
+    {
+      "id": "A_PHE_130_CE2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        48.703,
+        -49.111,
+        -6.302
+      ]
+    },
+    {
+      "id": "A_PHE_130_CZ",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.166,
+        -47.847,
+        -6.001
+      ]
+    },
+    {
+      "id": "A_PHE_130_HD1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        46.608,
+        -46.804,
+        -4.329
+      ]
+    },
+    {
+      "id": "A_PHE_130_HD2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        47.147,
+        -50.363,
+        -6.07
+      ]
+    },
+    {
+      "id": "A_PHE_130_HE1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        48.692,
+        -46.132,
+        -5.057
+      ]
+    },
+    {
+      "id": "A_PHE_130_HE2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        49.23,
+        -49.694,
+        -6.799
+      ]
+    },
+    {
+      "id": "A_PHE_130_HZ",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        50.006,
+        -47.577,
+        -6.294
+      ]
+    },
+    {
+      "id": "A_PHE_231_CD1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        55.749,
+        -50.862,
+        -1.275
+      ]
+    },
+    {
+      "id": "A_PHE_231_CE1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        55.314,
+        -49.66,
+        -1.8
+      ]
+    },
+    {
+      "id": "A_PHE_231_CE2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        57.573,
+        -49.078,
+        -2.323
+      ]
+    },
+    {
+      "id": "A_PHE_231_CZ",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        56.228,
+        -48.766,
+        -2.324
+      ]
+    },
+    {
+      "id": "A_PHE_231_HD1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.13,
+        -51.461,
+        -0.924
+      ]
+    },
+    {
+      "id": "A_PHE_231_HE1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        54.407,
+        -49.452,
+        -1.799
+      ]
+    },
+    {
+      "id": "A_PHE_231_HE2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        58.19,
+        -48.478,
+        -2.676
+      ]
+    },
+    {
+      "id": "A_PHE_231_HZ",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.938,
+        -47.956,
+        -2.678
+      ]
+    },
+    {
+      "id": "A_GLU_310_O",
+      "element": "O",
+      "role": "pocket",
+      "position": [
+        47.0,
+        -49.325,
+        0.609
+      ]
+    },
+    {
+      "id": "A_ALA_313_CA",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        50.256,
+        -50.772,
+        1.826
+      ]
+    },
+    {
+      "id": "A_ALA_313_C",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        50.536,
+        -49.321,
+        1.468
+      ]
+    },
+    {
+      "id": "A_ALA_313_O",
+      "element": "O",
+      "role": "pocket",
+      "position": [
+        51.677,
+        -48.969,
+        1.147
+      ]
+    },
+    {
+      "id": "A_ALA_313_CB",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.953,
+        -51.58,
+        0.563
+      ]
+    },
+    {
+      "id": "A_ALA_313_HB1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        50.699,
+        -51.497,
+        -0.051
+      ]
+    },
+    {
+      "id": "A_ALA_313_HB3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        49.146,
+        -51.232,
+        0.152
+      ]
+    },
+    {
+      "id": "A_GLY_314_N",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        49.513,
+        -48.466,
+        1.522
+      ]
+    },
+    {
+      "id": "A_GLY_314_CA",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.683,
+        -47.09,
+        1.097
+      ]
+    },
+    {
+      "id": "A_GLY_314_C",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        50.61,
+        -46.291,
+        1.99
+      ]
+    },
+    {
+      "id": "A_GLY_314_O",
+      "element": "O",
+      "role": "pocket",
+      "position": [
+        51.217,
+        -45.314,
+        1.54
+      ]
+    },
+    {
+      "id": "A_GLY_314_H",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        48.722,
+        -48.66,
+        1.798
+      ]
+    },
+    {
+      "id": "A_GLY_314_HA2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        50.061,
+        -47.098,
+        0.208
+      ]
+    },
+    {
+      "id": "A_GLY_314_HA3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        48.821,
+        -46.647,
+        1.066
+      ]
+    },
+    {
+      "id": "A_SER_315_N",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        50.735,
+        -46.685,
+        3.254
+      ]
+    },
+    {
+      "id": "A_VAL_316_O",
+      "element": "O",
+      "role": "pocket",
+      "position": [
+        55.169,
+        -47.305,
+        1.0
+      ]
+    },
+    {
+      "id": "A_THR_318_CB",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        53.961,
+        -43.29,
+        1.018
+      ]
+    },
+    {
+      "id": "A_THR_318_CG2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        53.741,
+        -44.296,
+        -0.107
+      ]
+    },
+    {
+      "id": "A_THR_318_HB",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        53.562,
+        -42.446,
+        0.754
+      ]
+    },
+    {
+      "id": "A_THR_318_HG1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        52.505,
+        -43.873,
+        2.08
+      ]
+    },
+    {
+      "id": "A_THR_318_HG21",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        52.791,
+        -44.412,
+        -0.266
+      ]
+    },
+    {
+      "id": "A_THR_318_HG22",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        54.161,
+        -43.979,
+        -0.922
+      ]
+    },
+    {
+      "id": "A_THR_318_HG23",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        54.127,
+        -45.152,
+        0.134
+      ]
+    },
+    {
+      "id": "A_VAL_378_CG1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        55.757,
+        -41.249,
+        -1.961
+      ]
+    },
+    {
+      "id": "A_VAL_378_HB",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        54.985,
+        -39.408,
+        -2.412
+      ]
+    },
+    {
+      "id": "A_VAL_378_HG11",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.235,
+        -41.421,
+        -1.162
+      ]
+    },
+    {
+      "id": "A_VAL_378_HG12",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.319,
+        -41.646,
+        -2.73
+      ]
+    },
+    {
+      "id": "A_VAL_378_HG13",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        56.649,
+        -41.617,
+        -1.859
+      ]
+    },
+    {
+      "id": "A_GLY_379_CA",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        54.901,
+        -40.38,
+        -6.363
+      ]
+    },
+    {
+      "id": "A_GLY_379_HA2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.162,
+        -41.309,
+        -6.465
+      ]
+    },
+    {
+      "id": "A_GLY_379_HA3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        53.94,
+        -40.308,
+        -6.474
+      ]
+    },
+    {
+      "id": "A_LEU_380_H",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        56.659,
+        -41.022,
+        -8.159
+      ]
+    },
+    {
+      "id": "A_PHE_381_C",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        52.959,
+        -39.447,
+        -11.393
+      ]
+    },
+    {
+      "id": "A_PHE_381_O",
+      "element": "O",
+      "role": "pocket",
+      "position": [
+        52.687,
+        -40.428,
+        -10.697
+      ]
+    },
+    {
+      "id": "A_PHE_381_CD1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        53.787,
+        -41.969,
+        -13.266
+      ]
+    },
+    {
+      "id": "A_PHE_381_CE1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        53.901,
+        -43.348,
+        -13.274
+      ]
+    },
+    {
+      "id": "A_PHE_381_CZ",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        55.139,
+        -43.939,
+        -13.12
+      ]
+    },
+    {
+      "id": "A_PHE_381_H",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.103,
+        -40.351,
+        -10.389
+      ]
+    },
+    {
+      "id": "A_PHE_381_HD1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        52.95,
+        -41.577,
+        -13.368
+      ]
+    },
+    {
+      "id": "A_PHE_381_HE1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        53.144,
+        -43.877,
+        -13.383
+      ]
+    },
+    {
+      "id": "A_LEU_382_N",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        52.042,
+        -38.627,
+        -11.9
+      ]
+    },
+    {
+      "id": "A_LEU_382_CA",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        50.626,
+        -38.959,
+        -11.931
+      ]
+    },
+    {
+      "id": "A_LEU_382_C",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        50.312,
+        -39.597,
+        -13.275
+      ]
+    },
+    {
+      "id": "A_LEU_382_HA",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        50.422,
+        -39.596,
+        -11.228
+      ]
+    },
+    {
+      "id": "A_GLU_383_N",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        49.469,
+        -40.628,
+        -13.256
+      ]
+    },
+    {
+      "id": "A_GLU_383_CA",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.247,
+        -41.469,
+        -14.424
+      ]
+    },
+    {
+      "id": "A_GLU_383_CB",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.791,
+        -42.878,
+        -14.181
+      ]
+    },
+    {
+      "id": "A_GLU_383_CG",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        49.752,
+        -43.78,
+        -15.395
+      ]
+    },
+    {
+      "id": "A_GLU_383_H",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        49.009,
+        -40.862,
+        -12.568
+      ]
+    },
+    {
+      "id": "A_GLU_383_HB2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        50.715,
+        -42.809,
+        -13.895
+      ]
+    },
+    {
+      "id": "A_GLU_383_HB3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        49.263,
+        -43.299,
+        -13.484
+      ]
+    },
+    {
+      "id": "A_TYR_485_HE1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        58.057,
+        -44.01,
+        -9.819
+      ]
+    },
+    {
+      "id": "A_TYR_485_HH",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        56.956,
+        -45.489,
+        -11.09
+      ]
+    },
+    {
+      "id": "A_PHE_487_C",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        57.795,
+        -46.182,
+        -6.981
+      ]
+    },
+    {
+      "id": "A_PHE_487_O",
+      "element": "O",
+      "role": "pocket",
+      "position": [
+        56.877,
+        -45.559,
+        -7.524
+      ]
+    },
+    {
+      "id": "A_PHE_487_CB",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        57.757,
+        -48.646,
+        -6.497
+      ]
+    },
+    {
+      "id": "A_PHE_487_CG",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        56.264,
+        -48.885,
+        -6.465
+      ]
+    },
+    {
+      "id": "A_PHE_487_CD1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        55.415,
+        -48.277,
+        -7.379
+      ]
+    },
+    {
+      "id": "A_PHE_487_CD2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        55.715,
+        -49.719,
+        -5.506
+      ]
+    },
+    {
+      "id": "A_PHE_487_CE1",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        54.053,
+        -48.503,
+        -7.339
+      ]
+    },
+    {
+      "id": "A_PHE_487_CE2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        54.352,
+        -49.946,
+        -5.463
+      ]
+    },
+    {
+      "id": "A_PHE_487_CZ",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        53.523,
+        -49.337,
+        -6.381
+      ]
+    },
+    {
+      "id": "A_PHE_487_HB3",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        58.023,
+        -48.386,
+        -5.602
+      ]
+    },
+    {
+      "id": "A_PHE_487_HD1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.761,
+        -47.713,
+        -8.031
+      ]
+    },
+    {
+      "id": "A_PHE_487_HD2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        56.27,
+        -50.133,
+        -4.885
+      ]
+    },
+    {
+      "id": "A_PHE_487_HE1",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        53.494,
+        -48.091,
+        -7.958
+      ]
+    },
+    {
+      "id": "A_PHE_487_HE2",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        53.994,
+        -50.51,
+        -4.815
+      ]
+    },
+    {
+      "id": "A_PHE_487_HZ",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        52.606,
+        -49.489,
+        -6.352
+      ]
+    },
+    {
+      "id": "A_ILE_488_N",
+      "element": "N",
+      "role": "pocket",
+      "position": [
+        58.466,
+        -45.712,
+        -5.934
+      ]
+    },
+    {
+      "id": "A_ILE_488_CA",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        58.334,
+        -44.345,
+        -5.455
+      ]
+    },
+    {
+      "id": "A_ILE_488_CB",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        57.746,
+        -44.272,
+        -4.029
+      ]
+    },
+    {
+      "id": "A_ILE_488_CG2",
+      "element": "C",
+      "role": "pocket",
+      "position": [
+        56.26,
+        -44.619,
+        -4.051
+      ]
+    },
+    {
+      "id": "A_ILE_488_HA",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        57.744,
+        -43.854,
+        -6.048
+      ]
+    },
+    {
+      "id": "A_ILE_488_HB",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        57.84,
+        -43.361,
+        -3.708
+      ]
+    },
+    {
+      "id": "A_ILE_488_HG12",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        57.894,
+        -45.429,
+        -2.335
+      ]
+    },
+    {
+      "id": "A_ILE_488_HG21",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.904,
+        -44.541,
+        -3.152
+      ]
+    },
+    {
+      "id": "A_ILE_488_HG22",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        55.801,
+        -44.003,
+        -4.643
+      ]
+    },
+    {
+      "id": "A_ILE_488_HG23",
+      "element": "H",
+      "role": "pocket",
+      "position": [
+        56.153,
+        -45.528,
+        -4.372
+      ]
+    }
+  ],
+  "fragment_ids": [
+    "A_JD7_601_C01",
+    "A_JD7_601_C02",
+    "A_JD7_601_C03",
+    "A_JD7_601_N04",
+    "A_JD7_601_C05",
+    "A_JD7_601_N06",
+    "A_JD7_601_C07",
+    "A_JD7_601_C08",
+    "A_JD7_601_C09",
+    "A_JD7_601_C10",
+    "A_JD7_601_C11",
+    "A_JD7_601_C12",
+    "A_JD7_601_C13",
+    "A_JD7_601_C14",
+    "A_JD7_601_C15",
+    "A_JD7_601_C16",
+    "A_JD7_601_N17",
+    "A_JD7_601_H2",
+    "A_JD7_601_H1",
+    "A_JD7_601_H3",
+    "A_JD7_601_H4",
+    "A_JD7_601_H5",
+    "A_JD7_601_H6",
+    "A_JD7_601_H7",
+    "A_JD7_601_H9",
+    "A_JD7_601_H8",
+    "A_JD7_601_H10",
+    "A_JD7_601_H11",
+    "A_JD7_601_H12",
+    "A_JD7_601_H13",
+    "A_HEM_602_CHA",
+    "A_HEM_602_CHB",
+    "A_HEM_602_CHC",
+    "A_HEM_602_CHD",
+    "A_HEM_602_C1A",
+    "A_HEM_602_C2A",
+    "A_HEM_602_C3A",
+    "A_HEM_602_C4A",
+    "A_HEM_602_CMA",
+    "A_HEM_602_CAA",
+    "A_HEM_602_CBA",
+    "A_HEM_602_CGA",
+    "A_HEM_602_O1A",
+    "A_HEM_602_O2A",
+    "A_HEM_602_C1B",
+    "A_HEM_602_C2B",
+    "A_HEM_602_C3B",
+    "A_HEM_602_C4B",
+    "A_HEM_602_CMB",
+    "A_HEM_602_CAB",
+    "A_HEM_602_CBB",
+    "A_HEM_602_C1C",
+    "A_HEM_602_C2C",
+    "A_HEM_602_C3C",
+    "A_HEM_602_C4C",
+    "A_HEM_602_CMC",
+    "A_HEM_602_CAC",
+    "A_HEM_602_CBC",
+    "A_HEM_602_C1D",
+    "A_HEM_602_C2D",
+    "A_HEM_602_C3D",
+    "A_HEM_602_C4D",
+    "A_HEM_602_CMD",
+    "A_HEM_602_CAD",
+    "A_HEM_602_CBD",
+    "A_HEM_602_CGD",
+    "A_HEM_602_O1D",
+    "A_HEM_602_O2D",
+    "A_HEM_602_NA",
+    "A_HEM_602_NB",
+    "A_HEM_602_NC",
+    "A_HEM_602_ND",
+    "A_HEM_602_FE",
+    "A_HEM_602_HHB",
+    "A_HEM_602_HHC",
+    "A_HEM_602_HHD",
+    "A_HEM_602_HMA",
+    "A_HEM_602_HMAA",
+    "A_HEM_602_HMAB",
+    "A_HEM_602_HAA",
+    "A_HEM_602_HAAA",
+    "A_HEM_602_HBA",
+    "A_HEM_602_HBAA",
+    "A_HEM_602_HMB",
+    "A_HEM_602_HMBA",
+    "A_HEM_602_HMBB",
+    "A_HEM_602_HAB",
+    "A_HEM_602_HBB",
+    "A_HEM_602_HBBA",
+    "A_HEM_602_HMC",
+    "A_HEM_602_HMCA",
+    "A_HEM_602_HMCB",
+    "A_HEM_602_HAC",
+    "A_HEM_602_HBC",
+    "A_HEM_602_HBCA",
+    "A_HEM_602_HMD",
+    "A_HEM_602_HMDA",
+    "A_HEM_602_HMDB",
+    "A_HEM_602_HAD",
+    "A_HEM_602_HADA",
+    "A_HEM_602_HBD",
+    "A_HEM_602_HBDA",
+    "A_HEM_602_HHA",
+    "A_CYS_450_SG"
+  ],
+  "fixed_ids": [
+    "A_ARG_110_CG",
+    "A_ARG_110_CD",
+    "A_ARG_110_NE",
+    "A_ARG_110_CZ",
+    "A_ARG_110_NH1",
+    "A_ARG_110_NH2",
+    "A_ARG_110_HG2",
+    "A_ARG_110_HG3",
+    "A_ARG_110_HD2",
+    "A_ARG_110_HD3",
+    "A_ARG_110_HE",
+    "A_ARG_110_HH11",
+    "A_ARG_110_HH12",
+    "A_LEU_113_CD2",
+    "A_LEU_113_HD21",
+    "A_LEU_113_HD22",
+    "A_LEU_113_HD23",
+    "A_TRP_116_CZ2",
+    "A_TRP_116_CZ3",
+    "A_TRP_116_CH2",
+    "A_TRP_116_HZ2",
+    "A_TRP_116_HZ3",
+    "A_TRP_116_HH2",
+    "A_PHE_130_CG",
+    "A_PHE_130_CD1",
+    "A_PHE_130_CD2",
+    "A_PHE_130_CE1",
+    "A_PHE_130_CE2",
+    "A_PHE_130_CZ",
+    "A_PHE_130_HD1",
+    "A_PHE_130_HD2",
+    "A_PHE_130_HE1",
+    "A_PHE_130_HE2",
+    "A_PHE_130_HZ",
+    "A_PHE_231_CD1",
+    "A_PHE_231_CE1",
+    "A_PHE_231_CE2",
+    "A_PHE_231_CZ",
+    "A_PHE_231_HD1",
+    "A_PHE_231_HE1",
+    "A_PHE_231_HE2",
+    "A_PHE_231_HZ",
+    "A_GLU_310_O",
+    "A_ALA_313_CA",
+    "A_ALA_313_C",
+    "A_ALA_313_O",
+    "A_ALA_313_CB",
+    "A_ALA_313_HB1",
+    "A_ALA_313_HB3",
+    "A_GLY_314_N",
+    "A_GLY_314_CA",
+    "A_GLY_314_C",
+    "A_GLY_314_O",
+    "A_GLY_314_H",
+    "A_GLY_314_HA2",
+    "A_GLY_314_HA3",
+    "A_SER_315_N",
+    "A_VAL_316_O",
+    "A_THR_318_CB",
+    "A_THR_318_CG2",
+    "A_THR_318_HB",
+    "A_THR_318_HG1",
+    "A_THR_318_HG21",
+    "A_THR_318_HG22",
+    "A_THR_318_HG23",
+    "A_VAL_378_CG1",
+    "A_VAL_378_HB",
+    "A_VAL_378_HG11",
+    "A_VAL_378_HG12",
+    "A_VAL_378_HG13",
+    "A_GLY_379_CA",
+    "A_GLY_379_HA2",
+    "A_GLY_379_HA3",
+    "A_LEU_380_H",
+    "A_PHE_381_C",
+    "A_PHE_381_O",
+    "A_PHE_381_CD1",
+    "A_PHE_381_CE1",
+    "A_PHE_381_CZ",
+    "A_PHE_381_H",
+    "A_PHE_381_HD1",
+    "A_PHE_381_HE1",
+    "A_LEU_382_N",
+    "A_LEU_382_CA",
+    "A_LEU_382_C",
+    "A_LEU_382_HA",
+    "A_GLU_383_N",
+    "A_GLU_383_CA",
+    "A_GLU_383_CB",
+    "A_GLU_383_CG",
+    "A_GLU_383_H",
+    "A_GLU_383_HB2",
+    "A_GLU_383_HB3",
+    "A_TYR_485_HE1",
+    "A_TYR_485_HH",
+    "A_PHE_487_C",
+    "A_PHE_487_O",
+    "A_PHE_487_CB",
+    "A_PHE_487_CG",
+    "A_PHE_487_CD1",
+    "A_PHE_487_CD2",
+    "A_PHE_487_CE1",
+    "A_PHE_487_CE2",
+    "A_PHE_487_CZ",
+    "A_PHE_487_HB3",
+    "A_PHE_487_HD1",
+    "A_PHE_487_HD2",
+    "A_PHE_487_HE1",
+    "A_PHE_487_HE2",
+    "A_PHE_487_HZ",
+    "A_ILE_488_N",
+    "A_ILE_488_CA",
+    "A_ILE_488_CB",
+    "A_ILE_488_CG2",
+    "A_ILE_488_HA",
+    "A_ILE_488_HB",
+    "A_ILE_488_HG12",
+    "A_ILE_488_HG21",
+    "A_ILE_488_HG22",
+    "A_ILE_488_HG23"
+  ],
+  "cluster_state": {
+    "charge": null,
+    "multiplicity": null,
+    "convention": ""
+  },
+  "fragment_state": {
+    "charge": null,
+    "multiplicity": null,
+    "convention": ""
+  },
+  "coordination": [
+    {
+      "ids": [
+        "A_HEM_602_FE",
+        "A_JD7_601_N06"
+      ],
+      "min_A": 2.0,
+      "max_A": 2.6,
+      "observed_A": 2.373689322552554
+    },
+    {
+      "ids": [
+        "A_HEM_602_FE",
+        "A_CYS_450_SG"
+      ],
+      "min_A": 2.0,
+      "max_A": 2.7,
+      "observed_A": 2.57471959638326
+    }
+  ],
+  "preparation": {
+    "protonation": "",
+    "oxidation_state": "",
+    "caps": "",
+    "boundary": "",
+    "stereochemistry": "",
+    "reference_coordination": "",
+    "fragment_definition": "",
+    "pocket_geometry": ""
+  },
+  "provenance": {
+    "pdb": "data/raw/6M7X.pdb",
+    "sha256": "9fddb94d14485ae4adf29256a93c19fb5cb2afa1d2b9df03bbdbcba4a44cb501",
+    "selection": "chain A; JD7 601; HEM; nearest CYS SG; non-water residues within 5 \u00c5 of ligand",
+    "atom_count": 224,
+    "pocket_atom_count": 121
+  }
+}

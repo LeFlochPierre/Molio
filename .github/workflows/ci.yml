@@ -1,0 +1,42 @@
+name: IsoForm checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -m pip install -e .
+      - run: python -m unittest discover -s tests
+      - run: python -m pip install -e '.[test]'
+      - run: python -m unittest discover -s tests
+      - name: Regenerate demo from tracked inputs
+        run: |
+          python -m cyp_pipeline.sentinel_demo --result runs/selectivity-sentinel-demo-v3/result.json --structure data/raw/4FDH.pdb --out /tmp/isoform-ci.html
+          cmp /tmp/isoform-ci.html runs/selectivity-sentinel-demo-v3/demo.html
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[browser]'
+      - run: python -m playwright install --with-deps chromium
+      - run: python scripts/check_sentinel_browser.py
+      - run: python scripts/check_calibrated_browser.py
+      - run: python scripts/check_isoform_preview_races.py

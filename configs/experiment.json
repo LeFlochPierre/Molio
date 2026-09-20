@@ -1,0 +1,40 @@
+{
+  "systems": [
+    {
+      "system_id": "R-fadrozole-CYP11B1",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B1",
+      "starting_pdb": "6M7X",
+      "pose_kind": "modeled",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "R-fadrozole-CYP11B2",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B2",
+      "starting_pdb": "4FDH",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B1",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B1",
+      "starting_pdb": "6M7X",
+      "pose_kind": "experimental",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B2",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B2",
+      "starting_pdb": "4FDH",
+      "pose_kind": "modeled",
+      "prepared_input": null,
+      "status": "awaiting_preparation"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-20T09:21:26.725742+00:00",
+  "experiment": {
+    "path": "/home/ubuntu/HackProject/configs/extended-selectivity-benchmark.json",
+    "sha256": "7083bf2b1ffdacb392a680edc66a94da961e8a72de3922a084311aab96122738"
+  },
+  "boltz_root": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1",
+  "cases": [
+    {
+      "system_id": "R-fadrozole-CYP11B1",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B1",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/R-fadrozole-CYP11B1/R-fadrozole-CYP11B1_model_0.cif",
+        "sha256": "806823f138bfc136ae7170418b26343a686d15868e6f78c932f2b7cfc4252fdf"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/R-fadrozole-CYP11B1/R-fadrozole-CYP11B1_model_0.cif",
+          "sha256": "806823f138bfc136ae7170418b26343a686d15868e6f78c932f2b7cfc4252fdf"
+        },
+        "ligand_ccd": "0T3",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.078231805886918,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "0T3",
+          "atom_name": "N06"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.366940208813902,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "matches_ccd",
+          "ccd_centers": {
+            "C03": "R"
+          },
+          "coordinate_centers": {
+            "C03": "R"
+          },
+          "missing_atom_names": [],
+          "missing_atom_count": 0,
+          "expected_enantiomer": "R",
+          "expected_matches_ccd": true,
+          "coordinates_match_expected": true,
+          "ccd_sha256": "d9f7d0dfaabbdf85fce84370d2e54940e0b270e5875719a51b7eb4673567637e",
+          "rdkit_version": "2026.03.6"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds.",
+        "expected_ligand": "R-fadrozole",
+        "ligand_ccd_matches_expected": true,
+        "expected_enantiomer": "R"
+      }
+    },
+    {
+      "system_id": "R-fadrozole-CYP11B2",
+      "ligand": "R-fadrozole",
+      "isoform": "CYP11B2",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/R-fadrozole-CYP11B2/R-fadrozole-CYP11B2_model_0.cif",
+        "sha256": "74a495bffb0aa171650967b88b0ead44b5ed2639f483280688b899cf2085babe"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/R-fadrozole-CYP11B2/R-fadrozole-CYP11B2_model_0.cif",
+          "sha256": "74a495bffb0aa171650967b88b0ead44b5ed2639f483280688b899cf2085babe"
+        },
+        "ligand_ccd": "0T3",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.0966291806373394,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "0T3",
+          "atom_name": "N06"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.393259404368862,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "matches_ccd",
+          "ccd_centers": {
+            "C03": "R"
+          },
+          "coordinate_centers": {
+            "C03": "R"
+          },
+          "missing_atom_names": [],
+          "missing_atom_count": 0,
+          "expected_enantiomer": "R",
+          "expected_matches_ccd": true,
+          "coordinates_match_expected": true,
+          "ccd_sha256": "d9f7d0dfaabbdf85fce84370d2e54940e0b270e5875719a51b7eb4673567637e",
+          "rdkit_version": "2026.03.6"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds.",
+        "expected_ligand": "R-fadrozole",
+        "ligand_ccd_matches_expected": true,
+        "expected_enantiomer": "R"
+      }
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B1",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B1",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/S-fadrozole-CYP11B1/S-fadrozole-CYP11B1_model_0.cif",
+        "sha256": "f79da3d01ae331dd2aae0cb103ca25d8f3834d5458b9b33f28247d4d1d895708"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/S-fadrozole-CYP11B1/S-fadrozole-CYP11B1_model_0.cif",
+          "sha256": "f79da3d01ae331dd2aae0cb103ca25d8f3834d5458b9b33f28247d4d1d895708"
+        },
+        "ligand_ccd": "JD7",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.1084375991003386,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "JD7",
+          "atom_name": "N06"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.370229879589741,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "matches_ccd",
+          "ccd_centers": {
+            "C03": "S"
+          },
+          "coordinate_centers": {
+            "C03": "S"
+          },
+          "missing_atom_names": [],
+          "missing_atom_count": 0,
+          "expected_enantiomer": "S",
+          "expected_matches_ccd": true,
+          "coordinates_match_expected": true,
+          "ccd_sha256": "fe033033807f289b16be5bc26411d591456e91269b54106e965c7fd45227e941",
+          "rdkit_version": "2026.03.6"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds.",
+        "expected_ligand": "S-fadrozole",
+        "ligand_ccd_matches_expected": true,
+        "expected_enantiomer": "S"
+      }
+    },
+    {
+      "system_id": "S-fadrozole-CYP11B2",
+      "ligand": "S-fadrozole",
+      "isoform": "CYP11B2",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/S-fadrozole-CYP11B2/S-fadrozole-CYP11B2_model_0.cif",
+        "sha256": "01e2a7a42cbdbbd319e46ce3ee625ee747ac35c71345090f705ee1e463cb92ca"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/S-fadrozole-CYP11B2/S-fadrozole-CYP11B2_model_0.cif",
+          "sha256": "01e2a7a42cbdbbd319e46ce3ee625ee747ac35c71345090f705ee1e463cb92ca"
+        },
+        "ligand_ccd": "JD7",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.102781159012987,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "JD7",
+          "atom_name": "N06"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.387975877788551,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "mismatch_or_unassigned",
+          "ccd_centers": {
+            "C03": "S"
+          },
+          "coordinate_centers": {
+            "C03": "R"
+          },
+          "missing_atom_names": [],
+          "missing_atom_count": 0,
+          "expected_enantiomer": "S",
+          "expected_matches_ccd": true,
+          "coordinates_match_expected": false,
+          "ccd_sha256": "fe033033807f289b16be5bc26411d591456e91269b54106e965c7fd45227e941",
+          "rdkit_version": "2026.03.6"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds.",
+        "expected_ligand": "S-fadrozole",
+        "ligand_ccd_matches_expected": true,
+        "expected_enantiomer": "S"
+      }
+    },
+    {
+      "system_id": "Osilodrostat-LCI699-CYP11B1",
+      "ligand": "Osilodrostat (LCI699)",
+      "isoform": "CYP11B1",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Osilodrostat-LCI699-CYP11B1/Osilodrostat-LCI699-CYP11B1_model_0.cif",
+        "sha256": "32ade12f45c496e36872d670a2704ea2f2bdc4c5251b1c8e38e3f2328611ea8d"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Osilodrostat-LCI699-CYP11B1/Osilodrostat-LCI699-CYP11B1_model_0.cif",
+          "sha256": "32ade12f45c496e36872d670a2704ea2f2bdc4c5251b1c8e38e3f2328611ea8d"
+        },
+        "ligand_ccd": "YSY",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.015659591895417,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "YSY",
+          "atom_name": "N15"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.3802035578706287,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "matches_ccd",
+          "ccd_centers": {
+            "C10": "R"
+          },
+          "coordinate_centers": {
+            "C10": "R"
+          },
+          "missing_atom_names": [],
+          "missing_atom_count": 0,
+          "expected_enantiomer": "R",
+          "expected_matches_ccd": true,
+          "coordinates_match_expected": true,
+          "ccd_sha256": "71a7d0a01c9a6110aa48a57f2748a3501500c892166bfba2c86a2db919aee0a2",
+          "rdkit_version": "2026.03.6"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds.",
+        "expected_ligand": "Osilodrostat (LCI699)",
+        "ligand_ccd_matches_expected": true,
+        "expected_enantiomer": "R"
+      }
+    },
+    {
+      "system_id": "Osilodrostat-LCI699-CYP11B2",
+      "ligand": "Osilodrostat (LCI699)",
+      "isoform": "CYP11B2",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Osilodrostat-LCI699-CYP11B2/Osilodrostat-LCI699-CYP11B2_model_0.cif",
+        "sha256": "15024418261345414dd87cbc61cf31a483fd2866d76877f6957c6b61d71461cf"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Osilodrostat-LCI699-CYP11B2/Osilodrostat-LCI699-CYP11B2_model_0.cif",
+          "sha256": "15024418261345414dd87cbc61cf31a483fd2866d76877f6957c6b61d71461cf"
+        },
+        "ligand_ccd": "YSY",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.0490872423593878,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "YSY",
+          "atom_name": "N15"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.390870748367632,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "matches_ccd",
+          "ccd_centers": {
+            "C10": "R"
+          },
+          "coordinate_centers": {
+            "C10": "R"
+          },
+          "missing_atom_names": [],
+          "missing_atom_count": 0,
+          "expected_enantiomer": "R",
+          "expected_matches_ccd": true,
+          "coordinates_match_expected": true,
+          "ccd_sha256": "71a7d0a01c9a6110aa48a57f2748a3501500c892166bfba2c86a2db919aee0a2",
+          "rdkit_version": "2026.03.6"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds.",
+        "expected_ligand": "Osilodrostat (LCI699)",
+        "ligand_ccd_matches_expected": true,
+        "expected_enantiomer": "R"
+      }
+    },
+    {
+      "system_id": "Baxdrostat-CYP11B1",
+      "ligand": "Baxdrostat",
+      "isoform": "CYP11B1",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Baxdrostat-CYP11B1/Baxdrostat-CYP11B1_model_0.cif",
+        "sha256": "4f1aef3c40923ddde25ca0f592812b84c93cb05405762192eb389a995569209a"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Baxdrostat-CYP11B1/Baxdrostat-CYP11B1_model_0.cif",
+          "sha256": "4f1aef3c40923ddde25ca0f592812b84c93cb05405762192eb389a995569209a"
+        },
+        "ligand_ccd": "LIG1",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.1709733840837386,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "LIG1",
+          "atom_name": "N28"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.380332664692059,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "unassessed",
+          "reason": "CCD component LIG1 not found!"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds."
+      }
+    },
+    {
+      "system_id": "Baxdrostat-CYP11B2",
+      "ligand": "Baxdrostat",
+      "isoform": "CYP11B2",
+      "structure": {
+        "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Baxdrostat-CYP11B2/Baxdrostat-CYP11B2_model_0.cif",
+        "sha256": "2b6ff92ada9c38b80c77fa66f962bc20624e28b3b69d5e987ccecf5b2f2578dc"
+      },
+      "diagnostic": {
+        "status": "diagnostic_only",
+        "source": {
+          "path": "/home/ubuntu/HackProject/runs/benchmark-extended-boltz-pilot-v1/seed-42/boltz_results_inputs/predictions/Baxdrostat-CYP11B2/Baxdrostat-CYP11B2_model_0.cif",
+          "sha256": "2b6ff92ada9c38b80c77fa66f962bc20624e28b3b69d5e987ccecf5b2f2578dc"
+        },
+        "ligand_ccd": "LIG1",
+        "gemmi_version": "0.6.5",
+        "nearest_ligand_nitrogen": {
+          "distance_A": 2.161953760375092,
+          "chain": "L",
+          "residue_id": "1",
+          "residue_name": "LIG1",
+          "atom_name": "N28"
+        },
+        "nearest_protein_cysteine_sulfur": {
+          "distance_A": 2.3685740557136903,
+          "chain": "A",
+          "residue_id": "417",
+          "residue_name": "CYS",
+          "atom_name": "SG"
+        },
+        "chirality": {
+          "status": "unassessed",
+          "reason": "CCD component LIG1 not found!"
+        },
+        "interpretation": "Candidate coordination distances only; no calibrated acceptance thresholds."
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "IsoFit selectivity results and team handoff",
+    "date": "2026-09-20",
+    "kind": "user_supplied_team_handoff",
+    "attachment_sha256": "2dc6a3781273473eef111aaf0513282d328bdfc3d04523d400268dcfc4b6e128",
+    "independently_audited": false,
+    "model": "UMA uma-s-1p1 / OMol",
+    "scope": "Accepted relaxed ligand-water exchange energies as reported by the team. Underlying pose bundles and convergence logs were not supplied with this handoff."
+  },
+  "calibration": {
+    "id": "team-two-compound-retrospective-20260920",
+    "coefficient_per_eV": "2.13893364745",
+    "intercept": 0,
+    "training_compounds": ["osilodrostat", "baxdrostat"],
+    "searched_combinations": 360,
+    "fit_method": "One shared coefficient, least squares in log10 potency-concentration ratios; poses and assay selected retrospectively.",
+    "status": "retrospective_training_fit",
+    "transfer_validated": false,
+    "formula": "log10(S) = 2.13893364745 * (X_B1 - X_B2)",
+    "ratio_definition": "S = potency concentration B1 / potency concentration B2; S > 1 favors B2. IC50 and Ki remain distinct endpoints."
+  },
+  "compounds": {
+    "osilodrostat": {
+      "label": "Osilodrostat (LCI699)",
+      "selected": {
+        "CYP11B1": {"start": 2, "reported_exchange_eV": -1.974990219, "components_eV": {"cluster_ligand": "-532769.5394522406", "cluster_water": "-514016.4731526081", "free_water": "-2079.8650510885", "free_ligand": "-20830.9563605019"}},
+        "CYP11B2": {"start": 2, "reported_exchange_eV": -2.213027328, "components_eV": {"cluster_ligand": "-534450.8110420975", "cluster_water": "-515697.5067053559", "free_water": "-2079.8650510885", "free_ligand": "-20830.9563605019"}}
+      },
+      "original_minima_delta_B2_minus_B1_eV": -0.231941223,
+      "weighted_delta_B2_minus_B1_eV": -0.231941796,
+      "fit_assay": {"id": "O01", "endpoint": "IC50", "ratio": 3.5714, "role": "training target"},
+      "other_assays": [{"id": "O02", "endpoint": "IC50", "ratio": 33.93, "role": "Original primary pilot reference; human V79"}],
+      "quality": {"accepted_B1": 5, "attempted_B1": 6, "accepted_B2": 6, "attempted_B2": 6, "accepted_pairs": 30, "all_accepted_signs_favor": "CYP11B2", "robustness_status": "unresolved", "reason": "One B1 nonconvergence. Team pose-spread rule marks the weighted result unresolved."}
+    },
+    "baxdrostat": {
+      "label": "Baxdrostat",
+      "selected": {
+        "CYP11B1": {"start": 2, "reported_exchange_eV": -1.410883546, "components_eV": {"cluster_ligand": "-609267.3114368811", "cluster_water": "-579558.3437257071", "free_water": "-2079.8650510885", "free_ligand": "-31787.4218787161"}},
+        "CYP11B2": {"start": 3, "reported_exchange_eV": -2.352648378, "components_eV": {"cluster_ligand": "-610949.0440329023", "cluster_water": "-581239.1345568971", "free_water": "-2079.8650510885", "free_ligand": "-31787.4218787161"}}
+      },
+      "original_minima_delta_B2_minus_B1_eV": -0.359146118,
+      "weighted_delta_B2_minus_B1_eV": -0.359144672,
+      "fit_assay": {"id": "B01", "endpoint": "Ki", "ratio": 100.7692, "role": "training target"},
+      "other_assays": [],
+      "quality": {"accepted_B1": 2, "attempted_B1": 6, "accepted_B2": 2, "attempted_B2": 6, "accepted_pairs": 4, "all_accepted_signs_favor": "CYP11B2", "robustness_status": "unresolved", "reason": "Five initial overlaps and three nonconvergences. Team pose-spread rule marks the weighted result unresolved."}
+    },
+    "metyrapone": {
+      "label": "Metyrapone", "selected": null,
+      "fit_assay": null, "other_assays": [{"id": "M01", "endpoint": "IC50", "ratio": 0.2083, "role": "Reference only; not a fit target"}],
+      "quality": {"accepted_B1": 6, "attempted_B1": 6, "accepted_B2": 0, "attempted_B2": 6, "accepted_pairs": 0, "all_accepted_signs_favor": null, "robustness_status": "unresolved", "reason": "B2 water reference and all six B2 starts failed convergence. No UMA fold is reported."}
+    }
+  },
+  "boltz": {
+    "source": "Teammate report supplied in the handoff; Boltz 2.2.1 / A100; underlying bundle not retrieved or independently audited.",
+    "convention": "Reported y = log10(IC50-like concentration in micromolar); S = 10^(y_B1 - y_B2). Recomputed from rounded y, not binder probabilities.",
+    "rows": [
+      {"compound": "r_fadrozole", "seed": 42, "y_B1": -0.5503, "y_B2": -0.7224, "geometry_valid": true, "reported_ratio": 1.49},
+      {"compound": "r_fadrozole", "seed": 43, "y_B1": -0.5074, "y_B2": -0.4858, "geometry_valid": false, "reason": "INVALID stereochemistry", "reported_ratio": 0.95},
+      {"compound": "s_fadrozole", "seed": 42, "y_B1": -0.5092, "y_B2": -0.6861, "geometry_valid": false, "reason": "INVALID stereochemistry", "reported_ratio": 1.50},
+      {"compound": "s_fadrozole", "seed": 43, "y_B1": -0.3781, "y_B2": -0.6605, "geometry_valid": false, "reason": "INVALID stereochemistry", "reported_ratio": 1.92},
+      {"compound": "osilodrostat", "seed": 42, "y_B1": -0.7124, "y_B2": -1.5102, "geometry_valid": true, "reported_ratio": 6.28},
+      {"compound": "osilodrostat", "seed": 43, "y_B1": -0.6730, "y_B2": -1.1731, "geometry_valid": true, "reported_ratio": 3.16},
+      {"compound": "baxdrostat", "seed": 42, "y_B1": -0.7977, "y_B2": -1.0702, "geometry_valid": true, "reported_ratio": 1.87},
+      {"compound": "baxdrostat", "seed": 43, "y_B1": -0.4624, "y_B2": -0.6913, "geometry_valid": true, "reported_ratio": 1.69},
+      {"compound": "r_qhc", "seed": 42, "y_B1": -1.4002, "y_B2": -1.3223, "geometry_valid": true, "reported_ratio": 0.84},
+      {"compound": "r_qhc", "seed": 43, "y_B1": -1.2219, "y_B2": -0.9847, "geometry_valid": true, "reported_ratio": 0.58}
+    ]
+  },
+  "limitations": [
+    "Training fits, not independent predictions: both known targets and a search of 360 pose/assay combinations informed this calibration.",
+    "Selected poses are post hoc choices, not each compound's lowest-energy pair. Original minima and weighted deltas are retained.",
+    "The coefficient is empirical, not a physical constant or a transferable calibration; do not apply it to the frozen fadrozole workflow or arbitrary proteins.",
+    "Weighted results use the reported 310 K and 0.25 angstrom all-heavy-atom clustering; both are unresolved under the team's pose-spread rule.",
+    "UMA is fitted and Boltz is uncalibrated. This is not a fair model accuracy comparison; two seeds are not confidence intervals.",
+    "Solvent, entropy, chemical-state assumptions and sparse sampling remain unvalidated. Paired assays and held-out compounds are required.",
+    "The handoff ends at a Sources heading without bibliographic entries. O01/O02/B01/M01 are supplied identifiers, not independently verified citations."
+  ]
+}

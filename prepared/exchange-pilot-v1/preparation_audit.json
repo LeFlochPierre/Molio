@@ -1,0 +1,42 @@
+{
+  "CYP11B1/cluster_ligand": {
+    "atoms": 450,
+    "fixed_atoms": 102,
+    "charge": -3,
+    "coordination_A": [
+      2.373689322552554,
+      2.574719596383261
+    ],
+    "minimum_pair_distance_A": 0.9698043369329503
+  },
+  "CYP11B1/cluster_water": {
+    "atoms": 423,
+    "fixed_atoms": 102,
+    "charge": -3,
+    "coordination_A": [
+      2.2000000000000037,
+      2.574719596383261
+    ],
+    "minimum_pair_distance_A": 0.961401099319768
+  },
+  "CYP11B2/cluster_ligand": {
+    "atoms": 450,
+    "fixed_atoms": 102,
+    "charge": -3,
+    "coordination_A": [
+      2.2771397868704044,
+      2.1380509816185227
+    ],
+    "minimum_pair_distance_A": 0.9623852733410879
+  },
+  "CYP11B2/cluster_water": {
+    "atoms": 423,
+    "fixed_atoms": 102,
+    "charge": -3,
+    "coordination_A": [
+      2.2,
+      2.1380509816185227
+    ],
+    "minimum_pair_distance_A": 0.9614010993197677
+  }
+}

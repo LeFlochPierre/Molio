@@ -1,0 +1,20 @@
+{
+  "candidate_id": "S-meta-hydroxy",
+  "canonical_smiles": "N#Cc1ccc([C@@H]2CCCc3cncn32)c(O)c1",
+  "common_heavy_atoms": 17,
+  "formal_charge": 0,
+  "poses": {
+    "CYP11B1": {
+      "mapped_pose_RMSD_A": 0.0,
+      "minimum_ligand_scaffold_heavy_distance_A": 2.8139314466543426,
+      "atoms": 31,
+      "coordination_donor": "ligand_N06"
+    },
+    "CYP11B2": {
+      "mapped_pose_RMSD_A": 0.0,
+      "minimum_ligand_scaffold_heavy_distance_A": 2.823579317452569,
+      "atoms": 31,
+      "coordination_donor": "ligand_N06"
+    }
+  }
+}
