@@ -10,7 +10,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from molio.server import Handler, ROOT
 from molio.targets import Workspaces
 from molio.proposals import ProposalStore
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 
 
 def main():
@@ -44,7 +44,7 @@ def main():
                 assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
                 page.once('dialog',lambda dialog:dialog.accept())
                 button.click()
-                page.wait_for_function("document.getElementById('project-library-status').textContent === 'Project deleted.'")
+                expect(page.locator("#project-library-status")).to_have_text("Project deleted.")
                 assert not base.exists()
                 assert page.locator(f'[data-workspace="{key}"]').count()==0
                 page.reload()
