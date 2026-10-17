@@ -1,4 +1,4 @@
-"""Make a compact, 4x highlights GIF from the extended Molio tour.
+"""Make a compact, 4x highlights WebP from the extended Molio tour.
 
 Requires imageio-ffmpeg. Segment times match record_molio_complete_tour.py.
 No app requests or predictions are made.
@@ -14,7 +14,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=Path, default=root/'docs/media/molio-complete-tour.mp4')
-    parser.add_argument('--output', type=Path, default=root/'docs/media/molio-complete-preview.gif')
+    parser.add_argument('--output', type=Path, default=root/'docs/media/molio-complete-tour-preview.webp')
     args = parser.parse_args()
     if not args.input.is_file():
         parser.error('Input video does not exist')
@@ -26,12 +26,11 @@ def main():
     parts = [(0,5),(25,34),(42,59),(59,70),(78,96),(96,112),
              (112,124),(124,146),(146,156),(172,182),(198,217)]
     selection = '+'.join(f'gte(t,{a})*lt(t,{b})' for a,b in parts)
-    filters = (f"[0:v]select='{selection}',setpts=N/(30*TB)*0.25,"
-               "fps=6,scale=720:-1:flags=lanczos,split[a][b];"
-               "[a]palettegen=max_colors=96:stats_mode=diff[p];"
-               "[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle")
+    filters = (f"select='{selection}',setpts=N/(30*TB)*0.25,"
+               "fps=6,scale=720:-1:flags=lanczos")
     subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), '-v', 'error', '-i', str(args.input),
-                    '-filter_complex', filters, '-loop', '0', str(args.output)], check=True)
+                    '-vf', filters, '-c:v', 'libwebp_anim', '-quality', '65',
+                    '-loop', '0', str(args.output)], check=True)
     print(f'Saved {args.output} ({args.output.stat().st_size/1_000_000:.1f} MB)')
 
 

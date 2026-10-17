@@ -1,4 +1,4 @@
-name: IsoForm checks
+name: Molio checks
 
 on: [push, pull_request, workflow_dispatch]
 
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: ['3.10', '3.12']
+        python: ['3.10', '3.13']
     steps:
       - uses: actions/checkout@v4
         with:
@@ -18,15 +18,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '${{ matrix.python }}'
-      - run: python -m pip install -e .
+      - run: python -m pip install .
       - run: python -m unittest discover -s tests
-      - run: python -m pip install -e '.[test]'
-      - run: python -m unittest discover -s tests
-      - name: Regenerate demo from tracked inputs
-        run: |
-          python -m cyp_pipeline.sentinel_demo --result runs/selectivity-sentinel-demo-v3/result.json --structure data/raw/4FDH.pdb --out /tmp/isoform-ci.html
-          cmp /tmp/isoform-ci.html runs/selectivity-sentinel-demo-v3/demo.html
-  browser:
+      - name: Installed package entry point
+        working-directory: /tmp
+        run: molio --help
+  chemistry-and-browser:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,9 +31,13 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - run: python -m pip install -e '.[browser]'
+          python-version: '3.13'
+      - run: python -m pip install -e '.[chemistry,browser]'
+      - run: python -m unittest discover -s tests
       - run: python -m playwright install --with-deps chromium
-      - run: python scripts/check_sentinel_browser.py
-      - run: python scripts/check_calibrated_browser.py
-      - run: python scripts/check_isoform_preview_races.py
+      - name: Offline browser smoke checks
+        run: |
+          python scripts/check_molio_startup.py
+          python scripts/check_molio_navigation.py
+          python scripts/check_molio_designs.py
+          python scripts/check_molio_workspace_delete.py

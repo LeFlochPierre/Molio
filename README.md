@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="molecular_lab/web/logo.svg" alt="Molio molecular logo" width="112" height="112">
+  <img src="molio/web/logo.svg" alt="Molio molecular logo" width="112" height="112">
 </p>
 
 <h1 align="center">
-  <img src="molecular_lab/web/molio-wordmark.svg" alt="Molio" width="220" height="69">
+  <img src="molio/web/molio-wordmark.svg" alt="Molio" width="220" height="69">
 </h1>
 
 <p align="center">
@@ -28,8 +28,39 @@ The question it helps you investigate is: **“If I change this part of my molec
 
 Molio is an exploratory research prototype. It can organize evidence and generate computational hypotheses; it does not establish experimental binding or automatically discover a validated drug.
 
+## Quick start
+
+**Linux, or Ubuntu through WSL on Windows · Python 3.13 recommended · no GPU needed for browsing and molecular design.**
+
+```bash
+git clone https://github.com/LeFlochPierre/IsoForm.git Molio
+cd Molio
+python3 -m venv .venv-molio
+source .venv-molio/bin/activate
+python -m pip install --upgrade pip
+python -m pip install '.[chemistry]'
+molio --port 8001
+```
+
+Open **http://localhost:8001** and press **Start**. Open the bundled BRD4 project to explore immediately, or choose **New project** to find another protein online. The GitHub repository currently retains the name `IsoForm`; the application is Molio.
+
+**Using Conda instead?** After cloning and entering the repository:
+
+```bash
+conda env create -f environment.yml
+conda activate molio
+molio --port 8001
+```
+
+Choose either setup method. The [Conda file](environment.yml) installs the same chemistry dependencies defined in [pyproject.toml](pyproject.toml); it is not a fully locked environment. No `.env` file or API key is required for the current public-data workflow.
+
+To start again later, return to the same repository directory, activate your environment and run `molio --port 8001`. New projects are saved in `work/molio`. After pulling application updates, rerun `python -m pip install '.[chemistry]'` in that environment.
+
+**Predictions are optional:** follow [the separate Boltz setup](#enable-local-boltz-predictions) for new GPU calculations. The basic installation does not install Boltz or download prediction weights. Native Windows serving is unsupported; macOS has not been validated. GitHub hosts the source and documentation, while the application runs on your computer.
+
 ## Contents
 
+- [Quick start](#quick-start)
 - [What you can do](#what-you-can-do)
 - [The pipeline in pictures](#the-pipeline-in-pictures)
 - [Run Molio locally](#run-molio-locally)
@@ -151,8 +182,8 @@ A modern browser with WebGL is needed for interactive 3D. There is no Node build
 ### Already have the configured environments?
 
 ```bash
-cd ~/IsoForm
-.venv-whatif/bin/python -m molecular_lab --port 8001 \
+cd /path/to/your/Molio-checkout
+.venv-whatif/bin/python -m molio --port 8001 \
   --boltz-executable .venv-boltz/bin/boltz
 ```
 
@@ -161,7 +192,7 @@ Open **[http://localhost:8001](http://localhost:8001)**, then press **Start**.
 If you only want to browse, add molecules, and explore designs, omit the Boltz argument:
 
 ```bash
-.venv-whatif/bin/python -m molecular_lab --port 8001
+.venv-whatif/bin/python -m molio --port 8001
 ```
 
 Keep the terminal open while using the app. Press **Ctrl+C** to stop the server. Closing a browser page does not stop the server or cancel a prediction.
@@ -171,10 +202,10 @@ Keep the terminal open while using the app. Press **Ctrl+C** to stop the server.
 From a checkout containing this application:
 
 ```bash
-python3 -m venv .venv-whatif
-.venv-whatif/bin/python -m pip install --upgrade pip
-.venv-whatif/bin/python -m pip install -e '.[chemistry]'
-.venv-whatif/bin/python -m molecular_lab --port 8001
+python3 -m venv .venv-molio
+.venv-molio/bin/python -m pip install --upgrade pip
+.venv-molio/bin/python -m pip install -e '.[chemistry]'
+.venv-molio/bin/python -m molio --port 8001
 ```
 
 The chemistry extra installs the repository’s pinned RDKit version. RDKit must be installed in the Python environment **running the server**; installing it elsewhere will not enable editing.
@@ -184,7 +215,7 @@ The chemistry extra installs the repository’s pinned RDKit version. RDKit must
 Without installing chemistry or prediction packages:
 
 ```bash
-python3 -m molecular_lab --port 8001
+python3 -m molio --port 8001
 ```
 
 Choose the BRD4 project from the library. Its nine compounds, seven curated comparisons, source records, molecular drawings, conformers, and experimental protein reference are bundled. Browsing this example needs no GPU or internet after obtaining the repository. Adding molecules, editing structures, and generating designs require RDKit.
@@ -236,7 +267,7 @@ When a ChEMBL target link is available, **Check measured data** looks for a supp
 
 This importer is deliberately selective: it requires exact, positive, unflagged measurements from a supported binding assay and a compatible 40–600 residue protein construct without annotated mutations. It searches bounded sets of activity records and structures. “No supported series found” means the importer did not find a compatible set within those limits; it does **not** mean no one has studied the protein.
 
-If this path fails, return to **Start empty**. A measured-data import creates a separate project; it does not merge into an existing empty workspace. Detailed selection criteria are in the [target setup guide](docs/WHAT_IF_LAB.md#set-up-another-protein-target).
+If this path fails, return to **Start empty**. A measured-data import creates a separate project; it does not merge into an existing empty workspace. Detailed selection criteria are in the [target setup guide](docs/GUIDE.md#set-up-another-protein-target).
 
 ### 3. Add a starting molecule
 
@@ -339,7 +370,7 @@ The current adapter requires **Boltz 2.2.1**, a separate **Python 3.12** environ
 python3.12 -m venv .venv-boltz
 .venv-boltz/bin/python -m pip install boltz==2.2.1
 
-.venv-whatif/bin/python -m molecular_lab --port 8001 \
+.venv-molio/bin/python -m molio --port 8001 \
   --boltz-executable .venv-boltz/bin/boltz
 ```
 
@@ -354,18 +385,22 @@ The adapter uses 3 recycling steps, 200 structure sampling steps, one structure 
 | Option | Default / purpose |
 | --- | --- |
 | `--port` | `8001`; use another port if it is occupied. |
-| `--project-dir` | `work/whatif`; stores projects, proposals, and experiments. Relative paths are resolved from your working directory. |
+| `--project-dir` | `work/molio` for new installations (existing `work/whatif` is reused automatically); stores projects, proposals, and experiments. Relative paths are resolved from your working directory. |
 | `--boltz-executable` | Optional path to the dedicated `boltz` executable. |
 | `--boltz-cache` | Defaults to `PROJECT_DIR/boltz-cache`; can point to a shared local model cache. |
 
-Run `python -m molecular_lab --help` for the actual CLI. The historical `whatif-lab` entry point and some “What-If” filenames remain for compatibility. Run only one server against a given project directory; changing the port alone does not bypass its worker lock.
+Run `python -m molio --help` for the actual CLI. The installed command is `molio`; the Python module is `molio`. Run only one server against a given project directory; changing the port alone does not bypass its worker lock.
 
 ## Your data and saved work
+
+To remove a saved project, open the library and choose **Delete** below its card. Confirm the protein name in the dialog. This permanently removes its local compounds, proposals, downloaded protein data and experiment results. Export anything you need first. Queued or running predictions must finish or be cancelled before deletion; shared model weights and other projects are kept. The bundled BRD4 reference is read-only.
+
+Existing installations keep using `work/whatif` automatically when `work/molio` does not exist. No projects or model weights need to be moved. Pass `--project-dir` to select another location.
 
 With the default settings:
 
 ```text
-work/whatif/
+work/molio/
 ├── proposals.sqlite3                 # Saved proposals for bundled BRD4
 ├── workspaces/
 │   └── lab-…/
@@ -378,7 +413,7 @@ work/whatif/
 └── boltz-cache/                       # Downloaded model assets
 ```
 
-The bundled example is under `molecular_lab/data/`; it is not recreated in every project. Experimental jobs record their workspace ID, sequence, candidate SMILES, protocol, source information, timestamps, and relevant hashes.
+The bundled example is under `molio/data/`; it is not recreated in every project. Experimental jobs record their workspace ID, sequence, candidate SMILES, protocol, source information, timestamps, and relevant hashes.
 
 | Information | Where it persists |
 | --- | --- |
@@ -418,21 +453,21 @@ The app uses Python’s standard-library HTTP server, plain JavaScript/CSS, loca
 
 | Location | Purpose |
 | --- | --- |
-| `molecular_lab/web/` | Interface, navigation, molecule/protein viewers, and Molio artwork. |
-| `molecular_lab/server.py` | Local HTTP/API entry point. |
-| `molecular_lab/targets.py`, `starter.py` | Measured-data imports and sequence-first setup. |
-| `molecular_lab/proposals.py`, `designs.py` | Chemistry analysis, saved ideas, and bounded design generation. |
-| `molecular_lab/experiments.py`, `repeats.py`, `pose_checks.py` | Prediction execution, seed summaries, and pose diagnostics. |
-| `molecular_lab/data/` | Bundled BRD4 fixture and source records. |
+| `molio/web/` | Interface, navigation, molecule/protein viewers, and Molio artwork. |
+| `molio/server.py` | Local HTTP/API entry point. |
+| `molio/targets.py`, `starter.py` | Measured-data imports and sequence-first setup. |
+| `molio/proposals.py`, `designs.py` | Chemistry analysis, saved ideas, and bounded design generation. |
+| `molio/experiments.py`, `repeats.py`, `pose_checks.py` | Prediction execution, seed summaries, and pose diagnostics. |
+| `molio/data/` | Bundled BRD4 fixture and source records. |
 | `tests/`, `scripts/` | Unit checks, browser checks, and data/research utilities. |
-| `cyp_pipeline/` | Earlier IsoForm CYP/UMA application, retained separately. |
+| `molio/sequence.py`, `molio/paths.py` | Validated sequence mapping and compatible local storage. |
 
 Focused chemistry and workflow checks, from the configured app environment:
 
 ```bash
 .venv-whatif/bin/python -m unittest \
-  tests.test_whatif_proposals tests.test_whatif_designs \
-  tests.test_whatif_starter tests.test_whatif_repeats
+  tests.test_proposals tests.test_designs \
+  tests.test_starter tests.test_repeats
 ```
 
 For browser checks, install the browser extra and Chromium in the same environment:
@@ -440,21 +475,21 @@ For browser checks, install the browser extra and Chromium in the same environme
 ```bash
 .venv-whatif/bin/python -m pip install -e '.[chemistry,browser]'
 .venv-whatif/bin/python -m playwright install chromium
-.venv-whatif/bin/python scripts/check_whatif_browser.py
+.venv-whatif/bin/python scripts/check_molio_browser.py
 ```
 
 Consult each check’s options before using live-import or inference modes. Ordinary UI checks and real model pilots are separate forms of verification.
 
-- [Detailed app guide](docs/WHAT_IF_LAB.md)
-- [Dataset provenance and structural audit](docs/WHAT_IF_DATA_AUDIT.md)
-- [First real Boltz pilot](docs/WHAT_IF_BOLTZ_PILOT.md)
-- [Matched-seed repeat pilot](docs/WHAT_IF_REPEAT_PILOT.md)
-- [Generated-design trial](docs/WHAT_IF_DESIGN_TRIAL.md)
-- [Pose-screen audit](docs/WHAT_IF_POSE_AUDIT.md)
-- [Product plan](docs/MOLECULAR_WHAT_IF_PLAN.md)
-- [Earlier IsoForm application and UMA setup](docs/ISOFORM_LEGACY_README.md)
+- [Detailed app guide](docs/GUIDE.md)
+- [Dataset provenance and structural audit](docs/DATA_PROVENANCE.md)
+- [First real Boltz pilot](docs/BOLTZ_PILOT.md)
+- [Matched-seed repeat pilot](docs/REPEAT_PILOT.md)
+- [Generated-design trial](docs/DESIGN_TRIAL.md)
+- [Pose-screen audit](docs/POSE_AUDIT.md)
+- [Product plan](docs/ROADMAP.md)
+- [Repository cleanup and migration](docs/CLEANUP.md)
 
-Pilot reports describe specific recorded runs, not a general validation of predictive accuracy. Historical documentation may use “Molecular What-If Lab,” the earlier name for Molio.
+Pilot reports describe specific recorded runs, not a general validation of predictive accuracy. Historical documentation may use “Molio,” the earlier name for Molio.
 
 ## License and attribution
 

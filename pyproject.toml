@@ -3,9 +3,9 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cyp-selectivity-pilot"
+name = "molio"
 version = "0.1.0"
-description = "IsoForm: exploratory molecular counter-screening, 3D pockets and traceable UMA workflows"
+description = "A local molecular workspace for chemical design, 3D inspection and traceable Boltz comparisons"
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -13,25 +13,14 @@ dependencies = []
 
 [project.optional-dependencies]
 chemistry = ["rdkit==2026.3.6"]
-test = ["numpy", "ase"]
 browser = ["playwright>=1.50,<2"]
 video = ["playwright>=1.50,<2", "imageio-ffmpeg==0.6.0"]
 
 [project.scripts]
-isoform = "cyp_pipeline.sentinel_server:main"
-whatif-lab = "molecular_lab.server:main"
-cyp = "cyp_pipeline.cli:main"
-cyp-sentinel = "cyp_pipeline.sentinel:main"
-cyp-sentinel-demo = "cyp_pipeline.sentinel_demo:main"
-cyp-sentinel-server = "cyp_pipeline.sentinel_server:main"
-cyp-screen-plan = "cyp_pipeline.screening:main"
-cyp-uma-batch = "cyp_pipeline.uma_batch:main"
-isoform-inputs = "cyp_pipeline.auto_inputs:main"
+molio = "molio.server:main"
 
 [tool.setuptools.packages.find]
-include = ["cyp_pipeline*", "molecular_lab*"]
+include = ["molio", "molio.*"]
 
 [tool.setuptools.package-data]
-cyp_pipeline = ["web/*.html", "web/*.css", "web/*.js", "data/*.json"]
-
-molecular_lab = ["web/*.json", "web/*.svg", "web/brand-concepts/*.svg", "web/*.html", "web/*.css", "web/*.js", "web/vendor/*", "data/*.json", "data/sources/*", "data/structures/*", "data/depictions/*"]
+molio = ["web/*.json", "web/*.svg", "web/*.html", "web/*.css", "web/*.js", "web/vendor/*", "data/*.json", "data/sources/*", "data/structures/*", "data/depictions/*"]

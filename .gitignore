@@ -1,4 +1,4 @@
-# Environments, caches, credentials and machine-specific configuration
+# Local environments, build products and caches
 __pycache__/
 *.py[cod]
 .venv*/
@@ -9,6 +9,13 @@ dist/
 .python/
 .cache/
 .pytest_cache/
+.DS_Store
+._*
+.idea/
+.vscode/
+.codex/
+
+# Credentials and machine-local settings
 .env
 .env.*
 !.env.example
@@ -18,59 +25,19 @@ id_rsa*
 id_ed25519*
 credentials*.json
 secrets*.json
-configs/*.local.json
-configs/*-local.json
-.codex/
-configs/uma-s-1p1-cpu-local.json
-configs/uma-s-1p1-a100.json
-.DS_Store
-._*
-.idea/
-.vscode/
 
-# Download model weights yourself under their upstream terms.
-models/*
-!models/.gitkeep
+# Local research projects, exports and downloaded model weights
+work/
+exports/
+models/
 *.pt
 *.pth
 *.ckpt
 *.safetensors
-data/validation/
-work/
-exports/
 
-# Preserve research inputs; large transient outputs stay on the original host.
-runs/*
-!runs/.gitkeep
-!runs/selectivity-sentinel-demo-v3/
-!runs/fadrozole-selectivity-v1/
-!runs/cyp11b1-design-results-v1/
-!runs/model-benchmark-extended-baseline-v1/
-!runs/model-benchmark-readiness-v1/
-!runs/exchange-R-pose-sensitivity-v1/
-!runs/exchange-design-pocket-S-pose-sensitivity-v1/
-!runs/selectivity-sentinel-geometry-v1.json
-!runs/exchange-free-R-fadrozole-01/
-runs/exchange-free-R-fadrozole-01/*
-!runs/exchange-free-R-fadrozole-01/prepared_component.json
+# Rebuildable README card frames; published PNGs and artwork sources are tracked.
+docs/media/pipeline/*-card.svg
+docs/media/pipeline/arrow-*.svg
 
-# Only final presentation deliverables, not capture frames or temporary clips.
-!runs/isoform-video/
-runs/isoform-video/*
-!runs/isoform-video/powerpoint-demo-v2/
-runs/isoform-video/powerpoint-demo-v2/*
-!runs/isoform-video/powerpoint-demo-v2/IsoForm-demo-1080p.mp4
-!runs/isoform-video/powerpoint-demo-v2/poster.png
-!runs/isoform-video/powerpoint-demo-v2/README.md
-!runs/isoform-video/powerpoint-demo-v2/actual-uma-job.json
-!runs/isoform-video/powerpoint-demo-v2/downloaded-results.json
-!runs/isoform-video/powerpoint-demo-v2/recording.json
-!runs/isoform-video/powerpoint-demo-v2/encoding-check.txt
-!runs/isoform-video/energy-fold-demo-v2/
-runs/isoform-video/energy-fold-demo-v2/*
-!runs/isoform-video/energy-fold-demo-v2/IsoForm-demo-1080p.mp4
-!runs/isoform-video/energy-fold-demo-v2/poster.png
-!runs/isoform-video/energy-fold-demo-v2/README.md
-!runs/isoform-video/energy-fold-demo-v2/baxdrostat-selected-fit.json
-!runs/isoform-video/energy-fold-demo-v2/recording.json
-!runs/isoform-video/energy-fold-demo-v2/encoding-check.txt
+# Accidental nested clone; not part of the application
+/Molio/

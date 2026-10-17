@@ -1,0 +1,10 @@
+# Run from the repository root: conda env create -f environment.yml
+# Application + chemistry only; Boltz uses its own environment (see README).
+name: molio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - ".[chemistry]"

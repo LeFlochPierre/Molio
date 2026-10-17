@@ -56,6 +56,6 @@ def main():
     distance=np.linalg.norm(vertices[:,None,:]-CENTRES,axis=-1)-RADII
     weights=np.exp(-5*distance);weights/=weights.sum(axis=-1)[:,None];colours=weights@COLOURS
     data={'description':'Continuous M-shaped Molio sculpture with flexible attached cyan and mint tips. Decorative, not a molecular structure.','vertices':np.round(vertices*10,4).tolist(),'normals':np.round(normals,5).tolist(),'colours':np.round(colours,4).tolist(),'faces':faces.ravel().tolist()}
-    path=ROOT/'molecular_lab/web/molio-logo.json';path.write_text(json.dumps(data,separators=(',',':')))
+    path=ROOT/'molio/web/molio-logo.json';path.write_text(json.dumps(data,separators=(',',':')))
     print(f'{path.name}: {len(vertices)} vertices, {len(faces)} triangles, {path.stat().st_size} bytes')
 if __name__=='__main__':main()
