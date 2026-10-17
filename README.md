@@ -33,7 +33,7 @@ Molio is an exploratory research prototype. It can organize evidence and generat
 **Linux, or Ubuntu through WSL on Windows · Python 3.13 recommended · no GPU needed for browsing and molecular design.**
 
 ```bash
-git clone https://github.com/LeFlochPierre/IsoForm.git Molio
+git clone https://github.com/LeFlochPierre/Molio.git
 cd Molio
 python3 -m venv .venv-molio
 source .venv-molio/bin/activate
@@ -42,7 +42,7 @@ python -m pip install '.[chemistry]'
 molio --port 8001
 ```
 
-Open **http://localhost:8001** and press **Start**. Open the bundled BRD4 project to explore immediately, or choose **New project** to find another protein online. The GitHub repository currently retains the name `IsoForm`; the application is Molio.
+Open **http://localhost:8001** and press **Start**. Open the bundled BRD4 project to explore immediately, or choose **New project** to find another protein online.
 
 **Using Conda instead?** After cloning and entering the repository:
 
