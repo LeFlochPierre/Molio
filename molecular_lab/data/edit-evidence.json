@@ -1,0 +1,318 @@
+{
+  "pair-1": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [],
+    "status": "unsupported_or_no_match",
+    "edit": null,
+    "summary": "No supported edit evidence found in this small library.",
+    "next_experiment": "If this is a meaningful chemical change, measure the proposal alongside its parent in the same assay. Missing evidence does not imply inactivity."
+  },
+  "pair-2": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [
+      {
+        "pair_id": "pair-2",
+        "left_id": "CHEMBL1828980",
+        "right_id": "CHEMBL1828982",
+        "left_observation": {
+          "activity_id": 6364733,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 24600.0,
+          "units": "nM",
+          "value_M": 2.46e-05,
+          "p_activity": 4.609064892896621,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "right_observation": {
+          "activity_id": 6364735,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 9700.0,
+          "units": "nM",
+          "value_M": 9.7e-06,
+          "p_activity": 5.013228265733755,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "left_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828980",
+        "right_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828982",
+        "fold_lower_ic50_right": 2.536082474226804,
+        "delta_p_activity_right": 0.40416337283713427
+      },
+      {
+        "pair_id": "pair-4",
+        "left_id": "CHEMBL1828985",
+        "right_id": "CHEMBL1828986",
+        "left_observation": {
+          "activity_id": 6364738,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 7500.0,
+          "units": "nM",
+          "value_M": 7.5e-06,
+          "p_activity": 5.1249387366083,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "right_observation": {
+          "activity_id": 6364739,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 4800.0,
+          "units": "nM",
+          "value_M": 4.800000000000001e-06,
+          "p_activity": 5.318758762624412,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "left_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828985",
+        "right_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828986",
+        "fold_lower_ic50_right": 1.5624999999999998,
+        "delta_p_activity_right": 0.19382002601611276
+      }
+    ],
+    "status": "evidence_found",
+    "edit": {
+      "id": "ketone_to_alcohol",
+      "label": "Ketone → alcohol",
+      "direction": 1
+    },
+    "summary": "IC50 was lower after this edit in 2 measured comparisons. These examples share one assay and publication; they are not independent replications.",
+    "counts": {
+      "lower": 2,
+      "higher": 0,
+      "unchanged": 0
+    },
+    "next_experiment": "Measure the proposal and its parent side by side using the same BRD4 assay, with replicates. Include a known transformation pair as a reference control. Test whether the direction transfers to this chemical context; do not assume its magnitude will.",
+    "limitation": "These observations support a testable hypothesis, not a potency prediction. Structural contacts do not establish a mechanism."
+  },
+  "pair-3": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [],
+    "status": "unsupported_or_no_match",
+    "edit": null,
+    "summary": "No supported edit evidence found in this small library.",
+    "next_experiment": "If this is a meaningful chemical change, measure the proposal alongside its parent in the same assay. Missing evidence does not imply inactivity."
+  },
+  "pair-4": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [
+      {
+        "pair_id": "pair-2",
+        "left_id": "CHEMBL1828980",
+        "right_id": "CHEMBL1828982",
+        "left_observation": {
+          "activity_id": 6364733,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 24600.0,
+          "units": "nM",
+          "value_M": 2.46e-05,
+          "p_activity": 4.609064892896621,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "right_observation": {
+          "activity_id": 6364735,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 9700.0,
+          "units": "nM",
+          "value_M": 9.7e-06,
+          "p_activity": 5.013228265733755,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "left_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828980",
+        "right_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828982",
+        "fold_lower_ic50_right": 2.536082474226804,
+        "delta_p_activity_right": 0.40416337283713427
+      },
+      {
+        "pair_id": "pair-4",
+        "left_id": "CHEMBL1828985",
+        "right_id": "CHEMBL1828986",
+        "left_observation": {
+          "activity_id": 6364738,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 7500.0,
+          "units": "nM",
+          "value_M": 7.5e-06,
+          "p_activity": 5.1249387366083,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "right_observation": {
+          "activity_id": 6364739,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 4800.0,
+          "units": "nM",
+          "value_M": 4.800000000000001e-06,
+          "p_activity": 5.318758762624412,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "left_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828985",
+        "right_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828986",
+        "fold_lower_ic50_right": 1.5624999999999998,
+        "delta_p_activity_right": 0.19382002601611276
+      }
+    ],
+    "status": "evidence_found",
+    "edit": {
+      "id": "ketone_to_alcohol",
+      "label": "Ketone → alcohol",
+      "direction": 1
+    },
+    "summary": "IC50 was lower after this edit in 2 measured comparisons. These examples share one assay and publication; they are not independent replications.",
+    "counts": {
+      "lower": 2,
+      "higher": 0,
+      "unchanged": 0
+    },
+    "next_experiment": "Measure the proposal and its parent side by side using the same BRD4 assay, with replicates. Include a known transformation pair as a reference control. Test whether the direction transfers to this chemical context; do not assume its magnitude will.",
+    "limitation": "These observations support a testable hypothesis, not a potency prediction. Structural contacts do not establish a mechanism."
+  },
+  "pair-5": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [
+      {
+        "pair_id": "pair-5",
+        "left_id": "CHEMBL1828983",
+        "right_id": "CHEMBL1828984",
+        "left_observation": {
+          "activity_id": 6364736,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 7700.0,
+          "units": "nM",
+          "value_M": 7.7e-06,
+          "p_activity": 5.113509274827518,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "right_observation": {
+          "activity_id": 6364737,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 51200.0,
+          "units": "nM",
+          "value_M": 5.1200000000000004e-05,
+          "p_activity": 4.29073003902417,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "left_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828983",
+        "right_source": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1828984",
+        "fold_lower_ic50_right": 0.150390625,
+        "delta_p_activity_right": -0.8227792358033489
+      }
+    ],
+    "status": "evidence_found",
+    "edit": {
+      "id": "ethyl_ester_to_acid",
+      "label": "Ethyl ester → carboxylic acid",
+      "direction": 1
+    },
+    "summary": "IC50 was higher after this edit in 1 measured comparison. These examples share one assay and publication; they are not independent replications.",
+    "counts": {
+      "lower": 0,
+      "higher": 1,
+      "unchanged": 0
+    },
+    "next_experiment": "Measure the proposal and its parent side by side using the same BRD4 assay, with replicates. Include a known transformation pair as a reference control. Test whether the direction transfers to this chemical context; do not assume its magnitude will.",
+    "limitation": "These observations support a testable hypothesis, not a potency prediction. Structural contacts do not establish a mechanism."
+  },
+  "pair-6": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [],
+    "status": "unsupported_or_no_match",
+    "edit": null,
+    "summary": "No supported edit evidence found in this small library.",
+    "next_experiment": "If this is a meaningful chemical change, measure the proposal alongside its parent in the same assay. Missing evidence does not imply inactivity."
+  },
+  "pair-7": {
+    "scope": "Nine compounds and seven curated comparisons from one BRD4 assay; no wider database search has been run.",
+    "method": "One recognized reaction must reproduce the complete molecular connectivity. Stereochemistry is not matched.",
+    "supported_edits": [
+      "Ketone → alcohol",
+      "Ethyl ester → carboxylic acid"
+    ],
+    "prediction": null,
+    "evidence": [],
+    "status": "unsupported_or_no_match",
+    "edit": null,
+    "summary": "No supported edit evidence found in this small library.",
+    "next_experiment": "If this is a meaningful chemical change, measure the proposal alongside its parent in the same assay. Missing evidence does not imply inactivity."
+  }
+}

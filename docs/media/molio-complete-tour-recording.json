@@ -1,0 +1,297 @@
+{
+  "created_utc": "2026-10-16T14:06:39.403518+00:00",
+  "width": 1440,
+  "height": 1000,
+  "encoded_fps": 30,
+  "audio": "none",
+  "new_predictions": true,
+  "predictions": 9,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "source": "Actual local Molio UI, real proposal saves and new Boltz-2 outputs; no mocked results.",
+  "presentation": "Actual UI captures; visible cursor, click highlights and chapter captions. Interaction pacing edited; smooth 1.22x close-ups in selected scenes; download and inference waits shortened and labelled.",
+  "scenes": [
+    {
+      "name": "01-welcome",
+      "seconds": 5,
+      "frames": 22,
+      "caption": "MOLIO \u00b7 From a question to a computational experiment",
+      "zoom": false
+    },
+    {
+      "name": "02-library",
+      "seconds": 6,
+      "frames": 31,
+      "caption": "01 / YOUR LIBRARY \u00b7 A separate workspace for each protein",
+      "zoom": false
+    },
+    {
+      "name": "03-search",
+      "seconds": 8,
+      "frames": 41,
+      "caption": "02 / START FROM SCRATCH \u00b7 Search UniProt for a protein",
+      "zoom": true,
+      "actual_wait_seconds": 1.07
+    },
+    {
+      "name": "04-download",
+      "seconds": 6,
+      "frames": 35,
+      "caption": "DOWNLOAD \u00b7 Protein sequence + available AlphaFold DB model \u00b7 wait accelerated",
+      "zoom": false,
+      "actual_wait_seconds": 1.09
+    },
+    {
+      "name": "05-protein",
+      "seconds": 9,
+      "frames": 64,
+      "caption": "03 / YOUR PROTEIN \u00b7 Downloaded coordinates; no measured series required",
+      "zoom": false,
+      "actual_wait_seconds": 0.04
+    },
+    {
+      "name": "06-sequence",
+      "seconds": 8,
+      "frames": 68,
+      "caption": "INPUTS \u00b7 Inspect the sequence and the region used for predictions",
+      "zoom": false
+    },
+    {
+      "name": "07-molecule",
+      "seconds": 10,
+      "frames": 113,
+      "caption": "04 / ADD A MOLECULE \u00b7 Paste SMILES to start with your own chemistry",
+      "zoom": true,
+      "actual_wait_seconds": 0.0
+    },
+    {
+      "name": "08-input-shape",
+      "seconds": 7,
+      "frames": 54,
+      "caption": "INSPECT \u00b7 A generated 3D conformer, not a bound pose or a known binder",
+      "zoom": false
+    },
+    {
+      "name": "09-custom-edit",
+      "seconds": 11,
+      "frames": 105,
+      "caption": "05 / YOUR OWN DESIGN \u00b7 Edit chemistry and preview the change",
+      "zoom": true
+    },
+    {
+      "name": "10-hypothesis",
+      "seconds": 8,
+      "frames": 164,
+      "caption": "KEEP THE QUESTION \u00b7 Save your idea with an explicit hypothesis",
+      "zoom": false
+    },
+    {
+      "name": "11-generate",
+      "seconds": 10,
+      "frames": 58,
+      "caption": "06 / EXPLORE IDEAS \u00b7 Generate small, rule-based chemical edits",
+      "zoom": false
+    },
+    {
+      "name": "12-compare-designs",
+      "seconds": 8,
+      "frames": 36,
+      "caption": "COMPARE \u00b7 Inspect 3D changes and calculated properties before predicting",
+      "zoom": true
+    },
+    {
+      "name": "13-configure",
+      "seconds": 10,
+      "frames": 50,
+      "caption": "07 / MATCHED SEEDS \u00b7 Three molecules \u00d7 three seeds = nine predictions",
+      "zoom": false
+    },
+    {
+      "name": "14-launch",
+      "seconds": 6,
+      "frames": 24,
+      "caption": "RUN \u00b7 Boltz-2 predicts protein\u2013ligand complexes and model scores",
+      "zoom": false
+    },
+    {
+      "name": "15-inference",
+      "seconds": 12,
+      "frames": 276,
+      "caption": "COMPUTING \u00b7 Nine actual predictions \u00b7 WAITING TIME ACCELERATED",
+      "zoom": false,
+      "actual_wait_seconds": 577.67,
+      "acceleration_factor": 48.14
+    },
+    {
+      "name": "16-consistency",
+      "seconds": 11,
+      "frames": 51,
+      "caption": "08 / CONSISTENCY \u00b7 Compare means, spread and matched-seed differences",
+      "zoom": true
+    },
+    {
+      "name": "17-probability",
+      "seconds": 11,
+      "frames": 63,
+      "caption": "09 / READ THE SCORES \u00b7 Binder probability is a model output, not a verified chance",
+      "zoom": true
+    },
+    {
+      "name": "18-pose",
+      "seconds": 10,
+      "frames": 64,
+      "caption": "10 / INSPECT IN 3D \u00b7 Rotate the actual predicted complex",
+      "zoom": false
+    },
+    {
+      "name": "19-checks",
+      "seconds": 9,
+      "frames": 78,
+      "caption": "REVIEW \u00b7 Geometry checks, nearby residues and prediction provenance",
+      "zoom": false
+    },
+    {
+      "name": "20-export",
+      "seconds": 7,
+      "frames": 40,
+      "caption": "11 / KEEP THE EVIDENCE \u00b7 Export settings, scores, seeds and source records",
+      "zoom": false
+    },
+    {
+      "name": "20a-public-chemistry",
+      "seconds": 10,
+      "frames": 83,
+      "caption": "ANOTHER START \u00b7 Search PubChem by name instead of writing SMILES",
+      "zoom": true,
+      "actual_wait_seconds": 1.37
+    },
+    {
+      "name": "20b-offline",
+      "seconds": 8,
+      "frames": 65,
+      "caption": "OFFLINE OPTIONS \u00b7 Example molecules; sources and workspace data stay available",
+      "zoom": false
+    },
+    {
+      "name": "21-measured",
+      "seconds": 8,
+      "frames": 52,
+      "caption": "12 / ANOTHER STARTING POINT \u00b7 Explore a measured series in the BRD4 project",
+      "zoom": false
+    },
+    {
+      "name": "22-activity",
+      "seconds": 9,
+      "frames": 32,
+      "caption": "MEASURED EVIDENCE \u00b7 Compare experimental IC50 values within one assay",
+      "zoom": true
+    },
+    {
+      "name": "23-pocket",
+      "seconds": 10,
+      "frames": 88,
+      "caption": "13 / EXPERIMENTAL STRUCTURE \u00b7 Explore the reference binding pocket",
+      "zoom": false
+    },
+    {
+      "name": "24-finish",
+      "seconds": 7,
+      "frames": 44,
+      "caption": "MOLIO \u00b7 Explore \u2192 design \u2192 predict \u2192 inspect \u2192 choose your next experiment",
+      "zoom": false
+    }
+  ],
+  "runtime": {
+    "ready": true,
+    "model": "Boltz-2",
+    "version": "2.2.1",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+    "weights_cached": true,
+    "issues": [],
+    "free_disk_gb": 1567.9
+  },
+  "workspace": "lab-c3ef2c78fa9c",
+  "input_compound": {
+    "id": "input-89bee5cbdaa7",
+    "name": "Ethyl benzoate \u00b7 starting idea",
+    "smiles": "CCOC(=O)c1ccccc1",
+    "canonical_smiles": "CCOC(=O)c1ccccc1",
+    "kind": "input",
+    "activity": null,
+    "experimental_pose": null,
+    "molecular_weight": 150.18,
+    "source": "User-supplied SMILES; no measured activity",
+    "unassigned_stereocentres": 0
+  },
+  "shortlist": {
+    "candidate_ids": [
+      "input-89bee5cbdaa7",
+      "66953b13-5dbf-4263-bd30-922cbeea6c04",
+      "320bc601-f293-4475-9ee3-b249cd2fc450"
+    ],
+    "parent_id": "input-89bee5cbdaa7",
+    "prediction_started": false
+  },
+  "job_id": "d1a20c09-4f26-478e-921c-9ff2deb90c3a",
+  "job_status": "complete",
+  "job_created_at": "2026-10-16T14:08:16.174710+00:00",
+  "job_finished_at": "2026-10-16T14:17:53.491606+00:00",
+  "mutating_requests": [
+    "starter",
+    "target-compounds",
+    "compound",
+    "preview",
+    "suggestions",
+    "preview",
+    "proposals",
+    "designs",
+    "preview",
+    "preview",
+    "design-shortlist",
+    "experiments"
+  ],
+  "duration_seconds": 224,
+  "supplemental_capture": {
+    "created_utc": "2026-10-16T14:10:18.219254+00:00",
+    "mutating_requests": [
+      "find-compounds",
+      "import-compound"
+    ],
+    "imported_compound": {
+      "id": "input-0c076aadd8aa",
+      "name": "Caffeine",
+      "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "canonical_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "kind": "input",
+      "activity": null,
+      "experimental_pose": null,
+      "molecular_weight": 194.19,
+      "source": "PubChem",
+      "unassigned_stereocentres": 0,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+      "origin": {
+        "id": "pubchem-2519",
+        "name": "Caffeine",
+        "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+        "source": "PubChem",
+        "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+        "evidence": [],
+        "evidence_note": "Chemical identity from PubChem. Activity on this protein has not been established by this lookup."
+      },
+      "supporting_records": []
+    },
+    "note": "Captured separately during inference; inserted after run export. Did not modify submitted prediction inputs."
+  },
+  "verification": "All nine predictions complete; actual run exported through UI. Final H.264 video fully decoded. Original and supplementary captures reported no browser JavaScript errors.",
+  "preview": {
+    "file": "molio-complete-preview.gif",
+    "width": 720,
+    "fps": 6,
+    "speed_relative_to_edited_video": 4,
+    "bytes": 8018531,
+    "note": "Selected highlights; inference wait is already accelerated in the source video."
+  }
+}

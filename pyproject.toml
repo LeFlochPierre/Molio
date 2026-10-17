@@ -12,12 +12,14 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.optional-dependencies]
+chemistry = ["rdkit==2026.3.6"]
 test = ["numpy", "ase"]
 browser = ["playwright>=1.50,<2"]
 video = ["playwright>=1.50,<2", "imageio-ffmpeg==0.6.0"]
 
 [project.scripts]
 isoform = "cyp_pipeline.sentinel_server:main"
+whatif-lab = "molecular_lab.server:main"
 cyp = "cyp_pipeline.cli:main"
 cyp-sentinel = "cyp_pipeline.sentinel:main"
 cyp-sentinel-demo = "cyp_pipeline.sentinel_demo:main"
@@ -27,7 +29,9 @@ cyp-uma-batch = "cyp_pipeline.uma_batch:main"
 isoform-inputs = "cyp_pipeline.auto_inputs:main"
 
 [tool.setuptools.packages.find]
-include = ["cyp_pipeline*"]
+include = ["cyp_pipeline*", "molecular_lab*"]
 
 [tool.setuptools.package-data]
 cyp_pipeline = ["web/*.html", "web/*.css", "web/*.js", "data/*.json"]
+
+molecular_lab = ["web/*.json", "web/*.svg", "web/brand-concepts/*.svg", "web/*.html", "web/*.css", "web/*.js", "web/vendor/*", "data/*.json", "data/sources/*", "data/structures/*", "data/depictions/*"]

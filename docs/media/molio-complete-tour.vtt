@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+MOLIO · From a question to a computational experiment
+
+2
+00:00:05.000 --> 00:00:11.000
+01 / YOUR LIBRARY · A separate workspace for each protein
+
+3
+00:00:11.000 --> 00:00:19.000
+02 / START FROM SCRATCH · Search UniProt for a protein
+
+4
+00:00:19.000 --> 00:00:25.000
+DOWNLOAD · Protein sequence + available AlphaFold DB model · wait accelerated
+
+5
+00:00:25.000 --> 00:00:34.000
+03 / YOUR PROTEIN · Downloaded coordinates; no measured series required
+
+6
+00:00:34.000 --> 00:00:42.000
+INPUTS · Inspect the sequence and the region used for predictions
+
+7
+00:00:42.000 --> 00:00:52.000
+04 / ADD A MOLECULE · Paste SMILES to start with your own chemistry
+
+8
+00:00:52.000 --> 00:00:59.000
+INSPECT · A generated 3D conformer, not a bound pose or a known binder
+
+9
+00:00:59.000 --> 00:01:10.000
+05 / YOUR OWN DESIGN · Edit chemistry and preview the change
+
+10
+00:01:10.000 --> 00:01:18.000
+KEEP THE QUESTION · Save your idea with an explicit hypothesis
+
+11
+00:01:18.000 --> 00:01:28.000
+06 / EXPLORE IDEAS · Generate small, rule-based chemical edits
+
+12
+00:01:28.000 --> 00:01:36.000
+COMPARE · Inspect 3D changes and calculated properties before predicting
+
+13
+00:01:36.000 --> 00:01:46.000
+07 / MATCHED SEEDS · Three molecules × three seeds = nine predictions
+
+14
+00:01:46.000 --> 00:01:52.000
+RUN · Boltz-2 predicts protein–ligand complexes and model scores
+
+15
+00:01:52.000 --> 00:02:04.000
+COMPUTING · Nine actual predictions · WAITING TIME ACCELERATED
+
+16
+00:02:04.000 --> 00:02:15.000
+08 / CONSISTENCY · Compare means, spread and matched-seed differences
+
+17
+00:02:15.000 --> 00:02:26.000
+09 / READ THE SCORES · Binder probability is a model output, not a verified chance
+
+18
+00:02:26.000 --> 00:02:36.000
+10 / INSPECT IN 3D · Rotate the actual predicted complex
+
+19
+00:02:36.000 --> 00:02:45.000
+REVIEW · Geometry checks, nearby residues and prediction provenance
+
+20
+00:02:45.000 --> 00:02:52.000
+11 / KEEP THE EVIDENCE · Export settings, scores, seeds and source records
+
+21
+00:02:52.000 --> 00:03:02.000
+ANOTHER START · Search PubChem by name instead of writing SMILES
+
+22
+00:03:02.000 --> 00:03:10.000
+OFFLINE OPTIONS · Example molecules; sources and workspace data stay available
+
+23
+00:03:10.000 --> 00:03:18.000
+12 / ANOTHER STARTING POINT · Explore a measured series in the BRD4 project
+
+24
+00:03:18.000 --> 00:03:27.000
+MEASURED EVIDENCE · Compare experimental IC50 values within one assay
+
+25
+00:03:27.000 --> 00:03:37.000
+13 / EXPERIMENTAL STRUCTURE · Explore the reference binding pocket
+
+26
+00:03:37.000 --> 00:03:44.000
+MOLIO · Explore → design → predict → inspect → choose your next experiment

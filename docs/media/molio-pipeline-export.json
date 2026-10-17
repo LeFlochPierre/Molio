@@ -1,0 +1,792 @@
+{
+  "id": "7067a8ba-c421-4a4f-8586-34666c00a6a1",
+  "schema_version": 2,
+  "seeds": [
+    42
+  ],
+  "created_at": "2026-10-15T13:04:33.705160+00:00",
+  "status": "complete",
+  "model": "Boltz-2",
+  "model_version": "2.2.1",
+  "settings": {
+    "seed": 42,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1,
+    "sampling_steps_affinity": 200,
+    "diffusion_samples_affinity": 5
+  },
+  "sequence": "NPPPPETSNPNKPKRQTNQLQYLLRVVLKTLWKHQFAWPFQQPVDAVKLNLPDYYKIIKTPMDMGTIKKRLENNYYWNAQECIQDFNTMFTNCYIYNKPGDDIVLMAEALEKLFLQKINELPTEE",
+  "sequence_source": {
+    "path": "/home/pml220/IsoForm/molecular_lab/data/structures/3SVG.pdb",
+    "sha256": "a335d91e7cdd7f30ceea24c81c213a08fb8797fb723eeedcfdd59cdae887c0fe",
+    "chain": "A",
+    "source": "PDB SEQRES mapped by DBREF and SEQADV",
+    "uniprot_accession": "O60885",
+    "uniprot_start": 44,
+    "uniprot_end": 168,
+    "source_construct_length": 127,
+    "sequence_length": 125,
+    "sequence_sha256": "7772c2640312283ecb713a7f52e9ffee3c33c9196e69fccdaf0767e26884c8f4",
+    "dbref": "DBREF  3SVG A   44   168  UNP    O60885   BRD4_HUMAN      44    168",
+    "expression_tags_removed": [
+      42,
+      43
+    ]
+  },
+  "cases": [
+    {
+      "id": "candidate_1_seed42",
+      "source": {
+        "id": "CHEMBL1828983",
+        "name": "CHEMBL1828983",
+        "smiles": "CCOC(=O)c1cc(OCC)cc(-c2c(C)noc2C)c1",
+        "observation": {
+          "activity_id": 6364736,
+          "assay_id": "CHEMBL1832996",
+          "target_id": "CHEMBL1163125",
+          "document_id": "CHEMBL1828554",
+          "endpoint": "IC50",
+          "relation": "=",
+          "value": 7700,
+          "units": "nM",
+          "value_M": 0.0000077,
+          "p_activity": 5.113509274827518,
+          "validity_comment": null,
+          "potential_duplicate": 0
+        },
+        "stereo_options": [
+          "CCOC(=O)c1cc(OCC)cc(-c2c(C)noc2C)c1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": null,
+        "hypothesis": null,
+        "design_origin": null,
+        "kind": "measured"
+      },
+      "smiles": "CCOC(=O)c1cc(OCC)cc(-c2c(C)noc2C)c1",
+      "heavy_atoms": 21,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "BRD4 mapped C-alpha Kabsch alignment and heavy-atom distances v1",
+          "pose_sha256": "7c1da6c3cb10c37b01bf6a4d836ae4714a54dfd1e06b6edb4625b6962f16eedd",
+          "reference_sha256": "a335d91e7cdd7f30ceea24c81c213a08fb8797fb723eeedcfdd59cdae887c0fe",
+          "reference_alternate_policy": "Use blank or A altloc records; discard other reference alternates. Predicted alternate conformers are unsupported.",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Project screening heuristics, not validated acceptance thresholds. A clear screen does not establish correct bonding, stereochemistry, protonation, binding or affinity. The reference ODR is a different ligand: centroid distance is not ligand-pose RMSD.",
+          "status": "screen_clear",
+          "flags": [],
+          "mapped_ca_count": 125,
+          "protein_ca_rmsd_A": 0.4365,
+          "ligand_centroid_distance_A": 0.8351,
+          "minimum_protein_ligand_distance_A": 3.0614,
+          "severe_contact_count": 0,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 42,
+              "uniprot_residue": 85,
+              "resname": "GLN",
+              "minimum_distance_A": 3.061
+            },
+            {
+              "predicted_residue": 97,
+              "uniprot_residue": 140,
+              "resname": "ASN",
+              "minimum_distance_A": 3.186
+            },
+            {
+              "predicted_residue": 38,
+              "uniprot_residue": 81,
+              "resname": "TRP",
+              "minimum_distance_A": 3.345
+            },
+            {
+              "predicted_residue": 49,
+              "uniprot_residue": 92,
+              "resname": "LEU",
+              "minimum_distance_A": 3.445
+            },
+            {
+              "predicted_residue": 103,
+              "uniprot_residue": 146,
+              "resname": "ILE",
+              "minimum_distance_A": 3.524
+            },
+            {
+              "predicted_residue": 39,
+              "uniprot_residue": 82,
+              "resname": "PRO",
+              "minimum_distance_A": 3.578
+            },
+            {
+              "predicted_residue": 51,
+              "uniprot_residue": 94,
+              "resname": "LEU",
+              "minimum_distance_A": 3.603
+            },
+            {
+              "predicted_residue": 40,
+              "uniprot_residue": 83,
+              "resname": "PHE",
+              "minimum_distance_A": 3.732
+            },
+            {
+              "predicted_residue": 54,
+              "uniprot_residue": 97,
+              "resname": "TYR",
+              "minimum_distance_A": 3.82
+            },
+            {
+              "predicted_residue": 44,
+              "uniprot_residue": 87,
+              "resname": "VAL",
+              "minimum_distance_A": 3.913
+            }
+          ],
+          "reference_overlay_pdb": "HETATM 1096  CAA ODR R 169      11.383  -5.216  -1.549  1.00 11.14           C  \nHETATM 1097  CAB ODR R 169      10.642  -5.276  -2.879  1.00 11.98           C  \nHETATM 1098  OAC ODR R 169      10.725  -6.651  -3.332  1.00 15.63           O  \nHETATM 1099  CAD ODR R 169      10.061  -6.918  -4.484  1.00 13.39           C  \nHETATM 1100  CAE ODR R 169      10.003  -8.257  -4.813  1.00 16.22           C  \nHETATM 1101  CAF ODR R 169       9.364  -8.713  -5.952  1.00 15.29           C  \nHETATM 1102  CAG ODR R 169       8.771  -7.778  -6.811  1.00 13.83           C  \nHETATM 1103  CAH ODR R 169       8.820  -6.402  -6.494  1.00 13.03           C  \nHETATM 1104  CAI ODR R 169       9.455  -5.979  -5.326  1.00 18.87           C  \nHETATM 1105  CAJ ODR R 169       8.128  -5.495  -7.325  1.00 16.01           C  \nHETATM 1106  CAK ODR R 169       7.110  -4.618  -6.901  1.00 15.90           C  \nHETATM 1107  CAL ODR R 169       6.568  -4.341  -5.510  1.00 16.15           C  \nHETATM 1108  NAM ODR R 169       6.585  -3.945  -7.925  1.00 18.12           N  \nHETATM 1109  OAN ODR R 169       7.243  -4.398  -9.072  1.00 19.10           O  \nHETATM 1110  CAO ODR R 169       8.162  -5.348  -8.713  1.00 20.04           C  \nHETATM 1111  CAP ODR R 169       9.076  -6.048  -9.729  1.00 17.76           C  \nHETATM 1112  CAQ ODR R 169       9.397 -10.250  -6.138  1.00 22.90           C  \nHETATM 1113  OAR ODR R 169       9.583 -10.718  -7.458  1.00 18.42           O  \nHETATM 1114  CAS ODR R 169       8.124 -10.844  -5.572  1.00 16.73           C  \nEND\n",
+          "reference_note": "Aligned experimental ODR from 3SVG, chain R in this overlay. Different ligand; context only."
+        },
+        "affinity": {
+          "affinity_pred_value": -0.07308787107467651,
+          "affinity_probability_binary": 0.8525376319885254,
+          "affinity_pred_value1": -0.3160420358181,
+          "affinity_probability_binary1": 0.945941686630249,
+          "affinity_pred_value2": 0.16986629366874695,
+          "affinity_probability_binary2": 0.7591335773468018
+        },
+        "confidence": {
+          "confidence_score": 0.9731807112693787,
+          "ptm": 0.9754476547241211,
+          "iptm": 0.9496930837631226,
+          "ligand_iptm": 0.9496930837631226,
+          "protein_iptm": 0,
+          "complex_plddt": 0.9790526032447815,
+          "complex_iplddt": 0.9724205732345581,
+          "complex_pde": 0.309184193611145,
+          "complex_ipde": 0.47817084193229675,
+          "chains_ptm": {
+            "0": 0.982785165309906,
+            "1": 0.929564893245697
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.982785165309906,
+              "1": 0.7795770764350891
+            },
+            "1": {
+              "0": 0.9496930837631226,
+              "1": 0.929564893245697
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/candidate_1_seed42_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/candidate_1_seed42_model_0.pdb",
+            "sha256": "7c1da6c3cb10c37b01bf6a4d836ae4714a54dfd1e06b6edb4625b6962f16eedd"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/affinity_candidate_1_seed42.json",
+            "sha256": "51411c62584f47a8f4e7b0d78819501a378a68bd9e501d563c6b7bbe393db80b"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/confidence_candidate_1_seed42_model_0.json",
+            "sha256": "e69402d1ef837c03dbf50df55c4fc9954d10dee0d21a042e34d29fb7ea124c73"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_1",
+      "seed": 42,
+      "input_sha256": "c57895e9b83569c395a6ea9a4cfd3ba7c95f08cf1cf0967290e80ca159947891",
+      "started_at": "2026-10-15T13:04:33.707719+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/7067a8ba-c421-4a4f-8586-34666c00a6a1/candidate_1_seed42.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/7067a8ba-c421-4a4f-8586-34666c00a6a1/candidate_1_seed42",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "42",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-15T13:05:40.184735+00:00"
+    },
+    {
+      "id": "candidate_2_seed42",
+      "source": {
+        "id": "d4725f49-77e4-4917-973e-f373652d6cb3",
+        "name": "Ethoxy → methoxy · 0da435",
+        "smiles": "CCOC(=O)c1cc(OC)cc(-c2c(C)noc2C)c1",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1cc(OC)cc(-c2c(C)noc2C)c1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "CHEMBL1828983",
+        "hypothesis": "Does ethoxy → methoxy change affinity relative to CHEMBL1828983? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "shorten_ether",
+          "design_id": "0da43501805242ae7d11",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "CCOC(=O)c1cc(OC)cc(-c2c(C)noc2C)c1",
+      "heavy_atoms": 20,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "BRD4 mapped C-alpha Kabsch alignment and heavy-atom distances v1",
+          "pose_sha256": "911dacbf455456fa051c0fdddbe3c59449065b726ee867aa5c803433affbaa6f",
+          "reference_sha256": "a335d91e7cdd7f30ceea24c81c213a08fb8797fb723eeedcfdd59cdae887c0fe",
+          "reference_alternate_policy": "Use blank or A altloc records; discard other reference alternates. Predicted alternate conformers are unsupported.",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Project screening heuristics, not validated acceptance thresholds. A clear screen does not establish correct bonding, stereochemistry, protonation, binding or affinity. The reference ODR is a different ligand: centroid distance is not ligand-pose RMSD.",
+          "status": "screen_clear",
+          "flags": [],
+          "mapped_ca_count": 125,
+          "protein_ca_rmsd_A": 0.3993,
+          "ligand_centroid_distance_A": 0.5204,
+          "minimum_protein_ligand_distance_A": 3.067,
+          "severe_contact_count": 0,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 97,
+              "uniprot_residue": 140,
+              "resname": "ASN",
+              "minimum_distance_A": 3.067
+            },
+            {
+              "predicted_residue": 39,
+              "uniprot_residue": 82,
+              "resname": "PRO",
+              "minimum_distance_A": 3.546
+            },
+            {
+              "predicted_residue": 38,
+              "uniprot_residue": 81,
+              "resname": "TRP",
+              "minimum_distance_A": 3.554
+            },
+            {
+              "predicted_residue": 40,
+              "uniprot_residue": 83,
+              "resname": "PHE",
+              "minimum_distance_A": 3.56
+            },
+            {
+              "predicted_residue": 49,
+              "uniprot_residue": 92,
+              "resname": "LEU",
+              "minimum_distance_A": 3.573
+            },
+            {
+              "predicted_residue": 51,
+              "uniprot_residue": 94,
+              "resname": "LEU",
+              "minimum_distance_A": 3.574
+            },
+            {
+              "predicted_residue": 42,
+              "uniprot_residue": 85,
+              "resname": "GLN",
+              "minimum_distance_A": 3.674
+            },
+            {
+              "predicted_residue": 106,
+              "uniprot_residue": 149,
+              "resname": "MET",
+              "minimum_distance_A": 3.677
+            },
+            {
+              "predicted_residue": 103,
+              "uniprot_residue": 146,
+              "resname": "ILE",
+              "minimum_distance_A": 3.707
+            },
+            {
+              "predicted_residue": 44,
+              "uniprot_residue": 87,
+              "resname": "VAL",
+              "minimum_distance_A": 3.881
+            },
+            {
+              "predicted_residue": 102,
+              "uniprot_residue": 145,
+              "resname": "ASP",
+              "minimum_distance_A": 3.91
+            },
+            {
+              "predicted_residue": 54,
+              "uniprot_residue": 97,
+              "resname": "TYR",
+              "minimum_distance_A": 3.989
+            }
+          ],
+          "reference_overlay_pdb": "HETATM 1096  CAA ODR R 169      11.728  -4.354  -1.825  1.00 11.14           C  \nHETATM 1097  CAB ODR R 169      10.953  -4.493  -3.130  1.00 11.98           C  \nHETATM 1098  OAC ODR R 169      11.116  -5.870  -3.557  1.00 15.63           O  \nHETATM 1099  CAD ODR R 169      10.437  -6.207  -4.681  1.00 13.39           C  \nHETATM 1100  CAE ODR R 169      10.461  -7.554  -4.980  1.00 16.22           C  \nHETATM 1101  CAF ODR R 169       9.819  -8.079  -6.088  1.00 15.29           C  \nHETATM 1102  CAG ODR R 169       9.137  -7.206  -6.947  1.00 13.83           C  \nHETATM 1103  CAH ODR R 169       9.101  -5.822  -6.659  1.00 13.03           C  \nHETATM 1104  CAI ODR R 169       9.741  -5.332  -5.522  1.00 18.87           C  \nHETATM 1105  CAJ ODR R 169       8.324  -4.984  -7.486  1.00 16.01           C  \nHETATM 1106  CAK ODR R 169       7.261  -4.169  -7.047  1.00 15.90           C  \nHETATM 1107  CAL ODR R 169       6.745  -3.898  -5.645  1.00 16.15           C  \nHETATM 1108  NAM ODR R 169       6.659  -3.557  -8.067  1.00 18.12           N  \nHETATM 1109  OAN ODR R 169       7.311  -3.990  -9.225  1.00 19.10           O  \nHETATM 1110  CAO ODR R 169       8.304  -4.866  -8.877  1.00 20.04           C  \nHETATM 1111  CAP ODR R 169       9.232  -5.526  -9.907  1.00 17.76           C  \nHETATM 1112  CAQ ODR R 169       9.952  -9.614  -6.243  1.00 22.90           C  \nHETATM 1113  OAR ODR R 169      10.129 -10.098  -7.559  1.00 18.42           O  \nHETATM 1114  CAS ODR R 169       8.741 -10.280  -5.624  1.00 16.73           C  \nEND\n",
+          "reference_note": "Aligned experimental ODR from 3SVG, chain R in this overlay. Different ligand; context only."
+        },
+        "affinity": {
+          "affinity_pred_value": -0.029358848929405212,
+          "affinity_probability_binary": 0.8551223874092102,
+          "affinity_pred_value1": -0.26590314507484436,
+          "affinity_probability_binary1": 0.9779541492462158,
+          "affinity_pred_value2": 0.20718544721603394,
+          "affinity_probability_binary2": 0.7322906255722046
+        },
+        "confidence": {
+          "confidence_score": 0.9800991415977478,
+          "ptm": 0.981547474861145,
+          "iptm": 0.9830363392829895,
+          "ligand_iptm": 0.9830363392829895,
+          "protein_iptm": 0,
+          "complex_plddt": 0.9793647527694702,
+          "complex_iplddt": 0.9768404960632324,
+          "complex_pde": 0.2775622606277466,
+          "complex_ipde": 0.3285166323184967,
+          "chains_ptm": {
+            "0": 0.9831470251083374,
+            "1": 0.9572451710700989
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9831470251083374,
+              "1": 0.8252189755439758
+            },
+            "1": {
+              "0": 0.9830363392829895,
+              "1": 0.9572451710700989
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/candidate_2_seed42_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/candidate_2_seed42_model_0.pdb",
+            "sha256": "911dacbf455456fa051c0fdddbe3c59449065b726ee867aa5c803433affbaa6f"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/affinity_candidate_2_seed42.json",
+            "sha256": "d4d06250b63796e145fcb6f8875382aeaf9cbb0a71af3f8f0ac876eac75a1ae1"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/confidence_candidate_2_seed42_model_0.json",
+            "sha256": "889acc3e6dac183c53e7bf3ff8fe8099b4da5acf15e0a0e83e78390d83851462"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_2",
+      "seed": 42,
+      "input_sha256": "b641711009a6f31154affc183f34399e477da4fff0fa45226e1265afa1b8a86d",
+      "started_at": "2026-10-15T13:05:40.209670+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/7067a8ba-c421-4a4f-8586-34666c00a6a1/candidate_2_seed42.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/7067a8ba-c421-4a4f-8586-34666c00a6a1/candidate_2_seed42",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "42",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-15T13:06:43.078725+00:00"
+    },
+    {
+      "id": "candidate_3_seed42",
+      "source": {
+        "id": "b26e15d5-845c-4638-939b-6fa1c58ab491",
+        "name": "Ethyl ester → methyl ester · 355cc3",
+        "smiles": "CCOc1cc(C(=O)OC)cc(-c2c(C)noc2C)c1",
+        "observation": null,
+        "stereo_options": [
+          "CCOc1cc(C(=O)OC)cc(-c2c(C)noc2C)c1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "CHEMBL1828983",
+        "hypothesis": "Does ethyl ester → methyl ester change affinity relative to CHEMBL1828983? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "shorten_ester",
+          "design_id": "355cc3b1502baffd642a",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "CCOc1cc(C(=O)OC)cc(-c2c(C)noc2C)c1",
+      "heavy_atoms": 20,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "BRD4 mapped C-alpha Kabsch alignment and heavy-atom distances v1",
+          "pose_sha256": "2a1ef18a677d41811436cc743a5e3d606d8fb725e3e4f78eb7e295a89faca3af",
+          "reference_sha256": "a335d91e7cdd7f30ceea24c81c213a08fb8797fb723eeedcfdd59cdae887c0fe",
+          "reference_alternate_policy": "Use blank or A altloc records; discard other reference alternates. Predicted alternate conformers are unsupported.",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Project screening heuristics, not validated acceptance thresholds. A clear screen does not establish correct bonding, stereochemistry, protonation, binding or affinity. The reference ODR is a different ligand: centroid distance is not ligand-pose RMSD.",
+          "status": "screen_clear",
+          "flags": [],
+          "mapped_ca_count": 125,
+          "protein_ca_rmsd_A": 0.41,
+          "ligand_centroid_distance_A": 0.7053,
+          "minimum_protein_ligand_distance_A": 3.0729,
+          "severe_contact_count": 0,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 42,
+              "uniprot_residue": 85,
+              "resname": "GLN",
+              "minimum_distance_A": 3.073
+            },
+            {
+              "predicted_residue": 97,
+              "uniprot_residue": 140,
+              "resname": "ASN",
+              "minimum_distance_A": 3.154
+            },
+            {
+              "predicted_residue": 38,
+              "uniprot_residue": 81,
+              "resname": "TRP",
+              "minimum_distance_A": 3.455
+            },
+            {
+              "predicted_residue": 49,
+              "uniprot_residue": 92,
+              "resname": "LEU",
+              "minimum_distance_A": 3.466
+            },
+            {
+              "predicted_residue": 103,
+              "uniprot_residue": 146,
+              "resname": "ILE",
+              "minimum_distance_A": 3.502
+            },
+            {
+              "predicted_residue": 51,
+              "uniprot_residue": 94,
+              "resname": "LEU",
+              "minimum_distance_A": 3.564
+            },
+            {
+              "predicted_residue": 39,
+              "uniprot_residue": 82,
+              "resname": "PRO",
+              "minimum_distance_A": 3.577
+            },
+            {
+              "predicted_residue": 40,
+              "uniprot_residue": 83,
+              "resname": "PHE",
+              "minimum_distance_A": 3.674
+            },
+            {
+              "predicted_residue": 54,
+              "uniprot_residue": 97,
+              "resname": "TYR",
+              "minimum_distance_A": 3.739
+            },
+            {
+              "predicted_residue": 44,
+              "uniprot_residue": 87,
+              "resname": "VAL",
+              "minimum_distance_A": 3.871
+            },
+            {
+              "predicted_residue": 106,
+              "uniprot_residue": 149,
+              "resname": "MET",
+              "minimum_distance_A": 3.905
+            }
+          ],
+          "reference_overlay_pdb": "HETATM 1096  CAA ODR R 169      12.738   0.633  -1.495  1.00 11.14           C  \nHETATM 1097  CAB ODR R 169      12.110  -0.181  -2.620  1.00 11.98           C  \nHETATM 1098  OAC ODR R 169      12.801  -1.455  -2.638  1.00 15.63           O  \nHETATM 1099  CAD ODR R 169      12.333  -2.351  -3.542  1.00 13.39           C  \nHETATM 1100  CAE ODR R 169      12.882  -3.613  -3.434  1.00 16.22           C  \nHETATM 1101  CAF ODR R 169      12.521  -4.653  -4.271  1.00 15.29           C  \nHETATM 1102  CAG ODR R 169      11.576  -4.409  -5.278  1.00 13.83           C  \nHETATM 1103  CAH ODR R 169      11.003  -3.123  -5.407  1.00 13.03           C  \nHETATM 1104  CAI ODR R 169      11.375  -2.104  -4.531  1.00 18.87           C  \nHETATM 1105  CAJ ODR R 169       9.983  -2.936  -6.364  1.00 16.01           C  \nHETATM 1106  CAK ODR R 169       8.678  -2.485  -6.083  1.00 15.90           C  \nHETATM 1107  CAL ODR R 169       8.062  -2.009  -4.779  1.00 16.15           C  \nHETATM 1108  NAM ODR R 169       7.912  -2.489  -7.175  1.00 18.12           N  \nHETATM 1109  OAN ODR R 169       8.710  -2.981  -8.212  1.00 19.10           O  \nHETATM 1110  CAO ODR R 169       9.954  -3.268  -7.719  1.00 20.04           C  \nHETATM 1111  CAP ODR R 169      11.090  -3.815  -8.596  1.00 17.76           C  \nHETATM 1112  CAQ ODR R 169      13.239  -5.993  -3.981  1.00 22.90           C  \nHETATM 1113  OAR ODR R 169      13.621  -6.756  -5.107  1.00 18.42           O  \nHETATM 1114  CAS ODR R 169      12.363  -6.838  -3.080  1.00 16.73           C  \nEND\n",
+          "reference_note": "Aligned experimental ODR from 3SVG, chain R in this overlay. Different ligand; context only."
+        },
+        "affinity": {
+          "affinity_pred_value": -0.2067871242761612,
+          "affinity_probability_binary": 0.8843052983283997,
+          "affinity_pred_value1": -0.18334677815437317,
+          "affinity_probability_binary1": 0.9746442437171936,
+          "affinity_pred_value2": -0.23022747039794922,
+          "affinity_probability_binary2": 0.7939663529396057
+        },
+        "confidence": {
+          "confidence_score": 0.9723913073539734,
+          "ptm": 0.9796526432037354,
+          "iptm": 0.9648942351341248,
+          "ligand_iptm": 0.9648942351341248,
+          "protein_iptm": 0,
+          "complex_plddt": 0.9742655754089355,
+          "complex_iplddt": 0.9603004455566406,
+          "complex_pde": 0.2934153378009796,
+          "complex_ipde": 0.4080507755279541,
+          "chains_ptm": {
+            "0": 0.9844900369644165,
+            "1": 0.9346282482147217
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9844900369644165,
+              "1": 0.8078648447990417
+            },
+            "1": {
+              "0": 0.9648942351341248,
+              "1": 0.9346282482147217
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/candidate_3_seed42_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/candidate_3_seed42_model_0.pdb",
+            "sha256": "2a1ef18a677d41811436cc743a5e3d606d8fb725e3e4f78eb7e295a89faca3af"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/affinity_candidate_3_seed42.json",
+            "sha256": "e3f9eb907b69a7796fc41256a26050dca8f3dfd0c6f704edb8a41c60d2790e78"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/confidence_candidate_3_seed42_model_0.json",
+            "sha256": "9ca18373b868d03bd03704979fe50db20f49a80ef9a31e865a50299add136312"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_3",
+      "seed": 42,
+      "input_sha256": "b8a8c10bfeceb49a80774bbc32b305889f8b17945e604ba7879ea79a5b2b235e",
+      "started_at": "2026-10-15T13:06:43.099636+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/7067a8ba-c421-4a4f-8586-34666c00a6a1/candidate_3_seed42.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/7067a8ba-c421-4a4f-8586-34666c00a6a1/candidate_3_seed42",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "42",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-15T13:07:47.976357+00:00"
+    }
+  ],
+  "workspace_id": "brd4",
+  "target": {
+    "name": "BRD4 · bromodomain 1",
+    "organism": "Homo sapiens",
+    "uniprot": "O60885",
+    "chembl_id": "CHEMBL1163125"
+  },
+  "pose_check_mode": "brd4",
+  "msa_mode": "empty",
+  "templates": false,
+  "use_potentials": false,
+  "assay": {
+    "id": "CHEMBL1832996",
+    "description": "Displacement of H4Ac4 peptide from first bromodomain of human BRD4 by peptide displacement assay",
+    "organism": "Homo sapiens",
+    "confidence_score": 9,
+    "url": "https://www.ebi.ac.uk/chembl/explore/assay/CHEMBL1832996"
+  },
+  "warnings": [
+    "Exploratory single-sequence pilot: no MSA, no template. This can reduce prediction quality.",
+    "Only one protein construct and the selected ligand are predicted; other chains, metals and cofactors are omitted.",
+    "One seed per candidate; sampling variation has not been assessed.",
+    "Selected stereoisomers do not inherit measurements from stereochemically unspecified assay records.",
+    "Known published compounds may overlap model training data. This is not a held-out validation.",
+    "Native affinity_pred_value is log10(IC50 in micromolar), lower is stronger; it is not a measured IC50.",
+    "A completed model run is not a validated binding prediction."
+  ],
+  "comparison": {
+    "candidates": [
+      {
+        "id": "candidate_1",
+        "name": "CHEMBL1828983",
+        "smiles": "CCOC(=O)c1cc(OCC)cc(-c2c(C)noc2C)c1",
+        "expected": 1,
+        "pose_review_count": 0,
+        "pose_unchecked_count": 0,
+        "completed": 1,
+        "mean": -0.07308787107467651,
+        "min": -0.07308787107467651,
+        "max": -0.07308787107467651,
+        "sample_sd": null
+      },
+      {
+        "id": "candidate_2",
+        "name": "Ethoxy → methoxy · 0da435",
+        "smiles": "CCOC(=O)c1cc(OC)cc(-c2c(C)noc2C)c1",
+        "expected": 1,
+        "pose_review_count": 0,
+        "pose_unchecked_count": 0,
+        "completed": 1,
+        "mean": -0.029358848929405212,
+        "min": -0.029358848929405212,
+        "max": -0.029358848929405212,
+        "sample_sd": null
+      },
+      {
+        "id": "candidate_3",
+        "name": "Ethyl ester → methyl ester · 355cc3",
+        "smiles": "CCOc1cc(C(=O)OC)cc(-c2c(C)noc2C)c1",
+        "expected": 1,
+        "pose_review_count": 0,
+        "pose_unchecked_count": 0,
+        "completed": 1,
+        "mean": -0.2067871242761612,
+        "min": -0.2067871242761612,
+        "max": -0.2067871242761612,
+        "sample_sd": null
+      }
+    ],
+    "comparisons": [
+      {
+        "baseline_id": "candidate_1",
+        "candidate_id": "candidate_2",
+        "matched_seeds": [
+          42
+        ],
+        "expected": 1,
+        "paired_deltas": [
+          0.0437290221452713
+        ],
+        "mean_delta": 0.0437290221452713,
+        "direction": "single_run"
+      },
+      {
+        "baseline_id": "candidate_1",
+        "candidate_id": "candidate_3",
+        "matched_seeds": [
+          42
+        ],
+        "expected": 1,
+        "paired_deltas": [
+          -0.13369925320148468
+        ],
+        "mean_delta": -0.13369925320148468,
+        "direction": "single_run"
+      }
+    ],
+    "interpretation": "Variation across random seeds under one fixed protocol. Not experimental replicates, a confidence interval, or calibrated prediction uncertainty. Negative paired deltas favour the candidate over the first selected molecule."
+  },
+  "checkpoints": [
+    {
+      "file": "boltz2_aff.ckpt",
+      "sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e"
+    },
+    {
+      "file": "boltz2_conf.ckpt",
+      "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1"
+    }
+  ],
+  "protocol_sha256": "b8b9a067c773f66966ea5cb35722f8a1b7a7853ced0b77e451d474be160f3e59",
+  "finished_at": "2026-10-15T13:07:50.175772+00:00"
+}

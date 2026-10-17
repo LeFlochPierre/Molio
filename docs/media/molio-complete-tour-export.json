@@ -1,0 +1,1731 @@
+{
+  "id": "d1a20c09-4f26-478e-921c-9ff2deb90c3a",
+  "schema_version": 2,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "created_at": "2026-10-16T14:08:16.174710+00:00",
+  "status": "complete",
+  "model": "Boltz-2",
+  "model_version": "2.2.1",
+  "settings": {
+    "seed": 42,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1,
+    "sampling_steps_affinity": 200,
+    "diffusion_samples_affinity": 5
+  },
+  "sequence": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE",
+  "sequence_source": {
+    "uniprot": "P62942",
+    "source_url": "https://www.uniprot.org/uniprotkb/P62942/entry",
+    "start": 1,
+    "end": 108,
+    "sequence_sha256": "7c2c9a4005a08f9f8ed2ce2e3b7d9432dd39547abafef80ffab6adbb89753b2c",
+    "sequence_scope": "Canonical UniProt residues 1–108 (inclusive). Model numbering starts at 1. A cropped region is not the full protein."
+  },
+  "cases": [
+    {
+      "id": "candidate_1_seed42",
+      "source": {
+        "id": "input-89bee5cbdaa7",
+        "name": "Ethyl benzoate · starting idea",
+        "smiles": "CCOC(=O)c1ccccc1",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1ccccc1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": null,
+        "hypothesis": null,
+        "design_origin": null,
+        "kind": "input"
+      },
+      "smiles": "CCOC(=O)c1ccccc1",
+      "heavy_atoms": 11,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "dc7d97df2d6825602d593983c1005dba6d21a24bc740c0a8d15d3124b4e39280",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.3734,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.373
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.335
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.383
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.43
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.615
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.625
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 2.240480899810791,
+          "affinity_probability_binary": 0.45648810267448425,
+          "affinity_pred_value1": 2.340876579284668,
+          "affinity_probability_binary1": 0.358026921749115,
+          "affinity_pred_value2": 2.140085220336914,
+          "affinity_probability_binary2": 0.5549492835998535
+        },
+        "confidence": {
+          "confidence_score": 0.9020084738731384,
+          "ptm": 0.9356696009635925,
+          "iptm": 0.9253420829772949,
+          "ligand_iptm": 0.9253420829772949,
+          "protein_iptm": 0,
+          "complex_plddt": 0.8961750864982605,
+          "complex_iplddt": 0.8325365781784058,
+          "complex_pde": 0.43744075298309326,
+          "complex_ipde": 0.804263174533844,
+          "chains_ptm": {
+            "0": 0.9367213249206543,
+            "1": 0.9643074870109558
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9367213249206543,
+              "1": 0.6368676424026489
+            },
+            "1": {
+              "0": 0.9253420829772949,
+              "1": 0.9643074870109558
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/candidate_1_seed42_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/candidate_1_seed42_model_0.pdb",
+            "sha256": "dc7d97df2d6825602d593983c1005dba6d21a24bc740c0a8d15d3124b4e39280"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/affinity_candidate_1_seed42.json",
+            "sha256": "f6d8525f7884bf841f38326a909ebf69b4125630299bde4fdd48d38b286d7ca4"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed42/predictions/candidate_1_seed42/confidence_candidate_1_seed42_model_0.json",
+            "sha256": "7ecb1fcfe658a1291047d4d775cbf6e59e464d4990a36c1073c810b03bb72736"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_1",
+      "seed": 42,
+      "input_sha256": "5a35d75055f9278901133cda6c24fbcc7dfb44d0a1bc1d2decc34330935eb496",
+      "started_at": "2026-10-16T14:08:16.177493+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_1_seed42.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_1_seed42",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "42",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:09:20.867307+00:00"
+    },
+    {
+      "id": "candidate_2_seed42",
+      "source": {
+        "id": "66953b13-5dbf-4263-bd30-922cbeea6c04",
+        "name": "Ethyl ester → methyl ester · d4fe98",
+        "smiles": "COC(=O)c1ccccc1",
+        "observation": null,
+        "stereo_options": [
+          "COC(=O)c1ccccc1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "input-89bee5cbdaa7",
+        "hypothesis": "Does ethyl ester → methyl ester change affinity relative to input-89bee5cbdaa7? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "shorten_ester",
+          "design_id": "d4fe9863526110b09fb1",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "COC(=O)c1ccccc1",
+      "heavy_atoms": 10,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "1dc72121f97866969d831f1ac4a2fa7b1a891cb809bb257ec25b4d9ebf8eba28",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.7812,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.781
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.153
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.363
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.471
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.505
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.547
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 1.9858124256134033,
+          "affinity_probability_binary": 0.2644509971141815,
+          "affinity_pred_value1": 2.072673797607422,
+          "affinity_probability_binary1": 0.17769519984722137,
+          "affinity_pred_value2": 1.8989510536193848,
+          "affinity_probability_binary2": 0.35120680928230286
+        },
+        "confidence": {
+          "confidence_score": 0.9206633567810059,
+          "ptm": 0.958946168422699,
+          "iptm": 0.9275768995285034,
+          "ligand_iptm": 0.9275768995285034,
+          "protein_iptm": 0,
+          "complex_plddt": 0.9189349412918091,
+          "complex_iplddt": 0.8374984264373779,
+          "complex_pde": 0.3540199398994446,
+          "complex_ipde": 0.6862682104110718,
+          "chains_ptm": {
+            "0": 0.9625226259231567,
+            "1": 0.9662311673164368
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9625226259231567,
+              "1": 0.6050605177879333
+            },
+            "1": {
+              "0": 0.9275768995285034,
+              "1": 0.9662311673164368
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/candidate_2_seed42_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/candidate_2_seed42_model_0.pdb",
+            "sha256": "1dc72121f97866969d831f1ac4a2fa7b1a891cb809bb257ec25b4d9ebf8eba28"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/affinity_candidate_2_seed42.json",
+            "sha256": "1f701abb70dba50f50574501052431a32c41203c74d915c36f252000bb4d8d89"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed42/predictions/candidate_2_seed42/confidence_candidate_2_seed42_model_0.json",
+            "sha256": "a905a2ac02fd21e40b0cbbf09eb75c1bfc808bc72e38468b89ace9ae2531f08e"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_2",
+      "seed": 42,
+      "input_sha256": "324936f3b3d679e9a38e25ea566a69ca89aa5fd91d6006af6a24bd1d38bec0ca",
+      "started_at": "2026-10-16T14:09:20.879573+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_2_seed42.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_2_seed42",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "42",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:10:22.348754+00:00"
+    },
+    {
+      "id": "candidate_3_seed42",
+      "source": {
+        "id": "320bc601-f293-4475-9ee3-b249cd2fc450",
+        "name": "Aromatic H → F · 4bba21",
+        "smiles": "CCOC(=O)c1ccccc1F",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1ccccc1F"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "input-89bee5cbdaa7",
+        "hypothesis": "Does aromatic h → f change affinity relative to input-89bee5cbdaa7? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "aryl_fluorine",
+          "design_id": "4bba2131c9befd6c5e87",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "CCOC(=O)c1ccccc1F",
+      "heavy_atoms": 12,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "6e9399c007c355d60b0d5180135f864c63ad37543bf74ae58c9b058233263d28",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.4113,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.411
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.085
+            },
+            {
+              "predicted_residue": 100,
+              "resname": "PHE",
+              "minimum_distance_A": 3.27
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.327
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.373
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.476
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.734
+            },
+            {
+              "predicted_residue": 27,
+              "resname": "TYR",
+              "minimum_distance_A": 3.957
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 1.57542085647583,
+          "affinity_probability_binary": 0.5902842283248901,
+          "affinity_pred_value1": 0.8791971206665039,
+          "affinity_probability_binary1": 0.7440966963768005,
+          "affinity_pred_value2": 2.2716445922851562,
+          "affinity_probability_binary2": 0.4364718198776245
+        },
+        "confidence": {
+          "confidence_score": 0.8969864249229431,
+          "ptm": 0.9518430829048157,
+          "iptm": 0.9606591463088989,
+          "ligand_iptm": 0.9606591463088989,
+          "protein_iptm": 0,
+          "complex_plddt": 0.881068229675293,
+          "complex_iplddt": 0.7970277070999146,
+          "complex_pde": 0.38319283723831177,
+          "complex_ipde": 0.6426070332527161,
+          "chains_ptm": {
+            "0": 0.9517313838005066,
+            "1": 0.9775547385215759
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9517313838005066,
+              "1": 0.7465589046478271
+            },
+            "1": {
+              "0": 0.9606591463088989,
+              "1": 0.9775547385215759
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/candidate_3_seed42_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/candidate_3_seed42_model_0.pdb",
+            "sha256": "6e9399c007c355d60b0d5180135f864c63ad37543bf74ae58c9b058233263d28"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/affinity_candidate_3_seed42.json",
+            "sha256": "0871186d952a09c406d523d983240fe9c8e971c30d65f856170c077587724998"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed42/predictions/candidate_3_seed42/confidence_candidate_3_seed42_model_0.json",
+            "sha256": "dd6d0586bb2b6d59232bb062bda192c309dcba3477ea9bca87243a5e26aaff4a"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_3",
+      "seed": 42,
+      "input_sha256": "959c0ccb0f85f43f3ab4771949f3b6280016c15e088a2636530e5ee6d6632e7f",
+      "started_at": "2026-10-16T14:10:22.359735+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_3_seed42.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_3_seed42",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "42",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:11:39.914197+00:00"
+    },
+    {
+      "id": "candidate_1_seed43",
+      "source": {
+        "id": "input-89bee5cbdaa7",
+        "name": "Ethyl benzoate · starting idea",
+        "smiles": "CCOC(=O)c1ccccc1",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1ccccc1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": null,
+        "hypothesis": null,
+        "design_origin": null,
+        "kind": "input"
+      },
+      "smiles": "CCOC(=O)c1ccccc1",
+      "heavy_atoms": 11,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "dd8467855f6573e668509b010a1e5c819632f3904dac1e6a9f36ee85fad0ac7e",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 3.1024,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.102
+            },
+            {
+              "predicted_residue": 27,
+              "resname": "TYR",
+              "minimum_distance_A": 3.284
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.398
+            },
+            {
+              "predicted_residue": 100,
+              "resname": "PHE",
+              "minimum_distance_A": 3.475
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.551
+            },
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 3.678
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.864
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.984
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 2.1380231380462646,
+          "affinity_probability_binary": 0.44861799478530884,
+          "affinity_pred_value1": 2.1252927780151367,
+          "affinity_probability_binary1": 0.3529285788536072,
+          "affinity_pred_value2": 2.1507534980773926,
+          "affinity_probability_binary2": 0.5443074107170105
+        },
+        "confidence": {
+          "confidence_score": 0.8777346611022949,
+          "ptm": 0.9363954067230225,
+          "iptm": 0.884730875492096,
+          "ligand_iptm": 0.884730875492096,
+          "protein_iptm": 0,
+          "complex_plddt": 0.8759855628013611,
+          "complex_iplddt": 0.7805224061012268,
+          "complex_pde": 0.4572560489177704,
+          "complex_ipde": 1.0363718271255493,
+          "chains_ptm": {
+            "0": 0.9435091614723206,
+            "1": 0.9438232779502869
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9435091614723206,
+              "1": 0.5366668105125427
+            },
+            "1": {
+              "0": 0.884730875492096,
+              "1": 0.9438232779502869
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_1_seed43/predictions/candidate_1_seed43/candidate_1_seed43_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_1_seed43/predictions/candidate_1_seed43/candidate_1_seed43_model_0.pdb",
+            "sha256": "dd8467855f6573e668509b010a1e5c819632f3904dac1e6a9f36ee85fad0ac7e"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed43/predictions/candidate_1_seed43/affinity_candidate_1_seed43.json",
+            "sha256": "d7253dba1894b4c650ef4e1d699a7ade733898cfbb2d89bf28e87015802f3730"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed43/predictions/candidate_1_seed43/confidence_candidate_1_seed43_model_0.json",
+            "sha256": "4ec2c0dac887d6e02c56d52ea9a61b0bcc61431f0e340386013b8b284c04fbc9"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_1",
+      "seed": 43,
+      "input_sha256": "5a35d75055f9278901133cda6c24fbcc7dfb44d0a1bc1d2decc34330935eb496",
+      "started_at": "2026-10-16T14:11:39.923404+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_1_seed43.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_1_seed43",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "43",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:12:40.588326+00:00"
+    },
+    {
+      "id": "candidate_2_seed43",
+      "source": {
+        "id": "66953b13-5dbf-4263-bd30-922cbeea6c04",
+        "name": "Ethyl ester → methyl ester · d4fe98",
+        "smiles": "COC(=O)c1ccccc1",
+        "observation": null,
+        "stereo_options": [
+          "COC(=O)c1ccccc1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "input-89bee5cbdaa7",
+        "hypothesis": "Does ethyl ester → methyl ester change affinity relative to input-89bee5cbdaa7? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "shorten_ester",
+          "design_id": "d4fe9863526110b09fb1",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "COC(=O)c1ccccc1",
+      "heavy_atoms": 10,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "d5e3bfeaeea9a865be3a221b8ff3cf5ece3582311acc6f35908f5db97820dff1",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.2917,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.292
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.335
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.367
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.495
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.576
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.967
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 2.070676565170288,
+          "affinity_probability_binary": 0.2574537694454193,
+          "affinity_pred_value1": 2.233935832977295,
+          "affinity_probability_binary1": 0.16930115222930908,
+          "affinity_pred_value2": 1.9074174165725708,
+          "affinity_probability_binary2": 0.34560638666152954
+        },
+        "confidence": {
+          "confidence_score": 0.9155679941177368,
+          "ptm": 0.9459801912307739,
+          "iptm": 0.9204087257385254,
+          "ligand_iptm": 0.9204087257385254,
+          "protein_iptm": 0,
+          "complex_plddt": 0.9143577218055725,
+          "complex_iplddt": 0.8339911103248596,
+          "complex_pde": 0.39801886677742004,
+          "complex_ipde": 0.7891077399253845,
+          "chains_ptm": {
+            "0": 0.9487281441688538,
+            "1": 0.9642698764801025
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9487281441688538,
+              "1": 0.5975119471549988
+            },
+            "1": {
+              "0": 0.9204087257385254,
+              "1": 0.9642698764801025
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_2_seed43/predictions/candidate_2_seed43/candidate_2_seed43_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_2_seed43/predictions/candidate_2_seed43/candidate_2_seed43_model_0.pdb",
+            "sha256": "d5e3bfeaeea9a865be3a221b8ff3cf5ece3582311acc6f35908f5db97820dff1"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed43/predictions/candidate_2_seed43/affinity_candidate_2_seed43.json",
+            "sha256": "aeef3d3d00867c2c32f24954ed2709818883da830e768a7c69d4d7ac3d3d29e0"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed43/predictions/candidate_2_seed43/confidence_candidate_2_seed43_model_0.json",
+            "sha256": "85041fae4aca60688be2c77d589038ccdb4099aa0fdabcbd6d35af6e31b4a8b7"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_2",
+      "seed": 43,
+      "input_sha256": "324936f3b3d679e9a38e25ea566a69ca89aa5fd91d6006af6a24bd1d38bec0ca",
+      "started_at": "2026-10-16T14:12:40.598386+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_2_seed43.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_2_seed43",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "43",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:13:41.869711+00:00"
+    },
+    {
+      "id": "candidate_3_seed43",
+      "source": {
+        "id": "320bc601-f293-4475-9ee3-b249cd2fc450",
+        "name": "Aromatic H → F · 4bba21",
+        "smiles": "CCOC(=O)c1ccccc1F",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1ccccc1F"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "input-89bee5cbdaa7",
+        "hypothesis": "Does aromatic h → f change affinity relative to input-89bee5cbdaa7? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "aryl_fluorine",
+          "design_id": "4bba2131c9befd6c5e87",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "CCOC(=O)c1ccccc1F",
+      "heavy_atoms": 12,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "96a49ac6045cd458b6256b552f47b5f92d2c926edeb168d929804069365f08fc",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.3523,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.352
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.115
+            },
+            {
+              "predicted_residue": 100,
+              "resname": "PHE",
+              "minimum_distance_A": 3.323
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.355
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.425
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.699
+            },
+            {
+              "predicted_residue": 27,
+              "resname": "TYR",
+              "minimum_distance_A": 3.799
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.837
+            },
+            {
+              "predicted_residue": 91,
+              "resname": "ILE",
+              "minimum_distance_A": 3.884
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 1.8808375597000122,
+          "affinity_probability_binary": 0.4900156259536743,
+          "affinity_pred_value1": 1.4803168773651123,
+          "affinity_probability_binary1": 0.5364490747451782,
+          "affinity_pred_value2": 2.281358242034912,
+          "affinity_probability_binary2": 0.4435822069644928
+        },
+        "confidence": {
+          "confidence_score": 0.8933124542236328,
+          "ptm": 0.9533558487892151,
+          "iptm": 0.9590329527854919,
+          "ligand_iptm": 0.9590329527854919,
+          "protein_iptm": 0,
+          "complex_plddt": 0.8768823146820068,
+          "complex_iplddt": 0.792280912399292,
+          "complex_pde": 0.3736351728439331,
+          "complex_ipde": 0.6120069026947021,
+          "chains_ptm": {
+            "0": 0.9530551433563232,
+            "1": 0.9766016006469727
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9530551433563232,
+              "1": 0.7336772680282593
+            },
+            "1": {
+              "0": 0.9590329527854919,
+              "1": 0.9766016006469727
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_3_seed43/predictions/candidate_3_seed43/candidate_3_seed43_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_3_seed43/predictions/candidate_3_seed43/candidate_3_seed43_model_0.pdb",
+            "sha256": "96a49ac6045cd458b6256b552f47b5f92d2c926edeb168d929804069365f08fc"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed43/predictions/candidate_3_seed43/affinity_candidate_3_seed43.json",
+            "sha256": "646229d340043cdd982b124522249e3f2f0c8038481239f15281280af8849978"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed43/predictions/candidate_3_seed43/confidence_candidate_3_seed43_model_0.json",
+            "sha256": "206e12f979b4a211c64b27297c0ddd95b2e6c57d6b4d94b9e0177648932e50f6"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_3",
+      "seed": 43,
+      "input_sha256": "959c0ccb0f85f43f3ab4771949f3b6280016c15e088a2636530e5ee6d6632e7f",
+      "started_at": "2026-10-16T14:13:41.879147+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_3_seed43.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_3_seed43",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "43",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:14:45.148769+00:00"
+    },
+    {
+      "id": "candidate_1_seed44",
+      "source": {
+        "id": "input-89bee5cbdaa7",
+        "name": "Ethyl benzoate · starting idea",
+        "smiles": "CCOC(=O)c1ccccc1",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1ccccc1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": null,
+        "hypothesis": null,
+        "design_origin": null,
+        "kind": "input"
+      },
+      "smiles": "CCOC(=O)c1ccccc1",
+      "heavy_atoms": 11,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "a45b840ddc75f8c4803bfcd0b719279ff55b3f17a95b281fd133c5811a8209f5",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.5108,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.511
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.062
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.266
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.295
+            },
+            {
+              "predicted_residue": 27,
+              "resname": "TYR",
+              "minimum_distance_A": 3.928
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 2.046595335006714,
+          "affinity_probability_binary": 0.5637455582618713,
+          "affinity_pred_value1": 2.1298274993896484,
+          "affinity_probability_binary1": 0.4933435320854187,
+          "affinity_pred_value2": 1.9633630514144897,
+          "affinity_probability_binary2": 0.634147584438324
+        },
+        "confidence": {
+          "confidence_score": 0.9020145535469055,
+          "ptm": 0.9589509963989258,
+          "iptm": 0.9499019980430603,
+          "ligand_iptm": 0.9499019980430603,
+          "protein_iptm": 0,
+          "complex_plddt": 0.8900426626205444,
+          "complex_iplddt": 0.810260534286499,
+          "complex_pde": 0.35349783301353455,
+          "complex_ipde": 0.6254299879074097,
+          "chains_ptm": {
+            "0": 0.9609754085540771,
+            "1": 0.9726321697235107
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9609754085540771,
+              "1": 0.7000203728675842
+            },
+            "1": {
+              "0": 0.9499019980430603,
+              "1": 0.9726321697235107
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_1_seed44/predictions/candidate_1_seed44/candidate_1_seed44_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_1_seed44/predictions/candidate_1_seed44/candidate_1_seed44_model_0.pdb",
+            "sha256": "a45b840ddc75f8c4803bfcd0b719279ff55b3f17a95b281fd133c5811a8209f5"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed44/predictions/candidate_1_seed44/affinity_candidate_1_seed44.json",
+            "sha256": "1b25390f969cff7e1d7739dd5361c489dcb529f549ccb5682b79d9b3ed86e21d"
+          },
+          {
+            "file": "boltz_results_candidate_1_seed44/predictions/candidate_1_seed44/confidence_candidate_1_seed44_model_0.json",
+            "sha256": "7b5a0ab1d0a0eac1d780a5ecac35a221149e0e37d44c7e336898288db5db2fc0"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_1",
+      "seed": 44,
+      "input_sha256": "5a35d75055f9278901133cda6c24fbcc7dfb44d0a1bc1d2decc34330935eb496",
+      "started_at": "2026-10-16T14:14:45.158637+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_1_seed44.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_1_seed44",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "44",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:15:48.027075+00:00"
+    },
+    {
+      "id": "candidate_2_seed44",
+      "source": {
+        "id": "66953b13-5dbf-4263-bd30-922cbeea6c04",
+        "name": "Ethyl ester → methyl ester · d4fe98",
+        "smiles": "COC(=O)c1ccccc1",
+        "observation": null,
+        "stereo_options": [
+          "COC(=O)c1ccccc1"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "input-89bee5cbdaa7",
+        "hypothesis": "Does ethyl ester → methyl ester change affinity relative to input-89bee5cbdaa7? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "shorten_ester",
+          "design_id": "d4fe9863526110b09fb1",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "COC(=O)c1ccccc1",
+      "heavy_atoms": 10,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "273a01493d3b01bed7ee572e09f5899c0216d16a0a857004331b4028245ec2a5",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.2706,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.271
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.232
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.25
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.62
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.734
+            },
+            {
+              "predicted_residue": 100,
+              "resname": "PHE",
+              "minimum_distance_A": 3.842
+            },
+            {
+              "predicted_residue": 38,
+              "resname": "ASP",
+              "minimum_distance_A": 3.995
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 2.0742578506469727,
+          "affinity_probability_binary": 0.2549019753932953,
+          "affinity_pred_value1": 2.24769926071167,
+          "affinity_probability_binary1": 0.16012175381183624,
+          "affinity_pred_value2": 1.9008162021636963,
+          "affinity_probability_binary2": 0.3496822118759155
+        },
+        "confidence": {
+          "confidence_score": 0.9238945841789246,
+          "ptm": 0.9542382955551147,
+          "iptm": 0.9262596964836121,
+          "ligand_iptm": 0.9262596964836121,
+          "protein_iptm": 0,
+          "complex_plddt": 0.9233033657073975,
+          "complex_iplddt": 0.8432418704032898,
+          "complex_pde": 0.3677610456943512,
+          "complex_ipde": 0.7059563398361206,
+          "chains_ptm": {
+            "0": 0.9577630162239075,
+            "1": 0.9648914933204651
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9577630162239075,
+              "1": 0.6101943850517273
+            },
+            "1": {
+              "0": 0.9262596964836121,
+              "1": 0.9648914933204651
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_2_seed44/predictions/candidate_2_seed44/candidate_2_seed44_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_2_seed44/predictions/candidate_2_seed44/candidate_2_seed44_model_0.pdb",
+            "sha256": "273a01493d3b01bed7ee572e09f5899c0216d16a0a857004331b4028245ec2a5"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed44/predictions/candidate_2_seed44/affinity_candidate_2_seed44.json",
+            "sha256": "9dc86289942873857f0f397363c940c0d956181aec74bbb6832f18b2031c64c1"
+          },
+          {
+            "file": "boltz_results_candidate_2_seed44/predictions/candidate_2_seed44/confidence_candidate_2_seed44_model_0.json",
+            "sha256": "100489d647ea6546b3af4c88ca0f4408afc56b9905ee7016eef7b46dff9f9e25"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_2",
+      "seed": 44,
+      "input_sha256": "324936f3b3d679e9a38e25ea566a69ca89aa5fd91d6006af6a24bd1d38bec0ca",
+      "started_at": "2026-10-16T14:15:48.039293+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_2_seed44.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_2_seed44",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "44",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:16:48.709142+00:00"
+    },
+    {
+      "id": "candidate_3_seed44",
+      "source": {
+        "id": "320bc601-f293-4475-9ee3-b249cd2fc450",
+        "name": "Aromatic H → F · 4bba21",
+        "smiles": "CCOC(=O)c1ccccc1F",
+        "observation": null,
+        "stereo_options": [
+          "CCOC(=O)c1ccccc1F"
+        ],
+        "supporting_records": [],
+        "input_origin": null,
+        "stereo_note": "Recorded stereochemistry retained.",
+        "parent_id": "input-89bee5cbdaa7",
+        "hypothesis": "Does aromatic h → f change affinity relative to input-89bee5cbdaa7? Compare matched model seeds, then test both molecules in the same assay.",
+        "design_origin": {
+          "rule": "aryl_fluorine",
+          "design_id": "4bba2131c9befd6c5e87",
+          "scope": "Up to eight one-step structural ideas with the same ring scaffold. No synthesis route, potency improvement or novelty beyond the local library is claimed."
+        },
+        "kind": "proposal"
+      },
+      "smiles": "CCOC(=O)c1ccccc1F",
+      "heavy_atoms": 12,
+      "status": "complete",
+      "prediction": {
+        "pose_checks": {
+          "schema_version": 1,
+          "method": "Ligand element composition and heavy-atom distances v1",
+          "pose_sha256": "53cbdfcbe3d5f94d9e57232c84c3ce576c824c45043c23757ad27a9f94acdae6",
+          "thresholds": {
+            "severe_contact_below_A": 1.2,
+            "nearby_residue_within_A": 4,
+            "pocket_centroid_beyond_A": 6,
+            "protein_ca_rmsd_above_A": 2
+          },
+          "limitation": "Limited atom and contact checks only. Reference alignment and pocket placement have not been checked for this imported target. Bonds, stereochemistry, cofactors and affinity are not validated.",
+          "mapped_ca_count": 0,
+          "protein_ca_rmsd_A": null,
+          "ligand_centroid_distance_A": null,
+          "reference_overlay_pdb": null,
+          "numbering": "model",
+          "status": "limited",
+          "flags": [],
+          "severe_contact_count": 0,
+          "minimum_protein_ligand_distance_A": 2.2897,
+          "element_composition_matches": true,
+          "nearby_residues": [
+            {
+              "predicted_residue": 83,
+              "resname": "TYR",
+              "minimum_distance_A": 2.29
+            },
+            {
+              "predicted_residue": 57,
+              "resname": "ILE",
+              "minimum_distance_A": 3.236
+            },
+            {
+              "predicted_residue": 100,
+              "resname": "PHE",
+              "minimum_distance_A": 3.264
+            },
+            {
+              "predicted_residue": 60,
+              "resname": "TRP",
+              "minimum_distance_A": 3.28
+            },
+            {
+              "predicted_residue": 56,
+              "resname": "VAL",
+              "minimum_distance_A": 3.539
+            },
+            {
+              "predicted_residue": 37,
+              "resname": "PHE",
+              "minimum_distance_A": 3.607
+            },
+            {
+              "predicted_residue": 47,
+              "resname": "PHE",
+              "minimum_distance_A": 3.722
+            }
+          ]
+        },
+        "affinity": {
+          "affinity_pred_value": 1.7878551483154297,
+          "affinity_probability_binary": 0.5316146612167358,
+          "affinity_pred_value1": 1.3282958269119263,
+          "affinity_probability_binary1": 0.607667863368988,
+          "affinity_pred_value2": 2.2474145889282227,
+          "affinity_probability_binary2": 0.45556142926216125
+        },
+        "confidence": {
+          "confidence_score": 0.8989468812942505,
+          "ptm": 0.9644049406051636,
+          "iptm": 0.9606744050979614,
+          "ligand_iptm": 0.9606744050979614,
+          "protein_iptm": 0,
+          "complex_plddt": 0.8835150003433228,
+          "complex_iplddt": 0.7912768721580505,
+          "complex_pde": 0.3301762640476227,
+          "complex_ipde": 0.5174330472946167,
+          "chains_ptm": {
+            "0": 0.9652929902076721,
+            "1": 0.9765681028366089
+          },
+          "pair_chains_iptm": {
+            "0": {
+              "0": 0.9652929902076721,
+              "1": 0.7479140162467957
+            },
+            "1": {
+              "0": 0.9606744050979614,
+              "1": 0.9765681028366089
+            }
+          }
+        },
+        "pose": "boltz_results_candidate_3_seed44/predictions/candidate_3_seed44/candidate_3_seed44_model_0.pdb",
+        "artifacts": [
+          {
+            "file": "boltz_results_candidate_3_seed44/predictions/candidate_3_seed44/candidate_3_seed44_model_0.pdb",
+            "sha256": "53cbdfcbe3d5f94d9e57232c84c3ce576c824c45043c23757ad27a9f94acdae6"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed44/predictions/candidate_3_seed44/affinity_candidate_3_seed44.json",
+            "sha256": "739b2ab66d74ba73a1810b28c60c2f57abad2a9fa84bd0d50d0482adcdcf3ad6"
+          },
+          {
+            "file": "boltz_results_candidate_3_seed44/predictions/candidate_3_seed44/confidence_candidate_3_seed44_model_0.json",
+            "sha256": "267b97c494f034fe48169df54cd006726fd9293597519a0c485bf2d700f49845"
+          }
+        ],
+        "geometry_check": "Finite coordinates, chains A/L and ligand heavy-atom count checked. Contacts, clashes and chemical identity of output bonds are not validated."
+      },
+      "candidate_id": "candidate_3",
+      "seed": 44,
+      "input_sha256": "959c0ccb0f85f43f3ab4771949f3b6280016c15e088a2636530e5ee6d6632e7f",
+      "started_at": "2026-10-16T14:16:48.722487+00:00",
+      "command": [
+        "/home/pml220/IsoForm/.venv-boltz/bin/boltz",
+        "predict",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_3_seed44.yaml",
+        "--out_dir",
+        "/home/pml220/IsoForm/work/whatif/experiments/d1a20c09-4f26-478e-921c-9ff2deb90c3a/candidate_3_seed44",
+        "--cache",
+        "/home/pml220/IsoForm/work/whatif/boltz-cache",
+        "--model",
+        "boltz2",
+        "--accelerator",
+        "gpu",
+        "--devices",
+        "1",
+        "--num_workers",
+        "0",
+        "--preprocessing-threads",
+        "1",
+        "--max_parallel_samples",
+        "1",
+        "--output_format",
+        "pdb",
+        "--no_kernels",
+        "--seed",
+        "44",
+        "--recycling_steps",
+        "3",
+        "--sampling_steps",
+        "200",
+        "--diffusion_samples",
+        "1",
+        "--sampling_steps_affinity",
+        "200",
+        "--diffusion_samples_affinity",
+        "5"
+      ],
+      "returncode": 0,
+      "finished_at": "2026-10-16T14:17:51.393949+00:00"
+    }
+  ],
+  "workspace_id": "lab-c3ef2c78fa9c",
+  "target": {
+    "uniprot": "P62942",
+    "name": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+    "organism": "Homo sapiens",
+    "chembl_id": "CHEMBL1902",
+    "length": 108
+  },
+  "pose_check_mode": "generic",
+  "msa_mode": "empty",
+  "templates": false,
+  "use_potentials": false,
+  "assay": null,
+  "warnings": [
+    "Exploratory single-sequence pilot: no MSA, no template. This can reduce prediction quality.",
+    "Only one protein construct and the selected ligand are predicted; other chains, metals and cofactors are omitted.",
+    "Three matched seeds per candidate measure sampling variation, not calibrated uncertainty.",
+    "Selected stereoisomers do not inherit measurements from stereochemically unspecified assay records.",
+    "Known published compounds may overlap model training data. This is not a held-out validation.",
+    "Native affinity_pred_value is log10(IC50 in micromolar), lower is stronger; it is not a measured IC50.",
+    "A completed model run is not a validated binding prediction."
+  ],
+  "comparison": {
+    "candidates": [
+      {
+        "id": "candidate_1",
+        "name": "Ethyl benzoate · starting idea",
+        "smiles": "CCOC(=O)c1ccccc1",
+        "expected": 3,
+        "pose_review_count": 0,
+        "pose_unchecked_count": 3,
+        "completed": 3,
+        "mean": 2.14169979095459,
+        "min": 2.046595335006714,
+        "max": 2.240480899810791,
+        "sample_sd": 0.0969950585973596
+      },
+      {
+        "id": "candidate_2",
+        "name": "Ethyl ester → methyl ester · d4fe98",
+        "smiles": "COC(=O)c1ccccc1",
+        "expected": 3,
+        "pose_review_count": 0,
+        "pose_unchecked_count": 3,
+        "completed": 3,
+        "mean": 2.043582280476888,
+        "min": 1.9858124256134033,
+        "max": 2.0742578506469727,
+        "sample_sd": 0.050062196312461595
+      },
+      {
+        "id": "candidate_3",
+        "name": "Aromatic H → F · 4bba21",
+        "smiles": "CCOC(=O)c1ccccc1F",
+        "expected": 3,
+        "pose_review_count": 0,
+        "pose_unchecked_count": 3,
+        "completed": 3,
+        "mean": 1.748037854830424,
+        "min": 1.57542085647583,
+        "max": 1.8808375597000122,
+        "sample_sd": 0.15655319638204562
+      }
+    ],
+    "comparisons": [
+      {
+        "baseline_id": "candidate_1",
+        "candidate_id": "candidate_2",
+        "matched_seeds": [
+          42,
+          43,
+          44
+        ],
+        "expected": 3,
+        "paired_deltas": [
+          -0.2546684741973877,
+          -0.06734657287597656,
+          0.02766251564025879
+        ],
+        "mean_delta": -0.09811751047770183,
+        "direction": "mixed_or_tied"
+      },
+      {
+        "baseline_id": "candidate_1",
+        "candidate_id": "candidate_3",
+        "matched_seeds": [
+          42,
+          43,
+          44
+        ],
+        "expected": 3,
+        "paired_deltas": [
+          -0.6650600433349609,
+          -0.25718557834625244,
+          -0.2587401866912842
+        ],
+        "mean_delta": -0.39366193612416583,
+        "direction": "consistently_lower"
+      }
+    ],
+    "interpretation": "Variation across random seeds under one fixed protocol. Not experimental replicates, a confidence interval, or calibrated prediction uncertainty. Negative paired deltas favour the candidate over the first selected molecule."
+  },
+  "checkpoints": [
+    {
+      "file": "boltz2_aff.ckpt",
+      "sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e"
+    },
+    {
+      "file": "boltz2_conf.ckpt",
+      "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1"
+    }
+  ],
+  "protocol_sha256": "6ef3bb0c74f2d06aaae169f6f3aa011a78e30a1f95e1031a452c22ee78c2df97",
+  "finished_at": "2026-10-16T14:17:53.491606+00:00"
+}

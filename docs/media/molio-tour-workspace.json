@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "workspace_id": "lab-c3ef2c78fa9c",
+  "mode": "starter",
+  "target": {
+    "uniprot": "P62942",
+    "name": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+    "organism": "Homo sapiens",
+    "chembl_id": "CHEMBL1902",
+    "length": 108
+  },
+  "protein_sequence": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE",
+  "domains": [
+    {
+      "name": "PPIase FKBP-type",
+      "start": 20,
+      "end": 108
+    }
+  ],
+  "compounds": [
+    {
+      "id": "input-89bee5cbdaa7",
+      "name": "Ethyl benzoate \u00b7 starting idea",
+      "smiles": "CCOC(=O)c1ccccc1",
+      "canonical_smiles": "CCOC(=O)c1ccccc1",
+      "kind": "input",
+      "activity": null,
+      "experimental_pose": null,
+      "molecular_weight": 150.18,
+      "source": "User-supplied SMILES; no measured activity",
+      "unassigned_stereocentres": 0
+    },
+    {
+      "id": "input-0c076aadd8aa",
+      "name": "Caffeine",
+      "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "canonical_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "kind": "input",
+      "activity": null,
+      "experimental_pose": null,
+      "molecular_weight": 194.19,
+      "source": "PubChem",
+      "unassigned_stereocentres": 0,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+      "origin": {
+        "id": "pubchem-2519",
+        "name": "Caffeine",
+        "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+        "source": "PubChem",
+        "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+        "evidence": [],
+        "evidence_note": "Chemical identity from PubChem. Activity on this protein has not been established by this lookup."
+      },
+      "supporting_records": []
+    }
+  ],
+  "pairs": [],
+  "assay": null,
+  "publication": null,
+  "reference_structure": {
+    "id": "AF-P62942-F1",
+    "kind": "predicted",
+    "chain": "A",
+    "ligand": null,
+    "url": "/workspaces/lab-c3ef2c78fa9c/data/structures/alphafold.pdb",
+    "source_url": "https://alphafold.ebi.ac.uk/entry/P62942",
+    "label": "AlphaFold DB \u00b7 predicted protein \u00b7 no ligand",
+    "caveat": "Precomputed model for viewing, not an experimental structure or binding result. Not used as a prediction template."
+  },
+  "conformers_url": "/workspaces/lab-c3ef2c78fa9c/data/conformers.json",
+  "dataset_url": "/workspaces/lab-c3ef2c78fa9c/data/dataset.json",
+  "provenance": {
+    "sources": [
+      {
+        "file": "sources/uniprot.json",
+        "url": "https://rest.uniprot.org/uniprotkb/P62942.json",
+        "sha256": "fc456c1cd034ad17c965b6424d51b2a12c532f9d97e8fbbfd73f88db6263b358"
+      },
+      {
+        "file": "sources/alphafold.json",
+        "url": "https://alphafold.ebi.ac.uk/api/prediction/P62942",
+        "sha256": "ea2e96310af57ddea31a4f004fd8de0b1f6e45b2bee6b9b6ba8223841e9692cc"
+      },
+      {
+        "file": "sources/alphafold.pdb",
+        "url": "https://alphafold.ebi.ac.uk/files/AF-P62942-F1-model_v6.pdb",
+        "sha256": "c38af1b92a12d6fe4f8757e3df2486acab9e86511a7da8a0551c86323667e3ba"
+      },
+      {
+        "file": "sources/compound-activities.json",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1902&limit=100&order_by=activity_id",
+        "sha256": "88b8699b6a29b82d0e4b7d378b62bb7e1f2add5305abff83883c7f77d3c8d344"
+      },
+      {
+        "file": "sources/pubchem-9251f129e36d22db.json",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caffeine/property/Title,SMILES/JSON",
+        "sha256": "b9f58ee12833ec83be10e43dda448f92b5e3a196e45aa420367d9fb979afd2df"
+      }
+    ],
+    "data_license": "UniProt and AlphaFold DB: CC BY 4.0.",
+    "limitations": [
+      "No measured activities have been imported. Added molecules are untested inputs.",
+      "An AlphaFold model is predicted display context, not a verified bound pose.",
+      "Local predictions omit MSA, templates, membrane, cofactors and other chains.",
+      "Cropped-region predictions do not represent the full protein or establish functional modulation."
+    ]
+  },
+  "prediction_target": {
+    "sequence": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE",
+    "pose_checks": "generic",
+    "provenance": {
+      "uniprot": "P62942",
+      "source_url": "https://www.uniprot.org/uniprotkb/P62942/entry",
+      "start": 1,
+      "end": 108,
+      "sequence_sha256": "7c2c9a4005a08f9f8ed2ce2e3b7d9432dd39547abafef80ffab6adbb89753b2c",
+      "sequence_scope": "Canonical UniProt residues 1\u2013108 (inclusive). Model numbering starts at 1. A cropped region is not the full protein."
+    }
+  },
+  "model_status": {
+    "available": true,
+    "message": "AlphaFold model downloaded for 3D viewing. No binding pocket is assigned."
+  },
+  "edit_evidence": {}
+}

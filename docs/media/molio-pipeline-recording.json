@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-10-15T13:03:43.313693+00:00",
+  "width": 1440,
+  "height": 1000,
+  "encoded_fps": 30,
+  "audio": "none",
+  "new_predictions": true,
+  "predictions": 3,
+  "seeds": [
+    42
+  ],
+  "source": "Actual local Molio UI, real proposal saves and new Boltz-2 outputs; no mocked results.",
+  "presentation": "Visible cursor, click halo and chapter captions added for recording; interaction pacing edited.",
+  "scenes": [
+    {
+      "name": "01-start",
+      "seconds": 4,
+      "frames": 30,
+      "caption": "1 \u00b7 Open your molecular workspace"
+    },
+    {
+      "name": "02-project",
+      "seconds": 5,
+      "frames": 37,
+      "caption": "2 \u00b7 Choose a protein project"
+    },
+    {
+      "name": "03-parent",
+      "seconds": 6,
+      "frames": 59,
+      "caption": "3 \u00b7 Pick the parent molecule"
+    },
+    {
+      "name": "04-designs",
+      "seconds": 9,
+      "frames": 103,
+      "caption": "4 \u00b7 Generate ideas and inspect the chemical changes"
+    },
+    {
+      "name": "05-configure",
+      "seconds": 6,
+      "frames": 47,
+      "caption": "5 \u00b7 Parent + two designs \u00b7 one seed each"
+    },
+    {
+      "name": "06-launch",
+      "seconds": 4,
+      "frames": 52,
+      "caption": "6 \u00b7 Launch three real Boltz-2 predictions"
+    },
+    {
+      "name": "07-inference",
+      "seconds": 10,
+      "frames": 92,
+      "caption": "Boltz-2 running \u00b7 WAITING TIME ACCELERATED",
+      "actual_wait_seconds": 193.33,
+      "acceleration_factor": 19.33
+    },
+    {
+      "name": "08-results",
+      "seconds": 7,
+      "frames": 72,
+      "caption": "7 \u00b7 Compare model scores \u00b7 one seed is exploratory"
+    },
+    {
+      "name": "09-pose",
+      "seconds": 9,
+      "frames": 73,
+      "caption": "8 \u00b7 Inspect an actual predicted protein\u2013ligand complex"
+    },
+    {
+      "name": "10-export",
+      "seconds": 4,
+      "frames": 42,
+      "caption": "9 \u00b7 Export the real run record"
+    }
+  ],
+  "runtime": {
+    "ready": true,
+    "model": "Boltz-2",
+    "version": "2.2.1",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+    "weights_cached": true,
+    "issues": [],
+    "free_disk_gb": 1568.8
+  },
+  "shortlist": {
+    "candidate_ids": [
+      "CHEMBL1828983",
+      "d4725f49-77e4-4917-973e-f373652d6cb3",
+      "b26e15d5-845c-4638-939b-6fa1c58ab491"
+    ],
+    "parent_id": "CHEMBL1828983",
+    "prediction_started": false
+  },
+  "job_id": "7067a8ba-c421-4a4f-8586-34666c00a6a1",
+  "job_status": "complete",
+  "job_created_at": "2026-10-15T13:04:33.705160+00:00",
+  "job_finished_at": "2026-10-15T13:07:50.175772+00:00",
+  "mutating_requests": [
+    "designs",
+    "preview",
+    "preview",
+    "design-shortlist",
+    "experiments"
+  ],
+  "duration_seconds": 64,
+  "verification": "Final MP4 fully decoded; no browser errors. Native run and export retained."
+}

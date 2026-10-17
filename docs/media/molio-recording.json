@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-10-15T12:43:23.861897+00:00",
+  "width": 1440,
+  "height": 900,
+  "encoded_fps": 30,
+  "duration_seconds": 38,
+  "audio": "none",
+  "source": "Actual local Molio UI and saved data; no mocked scientific results",
+  "new_predictions": false,
+  "project_writes": false,
+  "scenes": [
+    {
+      "name": "01-welcome",
+      "seconds": 5,
+      "frames": 74
+    },
+    {
+      "name": "02-project-library",
+      "seconds": 4,
+      "frames": 59
+    },
+    {
+      "name": "03-protein-preview",
+      "seconds": 3,
+      "frames": 35
+    },
+    {
+      "name": "04-workspace",
+      "seconds": 5,
+      "frames": 50
+    },
+    {
+      "name": "05-molecule",
+      "seconds": 6,
+      "frames": 89
+    },
+    {
+      "name": "06-design-overview",
+      "seconds": 2,
+      "frames": 30
+    },
+    {
+      "name": "06-design-comparison",
+      "seconds": 4,
+      "frames": 60
+    },
+    {
+      "name": "07-protein-pocket",
+      "seconds": 6,
+      "frames": 88
+    },
+    {
+      "name": "08-closing",
+      "seconds": 3,
+      "frames": 44
+    }
+  ],
+  "presentation": "Overview and pocket rotation paused using UI controls; design comparison scrolled into view.",
+  "timing": "Scene captures resampled to presentation durations; not a performance benchmark.",
+  "verification": "Full MP4 decoded successfully; no browser errors or blocked writes."
+}
